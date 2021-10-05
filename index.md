@@ -1,6 +1,8 @@
-### Übungsaufgaben
+### Vorlagen
 
-Clone die Aufgaben zur Bearbeitung in deinen Account bei [repl.it](https://replit.com/~)
+-   [Einlesen von Daten](https://replit.com/@ktheu42/Einlesen-von-Daten#main.py)
+
+### Übungsaufgaben
 
 -   [A1](https://replit.com/@ktheu42/A1)
 
