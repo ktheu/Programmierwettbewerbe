@@ -1,0 +1,40 @@
+Die 2. Runde des Jugendwettbewerbs Informatik ist beendet. 
+Ich finde diese Runde immer schwierig, denn die Zeit wird sehr schnell knapp.
+
+Im vergangenen Jahr benötigte man aus den Runden 1+2 mindestens 25 Punkte, um sich für
+die nächste Runde zu qualifizieren. Mal sehen, wie es in diesem Jahr ist. Wenn es bei dieser
+Qualifikationsgrenze bleibt, dann sind alle, die mit der obigen Gruppenid die 2. Runde gemacht haben,
+für die 3. Runde qualifiziert. Super!
+
+Die 3. Runde beginnt im neuen Schuljahr am 1. September zusammen mit dem Bundeswettbewerb Informatik.
+Die Aufgaben der 3. Runde des Jugendwettbewerbs sind die ersten beiden Aufgaben des Bundeswettbewerbs (Junioraufgaben).
+
+Für die Bearbeitung dieser Aufgaben hat man dann mehrere Wochen Zeit 
+- es herrscht also kein Zeitdruck mehr wie bei der 2.Runde!
+
+Die Bearbeitung der Aufgaben ist zwar theoretisch auch mit einer Blockly-Umgebung möglich - davon rate ich aber dringend ab.
+Die Blockly-Programme werden schnell unübersichtlich und bieten weniger Funktionalität als gängige Programmiersprachen.
+
+Für die Bearbeitung der 3. Runde bietet sich die Programmiersprache Python an. Python ist relativ einfach zu erlernen und 
+kann sehr sehr viel. 
+
+Ich werde vermutlich in den nächsten Wochen Beispielprogramme (evtl. mit Videos) zur Verfügung stellen,
+die zeigen, wie man mit Python Aufgaben der 3. Runde lösen kann. 
+
+
+Der folgende Abschnitt ist für alle, die Python lernen möchten, um an der 3. Runde teilzunehmen.
+
+Zum Erlernen von Python empfehlen die Veranstalter des Bundeswettbewerbs Informatik folgenden Kurs:
+
+https://cscircles.cemc.uwaterloo.ca/de/
+
+Der Kurs besteht aus einer Menge von Übungsaufgaben. Für die 3.Runde solltet ihr mindestens bis zu Kapitel 14 
+(Methoden) vorgedrungen sein. 
+Zur Registierung benötigt ihr eine gültige email-Adresse. Wenn ihr angemeldet seit, könnt ich in eurem Profil einen 
+"Guru" eintragen. Falls ihr dort 'jellow42' eintragt, bin ich euer Guru und kann eure Lösungen sehen und kann euch bei
+Fragen besser helfen. 
+
+
+
+ 
+
