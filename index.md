@@ -1,6 +1,9 @@
+**Algorithmen** sind Schritt-für-Schritt-Anleitungen zur Lösung von Aufgaben oder Problemen.
+
 ### Vorlagen
 
--   [Einlesen von Daten](https://replit.com/@ktheu42/Einlesen-von-Daten#main.py)
+-   [Einlesen von Daten](https://replit.com/@ktheu42/)
+-   [Koordinaten](https://replit.com/@ktheu42/Koordinaten)
 
 ### Übungsaufgaben
 
