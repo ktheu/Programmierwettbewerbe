@@ -2,7 +2,7 @@
 
 ### Vorlagen
 
--   [Einlesen von Daten](https://replit.com/@ktheu42/)
+-   [Einlesen von Daten](https://replit.com/@ktheu42/Einlesen-von-Daten)
 -   [Koordinaten](https://replit.com/@ktheu42/Koordinaten)
 
 ### Übungsaufgaben
