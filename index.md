@@ -1,13 +1,6 @@
 **Algorithmen** sind Schritt-für-Schritt-Anleitungen zur Lösung von Aufgaben oder Problemen.
 
-### Vorlagen
-
--   [Einlesen von Daten](https://replit.com/@ktheu42/Einlesen-von-Daten)
--   [Koordinaten](https://replit.com/@ktheu42/Koordinaten)
-
-### Übungsaufgaben
-
--   [A1](https://replit.com/@ktheu42/A1)
+### [Vorlagen](Vorlagen/vorlagen.md)
 
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
 
