@@ -1,8 +1,10 @@
 **Algorithmen** sind Schritt-für-Schritt-Anleitungen zur Lösung von Aufgaben oder Problemen.
 
-### [Repl.it](https://replit.com/~)
+**[Repl.it](https://replit.com/~)**
 
-### [Vorlagen](Vorlagen/vorlagen.md)
+**[Python](./python.md)**
+
+**[Vorlagen](Vorlagen/vorlagen.md)**
 
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
 
