@@ -7,6 +7,29 @@
 Die Aufgabenstellung enthält einen Fehler:
 Die Größe der Bücher in den Beispieldaten ist in mm angegeben, nicht in cm.
 
+```
+f = open('buecherregal1.txt')
+anz_figuren = int(f.readline())
+anz_buecher = int(f.readline())
+
+buecher = []
+for i in range(anz_buecher):
+    buecher.append(int(f.readline()))
+
+buecher.sort()
+
+i = j = 0
+while j < len(buecher):
+    if buecher[j] - buecher[i] <= 30:
+        print(buecher[j])
+    else:
+        print('Figur')
+        print(buecher[j])
+        i = j
+    j = j + 1
+
+```
+
 <!-- #### Python
 
 ```
