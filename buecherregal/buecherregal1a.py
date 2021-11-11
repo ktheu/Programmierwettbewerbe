@@ -1,13 +1,3 @@
-## Bücherregal
-
-36\. Bundeswettbewerb Informatik - Junioraufgabe 1
-
-[Aufgabenstellung](buecherregal.pdf) - [Beispieldaten](beispieldaten.md) - [Lösungshinweise](buecherregal_loesung.pdf)
-
-Die Aufgabenstellung enthält einen Fehler:
-Die Größe der Bücher in den Beispieldaten ist in mm angegeben, nicht in cm.
-
-```
 nr = 1
 f = open('./beispieldaten/buecherregal'+str(nr)+'.txt')
 
@@ -36,22 +26,14 @@ while j < len(buecher):                # solange noch nicht am Ende der Bücherl
         zaehl += 1                     # Erhöhe Anzahl aufgestellter Figuren
         i = j          # Anfang des Abschnitts wird das aktuelle Buch
     j = j + 1          # ein Buch weiter in der Liste
-
+ 
 
 if zaehl <= anz_figuren:               # Anzahl verwendeter Figuren <= Anzahl verfügbare Figuren?
     print(f'Aufteilung mit {anz_figuren} Figuren ist möglich.')
     for x in regal:
         print(x,end= ' ')
-else:
+else: 
     print(f'Aufteilung mit {anz_figuren} Figuren ist nicht möglich.')
+ 
 
-```
 
-Einfache Dokumentation mit Markdown z.B. in einem readme.md-file in Repl.it, siehe [Muster](https://replit.com/@ktheu42/buecherregal#readme.md).
-
-Das md-file dann downloaden und in Chrome öffnen, ggf. muss vorher in Chrome der Markdown-Viewer als Extension installiert werden.
-Dann als pdf-File drucken. Für einen Seitenumbruch in das md-File an der entsprechenden Stelle einfügen:
-
-```
-<div style="page-break-after: always;"></div>
-```
