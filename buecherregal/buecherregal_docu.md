@@ -30,18 +30,18 @@ buecher.sort()
 
 erhalten wir eine nach Höhe sortierte Bücherliste:
 
-Die Liste `regal` ist zu Beginn leer. Wir speichern darin der Reihe nach
+Die Liste _regal_ ist zu Beginn leer. Wir speichern darin der Reihe nach
 die Bücher und Figuren für die Aufstellung.
 
 Die Variable i zeigt auf den Index des Buches, das sich am Beginn eines
 Abschnitts befindet. Mit der Variablen j durchlaufen wir die Bücherliste.
 
 Innerhalb der Schleife, mit der wir die Bücherliste
-durchlaufen, fügen wir ein Buch entweder mit `append` in die Liste regal ein,
+durchlaufen, fügen wir ein Buch entweder mit _append_ in die Liste regal ein,
 oder, falls das Buch zu groß ist, fügen wir eine Figur ins regal ein und dann das Buch.
-Die Anzahl der gesetzten Figuren merken wir uns in der Variablen `zaehl`.
+Die Anzahl der gesetzten Figuren merken wir uns in der Variablen _zaehl_.
 
-Mit `i = j` wird dann der Beginn des neuen Abschnitts gesetzt.
+Mit _i = j_ wird dann der Beginn des neuen Abschnitts gesetzt.
 
 ```
 while j < len(buecher):                # solange noch nicht am Ende der Bücherliste

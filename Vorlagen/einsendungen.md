@@ -32,7 +32,7 @@ Datum: 10. November 2017
 
 Code-Beispiele oder Ausgaben in drei Backticks einschließen: ```
 
-Ein Seitenvorschub wird erzeugt durch:
+Ein Seitenvorschub beim pdf-Druck wird erzeugt durch:
 
 ```
 <div style="page-break-after: always;"></div>
