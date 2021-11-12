@@ -1,36 +1,39 @@
-nr = 2
+nr = 1
 f = open('./beispieldaten/buecherregal'+str(nr)+'.txt')
 
-anzFiguren = int(f.readline().strip())
-anzBuecher = int(f.readline().strip())
+anz_figuren = int(f.readline())
+anz_buecher = int(f.readline())
 
-a = [int(x) for x in f.readlines()]
-f.close()
-a.sort()
+buecher = []           # Liste mit den Büchern
 
-regal = []
+for i in range(anz_buecher):
+    buecher.append(int(f.readline()))
 
-abschnitt = []
-abschnitt.append(a[0])
+buecher.sort()
 
-for i in range(1, len(a)):
-    if a[i] - abschnitt[0] <= 30:
-        abschnitt.append(a[i])
+regal = []             # die Aufstellung von Büchern und Figuren
+zaehl = 0              # Anzahl aufgestellter Figuren
+print(f'Bücherregal {nr}:')
+
+i = 0                  # Anfang des Abschnitts
+j = 0                  # aktuelles Buch
+while j < len(buecher):                # solange noch nicht am Ende der Bücherliste
+    if buecher[j] - buecher[i] <= 30:  # passt aktuelles Buch noch in den Abschnitt?
+        regal.append(buecher[j])       # Buch in den Abschnitt
     else:
-        regal.append(abschnitt)
-        abschnitt = []
-        abschnitt.append(a[i])
+        regal.append('\nFigur')          # Abschnittsende, setzen der Figur
+        regal.append(buecher[j])       # aktuelles Buch ist Beginn des nächsten Abschnitts
+        zaehl += 1                     # Erhöhe Anzahl aufgestellter Figuren
+        i = j          # Anfang des Abschnitts wird das aktuelle Buch
+    j = j + 1          # ein Buch weiter in der Liste
+ 
 
-regal.append(abschnitt)
+if zaehl <= anz_figuren:               # Anzahl verwendeter Figuren <= Anzahl verfügbare Figuren?
+    print(f'Aufteilung mit {anz_figuren} Figuren ist möglich.')
+    for x in regal:
+        print(x,end= ' ')
+else: 
+    print(f'Aufteilung mit {anz_figuren} Figuren ist nicht möglich.')
+ 
 
-check = "möglich" if len(regal) <= anzFiguren+1 else "unmöglich"
 
-print(f'Beispiel {nr}:')
-print(f'Für die {anzBuecher} Bücher sind {anzFiguren} Figuren verfügbar.')
-print(f'Aufteilung {check}. Es werden {len(regal)-1} Figuren benötigt.')
-
-print(f"Mögliche Aufteilung mit {len(regal)-1} Figuren: ")
-for i in range(len(regal)-1):
-    print(*regal[i])
-    print('Figur')
-print(*regal[-1])

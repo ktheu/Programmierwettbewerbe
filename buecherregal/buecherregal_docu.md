@@ -1,4 +1,4 @@
-# Aufgabe 1: Bücherregal
+# Junioraufgabe 1: Bücherregal
 
 ### Team-ID: 12345
 
@@ -6,7 +6,7 @@
 
 ### Bearbeiter/-innen dieser Aufgabe: Lena Müller, Malte Riedberg
 
-Datum: 11. November 2021
+Datum: 10. November 2017
 
 ### Lösungsidee
 
