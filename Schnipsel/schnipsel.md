@@ -1,4 +1,4 @@
-## Vorlagen
+## Schnipsel
 
 -   [Einlesen von Dateien](./einlesenVonDateien.md)
 
@@ -8,4 +8,4 @@
 
 -   [Grids](./grids.md)
 
--   [Einsendungen](einsendungen.md)
+-   [Einsendungen zum Bundeswettbewerb Informatik](einsendungen.md)

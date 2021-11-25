@@ -2,9 +2,11 @@
 
 **[Repl.it](https://replit.com/~)**
 
-**[Python](./python.md)**
+**[Python lernen](./python.md)**
 
-**[Vorlagen](Vorlagen/vorlagen.md)**
+**[Python Schnipsel](Schnipsel/schnipsel.md)**
+
+**[Codingame](./codingameAufgaben.md)**
 
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
 
