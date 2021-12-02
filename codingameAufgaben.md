@@ -1,4 +1,4 @@
-[Codingame]("https://www.codingame.com/home")
+[Codingame](https://www.codingame.com/home)
 
 ## Codingame Aufgaben
 
