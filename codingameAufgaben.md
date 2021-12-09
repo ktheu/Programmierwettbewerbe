@@ -8,6 +8,8 @@
 -   [Temperatures](https://www.codingame.com/training/easy/temperatures)
 -   [Horse-Racing-Duals](https://www.codingame.com/training/easy/horse-racing-duals)
 -   [The River 1](https://www.codingame.com/training/easy/the-river-i-)
+-   [Defibrillators](https://www.codingame.com/training/easy/defibrillators)
+-   [MimeType](https://www.codingame.com/training/easy/mime-type)
 
 Nützlich:
 

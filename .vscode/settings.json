@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\khthe\\anaconda3\\envs\\jupyterlab-debugger\\python.exe"
+    "python.pythonPath": "C:\\Users\\khthe\\anaconda3\\envs\\jupyterlab-debugger\\python.exe",
+    "python.formatting.provider": "black"
 }
