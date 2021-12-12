@@ -11,6 +11,10 @@
 -   [Defibrillators](https://www.codingame.com/training/easy/defibrillators)
 -   [MimeType](https://www.codingame.com/training/easy/mime-type)
 
+## Clash of Code
+
+-   [Round and round we go](https://www.codingame.com/ide/demo/873603c1e90bf4ae0082e0301f7b7127c77732)
+
 Nützlich:
 
 ```
