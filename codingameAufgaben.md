@@ -14,6 +14,9 @@
 ## Clash of Code
 
 -   [Round and round we go](https://www.codingame.com/ide/demo/873603c1e90bf4ae0082e0301f7b7127c77732)
+-   [Mom's code](https://www.codingame.com/ide/demo/8962442d406fb7eb156976c3f6395c9cf39399)
+-   [Color Codes](https://www.codingame.com/ide/demo/840248a983d4c0e0597d9f62a5333421698c05)
+-   [Rewarded by color](https://www.codingame.com/ide/demo/89600103ff374def3f38c23a97eaf91f7a4182)
 
 Nützlich:
 
