@@ -10,6 +10,7 @@
 -   [The River 1](https://www.codingame.com/training/easy/the-river-i-)
 -   [Defibrillators](https://www.codingame.com/training/easy/defibrillators)
 -   [MimeType](https://www.codingame.com/training/easy/mime-type)
+-   [Create the longest sequence of 1s](https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s)
 
 ## Clash of Code
 

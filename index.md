@@ -8,8 +8,6 @@
 
 **[Codingame](./codingameAufgaben.md)**
 
-**[Training](./training/training.md)**
-
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
 
 Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des [Bundeswettbewerbs Informatik.](https://bwinf.de/bundeswettbewerb/)
