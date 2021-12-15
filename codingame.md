@@ -1,6 +1,6 @@
 [Codingame](https://www.codingame.com/home)
 
-## Codingame Aufgaben
+## Codingame Puzzles
 
 -   [Onboarding](https://www.codingame.com/training/easy/onboarding)
 -   [The Descent](https://www.codingame.com/training/easy/the-descent)
@@ -12,7 +12,7 @@
 -   [MimeType](https://www.codingame.com/training/easy/mime-type)
 -   [Create the longest sequence of 1s](https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s)
 
-## Clash of Code
+## Codingame Clash of Code
 
 -   [Round and round we go](https://www.codingame.com/ide/demo/873603c1e90bf4ae0082e0301f7b7127c77732)
 -   [Mom's code](https://www.codingame.com/ide/demo/8962442d406fb7eb156976c3f6395c9cf39399)

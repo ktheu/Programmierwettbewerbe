@@ -6,7 +6,7 @@
 
 **[Python Schnipsel](Schnipsel/schnipsel.md)**
 
-**[Codingame](./codingameAufgaben.md)**
+**[Codingame](./codingame.md)**
 
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
 
