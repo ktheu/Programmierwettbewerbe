@@ -11,6 +11,7 @@
 -   [Defibrillators](https://www.codingame.com/training/easy/defibrillators)
 -   [MimeType](https://www.codingame.com/training/easy/mime-type)
 -   [Create the longest sequence of 1s](https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s)
+-   [Marslander Episode 1](https://www.codingame.com/training/easy/mars-lander-episode-1)
 
 ## Codingame Clash of Code
 
