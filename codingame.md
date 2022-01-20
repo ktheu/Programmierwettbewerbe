@@ -12,6 +12,7 @@
 -   [MimeType](https://www.codingame.com/training/easy/mime-type)
 -   [Create the longest sequence of 1s](https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s)
 -   [Marslander Episode 1](https://www.codingame.com/training/easy/mars-lander-episode-1)
+-   [Happy Numbers]()
 
 ## Codingame Clash of Code
 
@@ -19,6 +20,10 @@
 -   [Mom's code](https://www.codingame.com/ide/demo/8962442d406fb7eb156976c3f6395c9cf39399)
 -   [Color Codes](https://www.codingame.com/ide/demo/840248a983d4c0e0597d9f62a5333421698c05)
 -   [Rewarded by color](https://www.codingame.com/ide/demo/89600103ff374def3f38c23a97eaf91f7a4182)
+
+## Codingame Bot Programming
+
+-   [Map Pod Racing](./madPodRacing/madPodRacing.md)
 
 Nützlich:
 
