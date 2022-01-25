@@ -35,3 +35,7 @@ Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des [Bundeswettbewerbs I
 **[Passwörter](./passwoerter/passwoerter.md)** (J39-1)
 
 **[Baulwürfe](./baulwuerfe/baulwuerfe.md)** (J39-2)
+
+**[Zum Winde Verweht](./zumWindeVerweht/zumWindeVerweht.md)** (J40-1)
+
+**[Treffsicherheit](./treffsicherheit/treffsicherheit.md)** (J40-2)
