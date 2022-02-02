@@ -4,7 +4,7 @@
 
 -   [Einlesen von Dateien](./einlesenVonDateien.md)
 
--   [Lsten vs Tuples, Seiteneffekte](./tuplesUndSeiteneffekte.pdf)
+-   [Listen vs Tuples, Seiteneffekte](./tuplesUndSeiteneffekte.pdf)
 
 <!-- -   [Koordinaten](./koordinaten.md)
 
