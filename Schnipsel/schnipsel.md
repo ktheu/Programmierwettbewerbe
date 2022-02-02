@@ -4,6 +4,8 @@
 
 -   [Einlesen von Dateien](./einlesenVonDateien.md)
 
+-   [Lsten vs Tuples, Seiteneffekte](./tuplesUndSeiteneffekte.pdf)
+
 <!-- -   [Koordinaten](./koordinaten.md)
 
 -   [Grids](./grids.md) -->
