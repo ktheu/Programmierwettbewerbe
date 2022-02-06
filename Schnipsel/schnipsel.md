@@ -6,6 +6,8 @@
 
 -   [Listen vs Tuples, Seiteneffekte](./tuplesUndSeiteneffekte.pdf)
 
+-   [Breitensuche und Tiefensuche](../algorithmen/bfs_dfs.md)
+
 <!-- -   [Koordinaten](./koordinaten.md)
 
 -   [Grids](./grids.md) -->
