@@ -2,7 +2,8 @@
 
 ```
 a = Liste, m = dictionary, c = Zeichen, i,j,k = ints, x,y = numbers, s = String
-n = ganze Zahl
+n = ganze Zahl.
+Bei dicts: k - key, v - value
 ```
 
 ### [Listen](https://docs.python.org/3/tutorial/datastructures.html#)
@@ -45,7 +46,10 @@ s.isdigit()    # s nur aus Ziffern?
 s = s.upper()  # alles in Großbuchstaben
 s = s.lower()
 
-a = s.split(' ')   # mit ' '-getrennte Stringteile in eine Liste speichern
+s = "10/4+9/3"
+s1 = s.replace('/','//')       # alle Vorkommen ersetzen: -> "10//4+9//3"
+
+a = s.split(' ')   # die mit blank getrennten Stringteile in eine Liste speichern
 
 s = 'Michelangelo passes the ball to Raphael'
 von, zu = s.split(' passes the ball to ')                # split mit Separator
@@ -80,6 +84,48 @@ for k in m:                     # die keys des dicts durchlaufen
     print(k, m[k])
 ```
 
+### Defaultdict
+
+Wird auf einen key zugegriffen, der noch nicht vorhanden ist, so wir ein
+default key-value Paar erstellt durch Aufruf der mitgelieferten Funktion. In
+den Beispielen: int() liefert 0, list() liefert [].
+
+```
+# Hier wird die Buchstabenhäufigkeit gezählt
+from collections import defaultdict
+s = 'mississippi'
+d = defaultdict(int)
+for k in s:
+    d[k] += 1
+```
+
+```
+# Die Liste mit den Tupeln wird in ein dict umgewandelt.
+a = [('yellow', 1), ('blue', 2), ('yellow', 3), ('blue', 4), ('red', 1)]
+d = defaultdict(list)
+for k, v in a:
+      d[k].append(v)
+```
+
+### Itertools
+
+```
+import itertools as it
+a = [0,1]
+iter = it.product(a,repeat = 3)
+for x in iter: print(x)
+
+Ausgabe:
+(0, 0, 0)
+(0, 0, 1)
+(0, 1, 0)
+(0, 1, 1)
+(1, 0, 0)
+(1, 0, 1)
+(1, 1, 0)
+(1, 1, 1)
+```
+
 ### Binary, Hex, etc.
 
 ```
@@ -87,6 +133,19 @@ int('1011',2)    # wandelt binary String in Dezimalzahl
 int('01E2',16)   # wandelt hex String in Dezimalzahl
 bin(n)           # wandelt in binary String mit Prefix 0b
 hex(n)           # wandlet in hex String mit Prefix 0x
+```
+
+### eval
+
+Eval interpretiert den übergebenen String als Python-Ausdruck oder Anweisung und wertet
+den Ausdruck aus bzw. führt die Anweisung aus.
+
+```
+s = "10/4+9/3"
+print(eval(s))
+
+s = "print('Hello world')"
+eval(s)
 ```
 
 ### [Formatierte Ausgabe](https://docs.python.org/3/reference/lexical_analysis.html#f-strings)

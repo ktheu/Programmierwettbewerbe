@@ -2,6 +2,8 @@
 
 -   [Strings, Listen, Dicts, etc.](./allerlei.md)
 
+-   [Comprehensions](./comprehensions.md)
+
 -   [Einlesen von Dateien](./einlesenVonDateien.md)
 
 -   [Listen vs Tuples, Seiteneffekte](./tuplesUndSeiteneffekte.pdf)
