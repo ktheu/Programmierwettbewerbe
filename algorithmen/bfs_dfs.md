@@ -68,7 +68,7 @@ def dfs(startstate):
         state = frontier.pop()
         if goaltest(state):
             return prev,state
-        for v in reversed(nextstates(state)):                  # nach rechts runter, für links: reversed(nextstates(state))
+        for v in nextstates(state):                  # nach rechts runter, für links: reversed(nextstates(state))
             if v not in prev:
                 frontier.append(v)
                 prev[v] = state
