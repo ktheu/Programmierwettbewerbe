@@ -16,10 +16,14 @@
 
 ## Codingame Clash of Code
 
+-   [Liste der Clash of Code-Aufgaben](https://eulerschezahl.herokuapp.com/codingame/puzzles/)
+
 -   [Round and round we go](https://www.codingame.com/ide/demo/873603c1e90bf4ae0082e0301f7b7127c77732)
 -   [Mom's code](https://www.codingame.com/ide/demo/8962442d406fb7eb156976c3f6395c9cf39399)
 -   [Color Codes](https://www.codingame.com/ide/demo/840248a983d4c0e0597d9f62a5333421698c05)
 -   [Rewarded by color](https://www.codingame.com/ide/demo/89600103ff374def3f38c23a97eaf91f7a4182)
+-   [String Game](https://www.codingame.com/contribute/view/7263300a83cf4aad1573c6e6abb28a56e2d2)
+-   [Length of all Strings combined](https://www.codingame.com/contribute/view/198bb07d4181035e6d8a696cfae37ea97f7)
 
 ## Codingame Bot Programming
 
