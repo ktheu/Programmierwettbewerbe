@@ -8,7 +8,7 @@
 
 -   [Listen vs Tuples, Seiteneffekte](./tuplesUndSeiteneffekte.pdf)
 
--   [Breitensuche und Tiefensuche](../algorithmen/bfs_dfs.md)
+-   [Breitensuche und Tiefensuche](../algorithmen/bfs_dfs.md) - [Videos zur Breitensuche](https://youtube.com/playlist?list=PLWeMgMhRDsIE6W16JRLcHbubHC1O2TvRR)
 
 <!-- -   [Koordinaten](./koordinaten.md)
 

@@ -39,10 +39,17 @@ Die Reihenfolge bei der _Tiefensuche_:
 ```
 
 Unser Vorgehen beim Suchen nach einem Knoten, der den goaltest besteht (Zielknoten):
-Zunächst _expandieren_ wir die Wurzel. _Expandieren_ bedeutet:
-Wir schauen, ob dies der Zielknoten ist. Wenn der Knoten, den wir expandiert haben, der Zielknoten ist, sind wir fertig.
-Wenn das nicht der Fall ist, fügen wir alle seine Kinder in die _frontier_ ein. Die _frontier_ sind die Knoten, die noch zur Untersuchung anstehen. Wir fügen einen Knoten nur dann in die _frontier_ ein, wenn er nicht schon früher untersucht wurde oder bereits in der _frontier_ vorhanden ist. Dazu nutzen wir das dictionary _prev_, in dem wir alle Knoten, die jemals aus der _frontier_ geholt worden sind, mit ihrem Elternknoten abspeichern. Das machen wir solange, bis die _frontier_ leer ist.
-Mit den Informationen in _prev_ verfolgen wir vom Zielknoten den Pfad zurück zur Wurzel.
+Zunächst stopfen wir die Wurzel in die _frontier_ und initialisieren des dictionary _prev_. _prev_ erfüllt zwei Zwecke:
+wir merken uns damit, welche Knoten wir schon gesehen haben und wir merken uns den jeweiligen Elternknoten dazu.
+
+Dann beginnt die große Schleife:
+Solange noch ein Knoten in der frontier ist, holen wir ihn raus und schauen, ob er der Zielknoten ist.
+Wenn das der Fall ist, sind wir fertig und geben _prev_ und den zielknoten zurück.
+Wenn dies nicht der Fall ist, expandieren wir den Knoten, d.h. wir generieren alle seine Kinder.
+Alle Kinder, die wir noch nicht gesehen haben, kommen zur weiteren Bearbeitung in die frontier.
+
+Wenn wir einen Zielknoten gefunden haben, können wir mit
+den Informationen in _prev_ den Weg vom Zielknoten zurück zur Wurzel verfolgen.
 
 Bei der Breitensuche ist die _frontier_ eine _Schlange_ (_queue_), bei der Tiefensuche ein _Keller_ (_stack_).
 
@@ -68,10 +75,42 @@ def dfs(startstate):
         state = frontier.pop()
         if goaltest(state):
             return prev,state
-        for v in nextstates(state):                  # nach rechts runter, für links: reversed(nextstates(state))
-            if v not in prev:
+        for v in nextstates(state):           # rechts runter
+            if v not in prev:                 # für links:  reversed(nextstates(state))
                 frontier.append(v)
                 prev[v] = state
+    return None, None
+
+def reconstructPath(prev,goalstate):
+    state = goalstate
+    path = []
+    while state is not None:
+        path.append(state)
+        state = prev[state]
+    path.reverse()
+    return path
+```
+
+### Breitensuche mit early goaltest
+
+Den Code für die Breitensuche können wir ein wenig verbessern durch die Technik des _early goaltest_:
+Wir überprüfen schon vor dem Einfügen in die frontier, ob der Knoten den goaltest besteht.
+
+```
+from collections import deque
+def bfs(startstate):
+    frontier =  deque([startstate])
+    prev = {startstate:None}
+    if goaltest(startstate):
+            return prev, startstate
+    while frontier:
+        state = frontier.popleft()
+        for v in nextstates(state):
+            if v not in prev:
+                prev[v] = state
+                if goaltest(v):
+                    return prev, v
+                frontier.append(v)
     return None, None
 
 def reconstructPath(prev,goalstate):

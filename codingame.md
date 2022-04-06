@@ -12,7 +12,8 @@
 -   [MimeType](https://www.codingame.com/training/easy/mime-type)
 -   [Create the longest sequence of 1s](https://www.codingame.com/training/easy/create-the-longest-sequence-of-1s)
 -   [Marslander Episode 1](https://www.codingame.com/training/easy/mars-lander-episode-1)
--   [Happy Numbers]()
+-   [Happy Numbers](https://www.codingame.com/training/easy/happy-numbers)
+-   [Next growing number](https://www.codingame.com/training/easy/next-growing-number)
 
 ## Codingame Clash of Code
 
