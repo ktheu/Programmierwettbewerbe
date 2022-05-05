@@ -30,6 +30,8 @@
 
 -   [Map Pod Racing](./madPodRacing/madPodRacing.md)
 
+-   [Spring Challenge 2022](./springChallenge2022/schritte.md)
+
 Nützlich:
 
 ```
