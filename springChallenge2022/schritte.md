@@ -803,7 +803,7 @@ WIND_RANGE = 1280
 CONTROL_RANGE = 2200
 
 WIND_DEFEND_DIST = 800
-MAX_ASSIGN_DIST = 9000
+MAX_ASSIGN_DIST = 10000
 
 base_x, base_y = [int(i) for i in input().split()]
 heroes_per_player = int(input())
