@@ -486,9 +486,9 @@ while True:
 
 ## Teil 3
 
-Wenn definieren einen Attacker opp als einen gegnerischen Helden der weniger als OPP_ATTACKER_DIST = 9000
+Wir definieren einen Attacker opp als einen gegnerischen Helden der weniger als OPP_ATTACKER_DIST = 9000
 von unserer Basis entfernt ist.
-Wenn ein ein Hero bei seinem Assignment auf den opp trifft, vertreibt er in mit WIND falls das geht oder mit CONTROL.
+Wenn ein Hero bei seinem Assignment auf den opp trifft, vertreibt er in mit WIND falls das geht oder mit CONTROL.
 Damit erreichen wir einen mittleren Platz in der Gold-League.
 
 ```python
