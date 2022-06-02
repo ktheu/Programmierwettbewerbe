@@ -25,6 +25,7 @@
 -   [Rewarded by color](https://www.codingame.com/ide/demo/89600103ff374def3f38c23a97eaf91f7a4182)
 -   [String Game](https://www.codingame.com/contribute/view/7263300a83cf4aad1573c6e6abb28a56e2d2)
 -   [Length of all Strings combined](https://www.codingame.com/contribute/view/198bb07d4181035e6d8a696cfae37ea97f7)
+-   [Coin run](https://www.codingame.com/contribute/view/536374d27b4ef2c99705c139e08394c5b09f)
 
 ## Codingame Bot Programming
 
