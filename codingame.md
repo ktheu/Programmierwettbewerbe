@@ -27,6 +27,8 @@
 -   [Length of all Strings combined](https://www.codingame.com/contribute/view/198bb07d4181035e6d8a696cfae37ea97f7)
 -   [Coin run](https://www.codingame.com/contribute/view/536374d27b4ef2c99705c139e08394c5b09f)
 -   [Spaghetti Code](https://www.codingame.com/ide/demo/855519dd710cdb3d6dd382c4b5285a463dfef8)
+-   [Path to Heavon](https://www.codingame.com/contribute/view/53915bfab5116cdb2139c3c04858569efe67) (bfs)
+-   [Magic Castle](https://www.codingame.com/contribute/view/7759f18c977a21cc12e2b85a8bea60bf3642) (sets)
 
 ## Codingame Bot Programming
 
