@@ -39,3 +39,5 @@ Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des [Bundeswettbewerbs I
 **[Zum Winde Verweht](./zumWindeVerweht/zumWindeVerweht.md)** (J40-1)
 
 **[Treffsicherheit](./treffsicherheit/treffsicherheit.md)** (J40-2)
+
+<!-- ### Beispielaufgaben Bundeswettbewerb Informatik Runde 1 -->
