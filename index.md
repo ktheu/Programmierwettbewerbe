@@ -40,4 +40,6 @@ Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des [Bundeswettbewerbs I
 
 **[Treffsicherheit](./treffsicherheit/treffsicherheit.md)** (J40-2)
 
-<!-- ### Beispielaufgaben Bundeswettbewerb Informatik Runde 1 -->
+### Beispielaufgaben Bundeswettbewerb Informatik Runde 1
+
+**[Schiebeparkplatz](./schiebeparkplatz/schiebeparkplatz.ipynb)** (J40-1)
