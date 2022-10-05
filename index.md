@@ -45,3 +45,5 @@ Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des [Bundeswettbewerbs I
 **[Schiebeparkplatz](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/schiebeparkplatz/schiebeparkplatz.ipynb)** (J40-1)
 
 **[Vollgeladen](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/vollgeladen/vollgeladen.ipynb)** (J40-2)
+
+**[Wortsuche](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/wortsuche/wortsuche.ipynb)** (J40-3)
