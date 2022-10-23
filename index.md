@@ -4,7 +4,7 @@
 
 **[Python Dokus](./python.md)** - **[Python Schnipsel](Schnipsel/schnipsel.md)**
 
-**[Algorithmen]** 
+**[Algorithmen](algorithmen/algorithmen.md)** 
 
 
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
