@@ -1,16 +1,15 @@
 **Algorithmen** sind Schritt-für-Schritt-Anleitungen zur Lösung von Aufgaben oder Problemen.
 
-**[Repl.it](https://replit.com/~)**
+**[Repl.it](https://replit.com/~)** - **[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/)** - **[Codingame](./codingame.md)**
 
-**[Python lernen](./python.md)**
+**[Python Dokus](./python.md)** - **[Python Schnipsel](Schnipsel/schnipsel.md)**
 
-**[Python Schnipsel](Schnipsel/schnipsel.md)**
+**[Algorithmen]** 
 
-**[Codingame](./codingame.md)**
 
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
 
-Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des [Bundeswettbewerbs Informatik.](https://bwinf.de/bundeswettbewerb/)
+Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des Bundeswettbewerbs Informatik.
 
 **[Landnahme](./landnahme/landnahme.md)** (J34-1)
 
@@ -49,3 +48,6 @@ Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des [Bundeswettbewerbs I
 **[Wortsuche](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/wortsuche/wortsuche.ipynb)** (J40-3)
 
 **[Marktwaage](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/marktwaage/marktwaage.ipynb)** (J40-5)
+
+-------
+
