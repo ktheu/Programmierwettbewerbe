@@ -6,6 +6,8 @@
 
 **[Algorithmen](algorithmen/algorithmen.md)** 
 
+**[Hinweise zu aktuellen Aufgabe](hinweise.md)**
+
 
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
 
