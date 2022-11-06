@@ -23,13 +23,14 @@ Datum: 10. November 2017
 
 ### Lösungsidee
 
-Hier sollen die wichtigsten Schritte beschrieben werden, die zur Lösung führen. Hier werden keine technische Details 
-erwähnt, es sollten also keine Namen von verwendeten Funktionen etc. auftauchen. Dieser Absatz muss nicht lange sein,
+Hier sollen die wichtigsten Schritte beschrieben werden, die zur Lösung führen. 
+Hier werden keine technische Details erwähnt, es sollten also keine Namen von 
+verwendeten Funktionen etc. auftauchen. Dieser Absatz muss nicht lange sein,
 aber er sollte die wichtigsten Ideen darstellen, die für die Lösung führen.
 
 ### Umsetzung
 
-Der erste Satz hier kann immer lauten: Die Lösungsidee wird in ein Programm der Sprache ...... umgesetzt.
+Erster Satz: Die Lösungsidee wird in ein Programm der Sprache Python umgesetzt.
 Dann sollten der Programmablauf und die wichtigsten Funktionen erläutert werden. 
 
 ### Beispiele
