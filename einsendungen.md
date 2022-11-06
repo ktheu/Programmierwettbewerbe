@@ -1,6 +1,7 @@
 ## Einsendungen
 
-Hinweise zu Format und Inhalt der Einsendungen finden sich [hier](https://bwinf.de/bundeswettbewerb/teilnehmen/einsendungen/teilnehmer/#c7693)
+Hinweise zu Format und Inhalt der Einsendungen finden sich [hier](https://bwinf.de/bundeswettbewerb/tipps/#c5970)
+Dort finden sich auch Beispiellösungen aus früheren Wettbewerben.
 
 ### Markdown
 
@@ -22,11 +23,28 @@ Datum: 10. November 2017
 
 ### Lösungsidee
 
+Hier sollen die wichtigsten Schritte beschrieben werden, die zur Lösung führen. Hier werden keine technische Details 
+erwähnt, es sollten also keine Namen von verwendeten Funktionen etc. auftauchen. Dieser Absatz muss nicht lange sein,
+aber er sollte die wichtigsten Ideen darstellen, die für die Lösung führen.
+
 ### Umsetzung
+
+Der erste Satz hier kann immer lauten: Die Lösungsidee wird in ein Programm der Sprache ...... umgesetzt.
+Dann sollten der Programmablauf und die wichtigsten Funktionen erläutert werden. 
 
 ### Beispiele
 
+Hier sollten die Ergebnisse für alle bwinf-Beispiele aufgelistet werden.
+Es wird immer gerne gesehen, wenn weitere eigene Beispiele angefügt werden. 
+
+
 ### Quellcode
+
+Unbedingt darauf achten, dass der Quellcode gut dokumentiert ist. Sinnvolle Variablennamen
+verwenden, den Funktionen einen docstring verpassen, am besten mit Beispielen.
+Sinnvolle Abschnitte mit Kommentaren, gegebenfalls Zeilenkommentare verwenden.
+
+
 
 ```
 
