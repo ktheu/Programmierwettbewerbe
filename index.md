@@ -8,6 +8,8 @@
 
 **[Hinweise zu aktuellen Aufgaben](hinweise/hinweise.md)**
 
+**[Hinweise zu Einsendungen](einsendungen.md)**
+
 
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
 
