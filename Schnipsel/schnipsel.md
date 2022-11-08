@@ -10,10 +10,11 @@
 
 -   [Breitensuche und Tiefensuche](../algorithmen/bfs_dfs.md) - [Videos zur Breitensuche](https://youtube.com/playlist?list=PLWeMgMhRDsIE6W16JRLcHbubHC1O2TvRR)
 
+-   [Graphen]
+
 <!-- -   [Koordinaten](./koordinaten.md)
 
 -   [Grids](./grids.md) -->
+    
 
-<!-- -   [Einsendungen zum Bundeswettbewerb Informatik](einsendungen.md) -->
 
-[v](./nx.html)
