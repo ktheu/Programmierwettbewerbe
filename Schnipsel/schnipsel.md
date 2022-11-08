@@ -10,7 +10,7 @@
 
 -   [Breitensuche und Tiefensuche](../algorithmen/bfs_dfs.md) - [Videos zur Breitensuche](https://youtube.com/playlist?list=PLWeMgMhRDsIE6W16JRLcHbubHC1O2TvRR)
 
--   [Graphen]
+-   [Graphen](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/Schnipsel/graphen.ipynb)
 
 <!-- -   [Koordinaten](./koordinaten.md)
 
