@@ -24,7 +24,7 @@ Figuren ist, ist eine Aufstellung möglich und wir geben die Lösung aus.
 Die Lösungsidee wird in ein Programm der Sprache Python umgesetzt.
 Die Höhen der Bücher sind in mm angegeben. Wir lesen die Höhen in eine Liste buecher ein. Mit
 
-```
+```python
 buecher.sort()
 ```
 
@@ -116,7 +116,7 @@ Aufteilung mit 4 Figuren ist nicht möglich.
 
 ### Quellcode
 
-```
+```python
 nr = 1
 f = open('./beispieldaten/buecherregal'+str(nr)+'.txt')
 
