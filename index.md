@@ -1,15 +1,14 @@
 **Algorithmen** sind Schritt-für-Schritt-Anleitungen zur Lösung von Aufgaben oder Problemen.
 
-**[Repl.it](https://replit.com/~)** - **[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/)** - **[Codingame](./codingame.md)**
+**[Repl.it](https://replit.com/~)** - **[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/)** - **[Codingame](./codingame.md)** - **[CSCircles](https://cscircles.cemc.uwaterloo.ca/de/)**
 
 **[Python Dokus](./python.md)** - **[Python Schnipsel](Schnipsel/schnipsel.md)**
 
-**[Algorithmen](algorithmen/algorithmen.md)** 
+**[Algorithmen](algorithmen/algorithmen.md)**
 
 **[Hinweise zu aktuellen Aufgaben](hinweise/hinweise.md)**
 
 **[Hinweise zu Einsendungen](einsendungen.md)**
-
 
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
 
@@ -56,4 +55,3 @@ Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des Bundeswettbewerbs In
 ### Beispielaufgaben Bundeswettbewerb Informatik Runde 2
 
 **[Muellabfuhr](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/muellabfuhr/muellabfuhr.ipynb)** (J40/2-1)
-
