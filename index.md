@@ -55,3 +55,7 @@ Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des Bundeswettbewerbs In
 ### Beispielaufgaben Bundeswettbewerb Informatik Runde 2
 
 **[Muellabfuhr](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/muellabfuhr/muellabfuhr.ipynb)** (J40/2-1)
+
+### Codingame Puzzles
+
+**[Robot Reach](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/robotReach/robotReach.ipynb)**
