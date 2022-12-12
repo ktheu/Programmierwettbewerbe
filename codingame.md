@@ -1,5 +1,9 @@
 [Codingame](https://www.codingame.com/home)
 
+## Codingame Puzzles in Schritten
+
+- [Robot Reach](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/robotReach/robotReach.ipynb)
+
 ## Codingame Puzzles
 
 - [Onboarding](https://www.codingame.com/training/easy/onboarding)
@@ -17,7 +21,7 @@
 
 ## Codingame Clash of Code
 
-- [Liste der Clash of Code-Aufgaben](https://eulerschezahl.herokuapp.com/codingame/puzzles/)
+- [Search Clash of Code-Aufgaben](https://codingame.tools/)
 
 - [Round and round we go](https://www.codingame.com/ide/demo/873603c1e90bf4ae0082e0301f7b7127c77732)
 - [Mom's code](https://www.codingame.com/ide/demo/8962442d406fb7eb156976c3f6395c9cf39399)
