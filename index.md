@@ -44,7 +44,7 @@ Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des Bundeswettbewerbs In
 
 ### Beispielaufgaben Bundeswettbewerb Informatik Runde 1
 
-**[Schiebeparkplatz](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/schiebeparkplatz/schiebeparkplatz.ipynb)** (J40-1)
+**[Schiebeparkplatz Aufgaben](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/schiebeparkplatz/schiebeparkplatzAufgaben.ipynb)** - **[Lösungen](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/schiebeparkplatz/schiebeparkplatzLoesungen.ipynb)** (J40-1)
 
 **[Vollgeladen](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/vollgeladen/vollgeladen.ipynb)** (J40-2)
 
