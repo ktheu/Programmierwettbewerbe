@@ -12,6 +12,8 @@
 
 -   [Graphen](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/Schnipsel/graphen.ipynb)
 
+-   [Geometrie](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/Schnipsel/geometry.ipynb)
+
 <!-- -   [Koordinaten](./koordinaten.md)
 
 -   [Grids](./grids.md) -->
