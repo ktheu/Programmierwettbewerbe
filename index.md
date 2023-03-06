@@ -1,14 +1,12 @@
 **Algorithmen** sind Schritt-für-Schritt-Anleitungen zur Lösung von Aufgaben oder Problemen.
 
-**[Repl.it](https://replit.com/~)** - **[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/)** - **[Codingame](./codingame.md)** - **[CSCircles](https://cscircles.cemc.uwaterloo.ca/de/)**
+**[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/)** - **[CSCircles](https://cscircles.cemc.uwaterloo.ca/de/)**
 
-**[Python Dokus](./python.md)** - **[Python Schnipsel](Schnipsel/schnipsel.md)**
+**[Python Dokus](./python.md)** - **[Python Schnipsel](Schnipsel/schnipsel.md)** - **[Algorithmen](algorithmen/algorithmen.md)**
 
-**[Algorithmen](algorithmen/algorithmen.md)**
+**[Hinweise zu aktuellen Aufgaben](hinweise/hinweise.md)** - **[Hinweise zu Einsendungen](einsendungen.md)**
 
-**[Hinweise zu aktuellen Aufgaben](hinweise/hinweise.md)**
-
-**[Hinweise zu Einsendungen](einsendungen.md)**
+**[Repl.it](https://replit.com/~)** - **[Problems01](https://replit.com/teams/join/rwakwbrblvkwmttibbgkyxvqxbxtxtga-Problems01)**
 
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
 
