@@ -1,21 +1,25 @@
 ### Competitive Programming
 
-- [Codeforces](https://codeforces.com/)
+- [Codeforces](https://codeforces.com/) - viele Contests
 
-- [Codingame](https://www.codingame.com/home)
+- [USACO](http://www.usaco.org/) - USA Coding Olympiad
 
-- [USACO](http://www.usaco.org/)
+- [CSES](https://cses.fi/) - Code Submission Evaluation System, 300 Probleme, Finland
+
+- [AtCoder](https://atcoder.jp/home) - viele Contests
+
+- [Kattis](https://open.kattis.com/) - mehr als 2600 Probleme
+
+- [UVa Online Judge](https://onlinejudge.org/index.php) - University of Valladolid, Sammlung mit mehr als 4300 Problemen
 
 - [ICPC](https://icpc.global/) - International Collegiate Programming Contest,
   ein jährlich stattfindender, weltweiter und mehrstufiger Programmierwettbewerb für Universitätsstudenten
 
-- [AtCoder](https://atcoder.jp/home)
+- [SPOJ](https://www.spoj.com/) - Sphere Online Judge, ca. 7000 Probleme
 
-- [Kattis](https://open.kattis.com/) - mehr als 2600 Probleme
+- [Codingame](https://www.codingame.com/home)
 
-- [UVa Online Judge](https://onlinejudge.org/index.php) - University of Valladolid, Spanien, Sammlung mit mehr als 4300 Problemen
-
-### Links
+---
 
 - [Methods to Solve](https://cpbook.net/methodstosolve?oj=kattis&topic=ch1&quality=all) - Vorschläge für Probleme aus Kattis und UVa
 

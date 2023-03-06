@@ -8,6 +8,8 @@
 
 **[Repl.it](https://replit.com/~)** - **[Problems01](https://replit.com/teams/join/rwakwbrblvkwmttibbgkyxvqxbxtxtga-Problems01)**
 
+**[Competitive Programming](./competitiveProgramming/competitive.md)**
+
 ### Beispielaufgaben Jugendwettbewerb Informatik Runde 3
 
 Die Aufgaben der Runde 3 sind die beiden Junioraufgaben des Bundeswettbewerbs Informatik.
