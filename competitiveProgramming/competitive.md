@@ -4,7 +4,7 @@
 
 - [USACO](http://www.usaco.org/) - USA Coding Olympiad
 
-- [CSES](https://cses.fi/) - Code Submission Evaluation System, 300 Probleme, Finland
+- [CSES](https://cses.fi/) - Code Submission Evaluation System, 300 Probleme, Finnland
 
 - [AtCoder](https://atcoder.jp/home) - viele Contests
 
