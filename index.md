@@ -6,7 +6,7 @@
 
 **[Hinweise zu aktuellen Aufgaben](hinweise/hinweise.md)** - **[Hinweise zu Einsendungen](einsendungen.md)**
 
-**[Repl.it](https://replit.com/~)** - **[Problems01](https://replit.com/teams/join/rwakwbrblvkwmttibbgkyxvqxbxtxtga-Problems01)**
+**[Repl.it](https://replit.com/~)** - **[Problems01](https://replit.com/teams/join/rwakwbrblvkwmttibbgkyxvqxbxtxtga-Problems01)** - **[Problems02](https://replit.com/teams/join/gyahpukiufxyrnfbmhswmzmvlniyfmwu-Problems02)**
 
 **[Competitive Programming](./competitiveProgramming/competitive.md)**
 
