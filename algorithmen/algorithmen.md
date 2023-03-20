@@ -1,6 +1,8 @@
 ## Algorithmen
 
-[Rekursion](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)
+[Backtracking, BFS, DFS](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/algorithmen/backtrackingBfsDfs.ipynb)
+
+<!-- [Rekursion](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)
 
 [Backtracking](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/algorithmen/backtracking/backtracking.ipynb)
 
@@ -14,4 +16,4 @@
 
 [TSP](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/algorithmen/TSP.ipynb)
 
-[Rucksack](https://nbviewer.org/github/ktheu/KursNotebooks/blob/master/375_Rucksack.ipynb)
+[Rucksack](https://nbviewer.org/github/ktheu/KursNotebooks/blob/master/375_Rucksack.ipynb) -->
