@@ -1,6 +1,6 @@
 ## Algorithmen
 
-[Backtracking, BFS, DFS](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/algorithmen/backtrackingBfsDfs.ipynb)
+[Backtracking, BFS, DFS](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/gh-pages/algorithmen/backtrackingBfsDfs.ipynb)
 
 <!-- [Rekursion](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)
 
