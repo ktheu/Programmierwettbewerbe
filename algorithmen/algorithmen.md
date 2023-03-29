@@ -4,7 +4,7 @@
 
 **[Memoization](./memoization.md)**
 
-**[Binäre Suche](./binaereSuche.md)**
+**[Lineare Suche, Binäre Suche](./binaereSuche.md)**
 
 **[BFS, DFS](./bfs_dfs.md)**
 

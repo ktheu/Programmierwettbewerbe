@@ -1,5 +1,26 @@
-## Binäre Suche
+## Lineare Suche und Binäre Suche
 
+
+### Lineare Suche
+
+Beispiel: bei welchem Index in der Liste a ist die Zahl, die bei Division durch 17 den größten Rest hat.
+
+```Python
+def lineareSuche(a):
+    best = None
+    best_val = None  
+    for i in range(len(a)):
+        val = a[i] % 17               
+        if best_val is None or val > best_val:
+            best_val = val
+            best = i                # hier ist der Index gesucht
+    return best   
+
+```
+
+
+
+### Binäre Suche 
 
 ```Python
 def binaereSuche(a, x):
