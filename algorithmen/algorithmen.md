@@ -1,5 +1,6 @@
 ## Algorithmen
 
+**[ggT, Primzahlen, Faktoren](./zahlentheorie.md)**
 
 **[Binäre Suche](./binaereSuche.md)**
 
