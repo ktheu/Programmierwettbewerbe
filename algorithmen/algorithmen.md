@@ -1,19 +1,10 @@
 ## Algorithmen
 
-[Backtracking, BFS, DFS](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/algorithmen/backtrackingBfsDfs.ipynb)
 
-<!-- [Rekursion](https://nbviewer.org/github/ktheu/InfoKurs/blob/gh-pages/Rekursion/rekursion.ipynb)
+**[Binäre Suche](./binaereSuche.md)**
 
-[Backtracking](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/algorithmen/backtracking/backtracking.ipynb)
+**[BFS, DFS](./bfs_dfs.md)**
 
-[Dynamische Programmierung](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/algorithmen/dp/dp.ipynb)
+**[Backtracking](./backtracking.md)**
 
-[Search](https://nbviewer.org/github/ktheu/KursNotebooks/blob/master/340_Search.ipynb)
 
-[Maze](https://nbviewer.org/github/ktheu/KursNotebooks/blob/master/342_maze.ipynb)
-
-[Graphen](https://nbviewer.org/github/ktheu/KursNotebooks/blob/master/360_Graphen.ipynb)
-
-[TSP](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/algorithmen/TSP.ipynb)
-
-[Rucksack](https://nbviewer.org/github/ktheu/KursNotebooks/blob/master/375_Rucksack.ipynb) -->

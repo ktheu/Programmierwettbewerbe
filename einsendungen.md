@@ -57,10 +57,7 @@ Ein Seitenvorschub beim pdf-Druck wird erzeugt durch:
 <div style="page-break-after: always;"></div>
 ```
 
-#### Beispiel für eine Dokumentation mit Markdown
-[Dokumentation zur Aufgabe Bücherregal](./buecherregal/buecherregal_docu.md) <br>
-Markdown-Source für dieses Beispiel: [markdown-source](./buecherregal/buecherregal_docu.txt) (die Datei hat hier die Endung .txt, damit der Browser die Source anzeigt und nicht die Markdown-Umwandlung) <br>
-Umwandlung in PDF für dieses Beispiel: [pdf](./buecherregal/buecherregal_einsendung.pdf)
+
 
 
 
