@@ -7,4 +7,6 @@
 
 **[Backtracking](./backtracking.md)**
 
+**[Best-first search, A*](./greedy_astar.md)**
+
 
