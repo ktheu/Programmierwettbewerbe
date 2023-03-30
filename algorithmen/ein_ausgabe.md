@@ -12,8 +12,8 @@ x = int(input())            # eine ganze Zahl
 Mehrere Werte pro Zeile
 
 ```Python
-a = input().split()                    # durch leerzeichen getrennte Strings
-a = [int(x) for x in input.split()]    # durch Leerzeichen getrennte Zahlen
+a = input().split()                    # durch leerzeichen getrennte Strings als Liste
+a = [int(x) for x in input.split()]    # durch Leerzeichen getrennte Zahlen als Liste
 ```
 
 ### Ausgabe über stdout
@@ -33,7 +33,7 @@ print(f'x = {x:.4f}')              # gerundet mit 4 Dezimalstellen
 
 Wenn man stdin/stdout umlenkt, kann man weiter mit input() und print() arbeiten.
 
-```
+```Python
 import sys
 sys.stdin = open("problem.in", "r")
 sys.stdout = open("problem.out", "w")
@@ -56,7 +56,7 @@ f.close()
 ### Lokale Entwicklung
 
 Die Eingabe geht auf dem Linux-Server über stdin, auf der lokalen Windows-Umgebung
-durch Lesen einer Datei input.txt. Funktioniert auch auf USACO.
+durch Lesen einer Datei input.txt. 
 
 ``` Python
 import platform, sys

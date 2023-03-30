@@ -2,6 +2,10 @@
 
 **[Ein-/Ausgabe](./ein_ausgabe.md)**
 
+**[Itertools](./itertools.md)**
+
+**[Sort](./sort.md)**
+
 **[ggT, Primzahlen, Faktoren](./zahlentheorie.md)**
 
 **[Memoization](./memoization.md)**
