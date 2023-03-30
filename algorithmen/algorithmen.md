@@ -1,5 +1,7 @@
 ## Algorithmen
 
+**[Ein-/Ausgabe](./ein_ausgabe.md)**
+
 **[ggT, Primzahlen, Faktoren](./zahlentheorie.md)**
 
 **[Memoization](./memoization.md)**
