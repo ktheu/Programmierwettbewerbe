@@ -1,6 +1,13 @@
 ### Zahlentheorie
 
+Summe der Zahlen von 1 bis n:
+
+```Python
+summe =  n*(n+1)//2
+```
+
 #### Euklidscher Algorithmus
+
 
 ```Python
 def ggt(a,b):
