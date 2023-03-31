@@ -2,7 +2,7 @@
 
 ### Best first search
 
-Best-first search ist ein allgemeiner Begriff für eine Suche, bei dem der state als nächstes aus der frontier geholt wird, der nach einer wie immer gearteteten Evaluations-Funktion, den besten (=niedrigsten) Wert hat.
+Best-first search ist ein allgemeiner Begriff für eine Suche, bei dem der state als nächstes aus der frontier geholt wird, der nach einer wie immer gearteteten Evaluations-Funktion den besten (=niedrigsten) Wert hat.
 
 ### Greedy
 
