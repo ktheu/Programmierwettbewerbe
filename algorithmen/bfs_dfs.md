@@ -28,6 +28,16 @@ def reconstructPath(prev,goalstate):
     path.reverse()
     return path
 
+def nextstates(state):
+    '''
+    returns:  Liste mit möglichen Folgestellungen zu state
+    '''
+
+def goaltest(state):
+    '''
+    returns: True, wenn state eine Lösung ist
+    '''
+
 
 # Aufruf:
 startstate = ....
