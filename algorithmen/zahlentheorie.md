@@ -1,10 +1,22 @@
 ### Zahlentheorie
 
+#### Summenformeln
+
 Summe der Zahlen von 1 bis n:
 
 ```Python
 summe =  n*(n+1)//2
 ```
+
+Geometrische Summenformel:
+$1 + r + r^2 + ... r^k$
+
+```Python
+r = 0.75
+k = 3
+summe = (1 - r ** k) / (1 - r)
+```
+
 
 #### Euklidscher Algorithmus
 
