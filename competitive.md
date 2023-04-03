@@ -21,8 +21,18 @@
 
 ---
 
+Kommentierete Aufgabensammlungen zum Training
+
 - [USACO Guide](https://usaco.guide/) - Trainingsseite für USACO
 
 - [Methods to Solve](https://cpbook.net/methodstosolve?oj=kattis&topic=ch1&quality=all) - Vorschläge für Probleme aus Kattis und UVa
 
 - [A Guide to Kattis Problems](https://mwermelinger.github.io/kattis-guide/) - listet ca. 5 Probleme für pro Algorithmus/Datenstruktur.
+
+---
+
+Tipps 
+
+- [How to practive - USACO Guide](https://usaco.guide/general/practicing?lang=py#darren-yao-1)
+
+- [Contest Strategy - USACO Guide](https://usaco.guide/general/contest-strategy?lang=py)
