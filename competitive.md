@@ -21,6 +21,8 @@
 
 ---
 
+- [USACO Guide](https://usaco.guide/)
+
 - [Methods to Solve](https://cpbook.net/methodstosolve?oj=kattis&topic=ch1&quality=all) - Vorschläge für Probleme aus Kattis und UVa
 
 - [A Guide to Kattis Problems](https://mwermelinger.github.io/kattis-guide/) - listet ca. 5 Probleme für pro Algorithmus/Datenstruktur.
