@@ -33,7 +33,7 @@ Beispieldaten:
 #### Luftballons
 
 
-35\. Jugendwettbewerb Informatik - J1
+35\. Bundeswettbewerb Informatik - J1
 
 [Aufgabenstellung](./luftballons/luftballon.pdf) - 
 [Lösungshinweise](./luftballons/luftballon_loesungshinweise.pdf)
@@ -53,7 +53,7 @@ Beispieldaten:
 #### Lama
 
 
-35\. Jugendwettbewerb Informatik - J2
+35\. Bundeswettbewerb Informatik - J2
 
 [Aufgabenstellung](./lama/lama.pdf) - 
 [Lösungshinweise](./lama/lama_loesungshinweise.pdf)
