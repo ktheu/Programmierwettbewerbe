@@ -27,7 +27,7 @@ a.sort(key = lambda x : x % 5)
 b = sorted(a, key = lambda x : x % 5)
 
 a.sort(key = lambda x : x % 5, reverse = True)
-b = sorted(a, key = lambda x : x % 5, , reverse = True)
+b = sorted(a, key = lambda x : x % 5, reverse = True)
 ```
 
 ### Nach mehreren Kriterien sortieren

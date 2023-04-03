@@ -9,7 +9,7 @@ summe =  n*(n+1)//2
 ```
 
 Geometrische Summenformel:
-$1 + r + r^2 + ... r^k$
+1 + r + r^2 + ... r^k
 
 ```Python
 r = 0.75
@@ -50,13 +50,13 @@ def eratosthenes(n):
     return tmp
 ```
 
-#### Anzahl der Faktoren
+#### Anzahl der Teiler
 
 ```Python
 def anzahlFaktoren(n):
     '''
     n: positive ganze Zahl
-    returns: Liste mit den Anzahl der Faktoren aller Zahlen <= n 
+    returns: Liste mit den Anzahl der Teiler aller Zahlen <= n 
     '''
     tmp = [1] * (n+1)
     for i in range(2,n+1):
