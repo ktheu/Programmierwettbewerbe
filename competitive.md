@@ -23,7 +23,7 @@
 
 ---
 
-Kommentierete Aufgabensammlungen zum Training
+Aufgabensammlungen zum Training
 
 - [USACO Guide](https://usaco.guide/) - Trainingsseite für USACO
 
