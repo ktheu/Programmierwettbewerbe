@@ -21,7 +21,7 @@
 
 ---
 
-- [USACO Guide](https://usaco.guide/)
+- [USACO Guide](https://usaco.guide/) - Trainingsseite für USACO
 
 - [Methods to Solve](https://cpbook.net/methodstosolve?oj=kattis&topic=ch1&quality=all) - Vorschläge für Probleme aus Kattis und UVa
 
