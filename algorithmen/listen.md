@@ -1,22 +1,23 @@
-## Listenoperationen
+## Listen
 
-### Rotation von Listen
+### Shift/Rotation von Listen
 
-Eine n-fache Linksrotation der Liste a bedeutet, dass die Anfangsliste der Länge n nach hinten verschoben wird.
-Eine n-fache Rechtsrotation ist eine len(a)-n fache Linksrotation.
+Ein k-facher Linksshift mit wrap-around der Liste a bedeutet, dass die Anfangsliste der Länge k nach hinten verschoben wird.
+Eine k-facher Rechtsshift ist ein len(a)-k (oder -k) fache Linksshift.
 
 ```Python
-def rotateLeft(a,k):
-    return a[k:]+a[:k]
+def shiftLeft(a,k):
+    idx = k%len(a)
+    return a[idx:]+a[:idx]
 
-def rotateRight(a,k):
-    return rotateLeft(a,len(a)-k)
+def shiftRight(a,k):
+    return shiftLeft(a,-k)
 ``` 
 
 ```Python
 a = [0,1,2,3,4,5]
 for i in range(5):
-    print(i,rotateLeft(a,i))
+    print(i,shiftLeft(a,i))
 
 Ausgabe:
 0 [0, 1, 2, 3, 4, 5]
