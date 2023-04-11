@@ -10,6 +10,8 @@
 
 **[ggT, Primzahlen, Faktoren](./zahlentheorie.md)**
 
+**[Geometrie](./geometrie.md)**
+
 **[Memoization](./memoization.md)**
 
 **[Lineare Suche, Binäre Suche](./binaereSuche.md)**
