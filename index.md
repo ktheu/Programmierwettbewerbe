@@ -8,6 +8,8 @@
 
 ---
 
+**[AlgoMuster](algoMuster/graphen.md)**
+
 **[Algorithmen](algorithmen/algorithmen.md)**
 
 ---
