@@ -93,13 +93,14 @@ Kürzeste Wege zwischen einem Knoten und allen anderen.
 Lies die Entfernungsdaten in eine Adjazenzliste adj ein.
 Setze dist des Startknotens s auf 0, alle anderen auf unendlich. 
 Initialisiere einen Heap q und füge den Startknoten mit Distanz 0 hinzu.
-Initialisiere eine visited-Array.
+Initialisiere ein visited-Array oder set.
 Solange q nicht leer:
     hole das erste Element v und markiere es als visited
     Für jeden Nachbarn v von u:  
         falls dist[v] besser wird, füge v mit dist[v] in den Heap Q ein.
 ```
- 
+
+Python
 ```Python
 from heapq import heappop, heappush
 
@@ -121,10 +122,11 @@ while q:
 Wir gehen davon aus, dass die Distanzen in die Distanzen in den *long long*-Bereich fallen können, dass
 aber die Entfernungen von Nachbarn und die Anzahl der Knoten im *int*-Bereich bleiben.
 
+C++
 ```Cpp
 
 long long dist[n + 1];
-int vis[n + 1];   
+int vis[n + 1];
 
 for (int i = 1; i < n + 1; i++) {
     dist[i] = INF;
@@ -132,7 +134,7 @@ for (int i = 1; i < n + 1; i++) {
 }
 dist[1] = 0;
 
-priority_queue<pair<long long, int>> q;   // ein max-Heap
+priority_queue<pair<long long, int>> q;
 q.push({0, 1});
 
 while (!q.empty()) {
@@ -140,10 +142,11 @@ while (!q.empty()) {
     q.pop();
     if (vis[u] == 1) continue;
     vis[u] = 1;
-    for (auto &[v, w] : adj[u]) {
-        if (dist[u] + w >= dist[v]) continue;
-        dist[v] = dist[u] + w;
-        q.push({-dist[v], v});          
+    for (auto &[v, c] : adj[u]) {
+        if (dist[v] > dist[u] + c) {
+            dist[v] = dist[u] + c;
+            q.push({-dist[v], v});
+        }
     }
 }
 
