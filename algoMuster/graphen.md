@@ -154,3 +154,4 @@ while (!q.empty()) {
 
 ```
 
+[CSES: Shortest Path1](https://cses.fi/problemset/task/1671)
