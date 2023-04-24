@@ -59,10 +59,8 @@ for (int i = 0; i < m; i++) {
     cin >> a >> b >> c;
     a--;
     b--;
-    if (c < adj[a][b]) {
-        adj[a][b] = c;
-        adj[b][a] = c;
-    }
+    adj[a][b] = c;
+    adj[b][a] = c;
 }
 ```
 
