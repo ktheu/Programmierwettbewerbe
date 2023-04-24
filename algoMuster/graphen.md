@@ -4,6 +4,7 @@
 
 n = Anzahl der Knoten, m = Anzahl der Kanten
 
+Python
 ```Python
 n, m = [int(x) for x  in input().split()]      
 adj = [[] for i in range(n+1)]
@@ -12,6 +13,7 @@ for i in range(m):
     adj[a].append([b,c])
 ```
 
+C++
 ```Cpp
 int n, m;
 cin >> n >> m;
@@ -27,6 +29,7 @@ for (int i = 0; i < m; i++) {
 
 n = Anzahl der Knoten, m = Anzahl der Kanten
 
+Python
 ```Python
 inf = float('inf')
 zeile = [inf for _ in range(n)]
@@ -39,6 +42,7 @@ for i in range(m):
     adj[a][b] = adj[b][a]= c
 ```
 
+C++
 ```Cpp
 long long adj[n][n];
 for (int i = 0; i < n; i++) {
@@ -69,7 +73,7 @@ Kürzeste Wege zwischen allen Knoten.
 Für n Knoten initialisiere n x n Adjazenzmatrix D mit den Kosten der gegebenen Wege, 0 in 
 der Diagonalen und INF sonst.
 
-
+C++
 ```Cpp
 for (int k = 0; k < n; k++) {
     for (int i = 0; i < n; i++) {
