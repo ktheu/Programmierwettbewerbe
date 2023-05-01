@@ -18,9 +18,9 @@
 
 **[Hinweise zu aktuellen Aufgaben](hinweise/hinweise.md)** - **[Hinweise zu Einsendungen](einsendungen.md)**
 
-**[Beispielaufgaben Jugendwettbewerb Informatik Runde 3](./jwinfRunde3/jwinf3.md)**
+**[Aufgaben Jugendwettbewerb Informatik Runde 3](./jwinfRunde3/jwinf3.md)**
 
-**[Replit](./replit.md)**
+<!-- **[Replit](./replit.md)** -->
 
 
 
