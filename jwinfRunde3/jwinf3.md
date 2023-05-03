@@ -1,6 +1,7 @@
 ### Jugendwettbewerb Informatik - Runde 3
 ---
 
+
 #### Landnahme
 
 34\. Bundeswettbewerb Informatik - J1

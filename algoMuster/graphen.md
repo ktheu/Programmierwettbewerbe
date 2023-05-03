@@ -155,3 +155,58 @@ while (!q.empty()) {
 ```
 
 [CSES: Shortest Path1](https://cses.fi/problemset/task/1671)
+
+### Längster Pfad zwischen zwei Knoten in einem DAG.
+
+Wir berechnen den längsten Pfad zwischen allen Knoten und dem Zielknoten. Wir initialisieren diese Werte mit -1, für
+den Zielknoten mit 1. Dann gehen wir mit dfs rekursiv durch den Graphen. Die Werte der Nachbarn nutzen wir, um für
+den aktuellen Knoten den längsten Pfad zu finden.
+
+Python
+```Python
+sys.setrecursionlimit(100001)
+
+adj = [[] for _ in range(100001)]
+vis = [False]*100001
+dp = [0]*100001
+next_node = [0]*100001
+
+def dfs(u):
+    vis[u] = True
+    for v in adj[u]:
+        if not vis[v]:
+            dfs(v)
+        if dp[v]!= 0 and dp[v] + 1 > dp[u]:
+            dp[u] = dp[v] + 1
+            next_node[u] = v
+
+
+```
+
+
+C++
+```Cpp
+bool vis[100001];
+vector<int> adj[100001];
+int dp[100001];
+int next_node[100001];
+
+void dfs(int u) {
+    vis[u] = true;
+    for (int v : adj[u]) {
+        if (!vis[v]) dfs(v);
+        if ((dp[v] != -1) && (dp[v] + 1 > dp[u])) {
+            dp[u] = dp[v] + 1;
+            next_node[u] = v;
+        }
+    }
+}
+```
+
+
+
+
+
+
+
+[CSES: Longest Flight Route](https://cses.fi/problemset/task/1680/)
