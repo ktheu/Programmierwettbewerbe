@@ -157,7 +157,7 @@ while (!q.empty()) {
     q.pop();
     if (vis[u] == 1) continue;
     vis[u] = 1;
-    for (auto &[v, c] : adj[u]) {
+    for (auto [v, c] : adj[u]) {
         if (dist[v] > dist[u] + c) {
             dist[v] = dist[u] + c;
             q.push({-dist[v], v});
