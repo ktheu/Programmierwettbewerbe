@@ -1,5 +1,18 @@
 ## Algo Muster
 
+### Infinity
+
+Python
+```Python
+inf = float('inf')
+```
+
+C++
+```Cpp
+const int inf = 1e9;
+const long long inf = 4e18;
+```
+
 ### Adjazenzliste erstellen.
 
 n = Anzahl der Knoten, m = Anzahl der Kanten
@@ -158,9 +171,7 @@ while (!q.empty()) {
 
 ### Längster Pfad zwischen zwei Knoten in einem DAG.
 
-Wir berechnen den längsten Pfad zwischen allen Knoten und dem Zielknoten. Wir initialisieren diese Werte mit -1, für
-den Zielknoten mit 1. Dann gehen wir mit dfs rekursiv durch den Graphen. Die Werte der Nachbarn nutzen wir, um für
-den aktuellen Knoten den längsten Pfad zu finden.
+Wir berechnen die maximale Anzahl von Knoten zwischen einem beliebigen Knoten und dem Zielknoten. Wir initialisieren diese Werte mit 0, für den Zielknoten mit 1. Dann gehen wir mit dfs rekursiv durch den Graphen. Die Werte der Nachbarn nutzen wir, um für den aktuellen Knoten den längsten Pfad zu finden.
 
 Python
 ```Python
@@ -202,11 +213,5 @@ void dfs(int u) {
     }
 }
 ```
-
-
-
-
-
-
 
 [CSES: Longest Flight Route](https://cses.fi/problemset/task/1680/)
