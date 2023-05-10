@@ -219,7 +219,6 @@ void dfs(int u) {
 
 Bellman-Ford löst das SSSP-Problem (Single Source Shortest Path) auch für Graphen mit negativen Gewichten, falls es
 dort keine negativen Zyklen gibt. Der Algorithmus findet auch heraus, ob es negative Zyklen gibt.
-
 Den längsten Pfad erhält durch Betrachtung eines Graphen mit den Gewichten*(-1).
 
 ```
