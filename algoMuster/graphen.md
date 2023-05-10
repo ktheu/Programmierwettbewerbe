@@ -222,17 +222,17 @@ dort keine negativen Zyklen gibt. Der Algorithmus findet auch heraus, ob es nega
 
 Den längsten Pfad erhält durch Betrachtung eines Graphen mit den Gewichten*(-1).
 
-Setze dist des Startknotens auf 0, alle anderen auf unendlich. n = Anzahl der Knoten
-
+```
+Setze dist des Startknotens auf 0, alle anderen auf unendlich (n = Anzahl der Knoten).
 wiederhole n-1 mal:
     Für alle Kanten (u,v):
         Relaxiere(u,v)  
 
-Wenn es keinen negativen Zyklen gibt, sind jetzt kein Relaxieren mehr möglich.
-
+# Wenn es keinen negativen Zyklen gibt, ist jetzt kein Relaxieren mehr möglich.
 wiederhole n-1 mal:
     Für alle Kanten (u,v):
         falls Relaxieren von (u,v) möglich: setze dist von v auf -inf 
+```
 
 Python
 ```Python
