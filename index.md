@@ -21,7 +21,6 @@
 
 **[Aufgaben Jugendwettbewerb Informatik Runde 3](./jwinfRunde3/jwinf3.md)**
 
-<!-- **[Replit](./replit.md)** -->
 
 
 
