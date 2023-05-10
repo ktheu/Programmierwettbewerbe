@@ -22,7 +22,7 @@
 
 **[Hinweise zu aktuellen Aufgaben](hinweise/hinweise.md)** - **[Hinweise zu Einsendungen](einsendungen.md)**
 
-**[Training](./training/inhalte.md)**
+**[Training](https://ktheu.github.io/PythonUebung/)**
 
 **[Aufgaben Jugendwettbewerb Informatik Runde 3](./jwinfRunde3/jwinf3.md)**
 
