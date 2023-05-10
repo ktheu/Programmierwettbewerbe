@@ -231,6 +231,8 @@ wiederhole n-1 mal:
 wiederhole n-1 mal:
     Für alle Kanten (u,v):
         falls Relaxieren von (u,v) möglich: setze dist von v auf -inf 
+
+dist[n] ist das Ergebnis, -inf falls negativer Zyklus auf dem Weg.
 ```
 
 Python
