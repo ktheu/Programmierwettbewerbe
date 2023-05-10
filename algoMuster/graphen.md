@@ -211,7 +211,88 @@ void dfs(int u) {
             next_node[u] = v;
         }
     }
-}
 ```
 
 [CSES: Longest Flight Route](https://cses.fi/problemset/task/1680/)
+
+### Bellman-Ford
+
+Bellman-Ford löst das SSSP-Problem (Single Source Shortest Path) auch für Graphen mit negativen Gewichten, falls es
+dort keine negativen Zyklen gibt. Der Algorithmus findet auch heraus, ob es negative Zyklen gibt.
+
+Den längsten Pfad erhält durch Betrachtung eines Graphen mit den Gewichten*(-1).
+
+Setze dist des Startknotens auf 0, alle anderen auf unendlich. n = Anzahl der Knoten
+
+wiederhole n-1 mal:
+    Für alle Kanten (u,v):
+        Relaxiere(u,v)  
+
+Wenn es keinen negativen Zyklen gibt, sind jetzt kein Relaxieren mehr möglich.
+
+wiederhole n-1 mal:
+    Für alle Kanten (u,v):
+        falls Relaxieren von (u,v) möglich: setze dist von v auf -inf 
+
+Python
+```Python
+for i in range(n-1):
+    for u in range(1, n+1):
+        for v,c in adj[u]:
+            if dist[u] + c < dist[v]:
+                dist[v] = dist[u] + c
+
+for i in range(n-1):
+    for u in range(1, n+1):
+        for v,c in adj[u]:
+            if dist[u] + c < dist[v]:
+                dist[v] = -inf
+```
+
+C++
+```Cpp
+for (int i = 1; i < n + 1; i++) dist[i] = INF;
+dist[1] = 0;
+
+for (int i = 0; i < n - 1; i++) {
+    for (int u = 1; u < n + 1; u++) {
+        for (auto [v, c] : adj[u]) {
+            if (dist[u] == INF) continue;  // wg. INF-20 < INF
+            if (dist[u] + c < dist[v]) {
+                dist[v] = dist[u] + c;
+            }
+        }
+    }
+}
+
+for (int i = 0; i < n - 1; i++) {
+    for (int u = 1; u < n + 1; u++) {
+        for (auto [v, c] : adj[u]) {
+            if (dist[u] == INF) continue;  // wg. INF-20 < INF
+            if (dist[u] + c < dist[v]) {
+                dist[v] = -INF;
+            }
+        }
+    }
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[CSES: Highscore](https://cses.fi/problemset/task/1673)
