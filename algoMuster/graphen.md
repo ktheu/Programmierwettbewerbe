@@ -79,9 +79,7 @@ for (int i = 0; i < m; i++) {
 
 ### Anzahl Zusammenhangskomponenten (im ungerichteten Graphen)
 
-Wir starten von jedem nicht besuchten Knoten ein dfs und zählen, wie oft wir starten müssen um alle Knoten zu besuchen.
-Das CSES-Problem *counting rooms* ist ein Beispiel dafür, dass Python nur mit der nicht-rekursiven Implementation von
-dfs das Zeitlimit schafft.
+Wir starten von jedem nicht besuchten Knoten ein dfs und zählen, wie oft wir starten müssen um alle Knoten zu besuchen. Das CSES-Problem *counting rooms* ist ein Beispiel dafür, dass Python nur mit der nicht-rekursiven Implementation von dfs das Zeitlimit schafft.
 
 Python
 
@@ -181,6 +179,7 @@ void dfs(int x, int y) {
 ```
 
 [CSES: Counting Rooms](https://cses.fi/problemset/task/1192/)
+
 ----
 
 
@@ -241,7 +240,7 @@ while q:
             heappush(q,(dist[v],v))
 ```
 
-Wir gehen davon aus, dass die Distanzen in die Distanzen in den *long long*-Bereich fallen können, dass
+Wir gehen davon aus, dass die Distanzen in den *long long*-Bereich fallen können, dass
 aber die Entfernungen von Nachbarn und die Anzahl der Knoten im *int*-Bereich bleiben.
 
 C++
@@ -324,8 +323,7 @@ void dfs(int u) {
 
 ### Bellman-Ford
 
-Bellman-Ford löst das SSSP-Problem (Single Source Shortest Path) auch für Graphen mit negativen Gewichten, falls es
-dort keine negativen Zyklen gibt. Der Algorithmus findet auch heraus, ob es negative Zyklen gibt.
+Bellman-Ford löst das SSSP-Problem (Single Source Shortest Path) auch für Graphen mit negativen Gewichten, falls es dort keine negativen Zyklen gibt. Der Algorithmus findet auch heraus, ob es negative Zyklen gibt.
 Den längsten Pfad erhält durch Betrachtung eines Graphen mit den Gewichten*(-1).
 
 ```
