@@ -2,7 +2,7 @@
 
 - [Codeforces](https://codeforces.com/) - viele Contests
 
-- [USACO](http://www.usaco.org/) - USA Coding Olympiad
+- [USACO](http://www.usaco.org/) - USA Coding Olympiad, [USACO-IDE](https://ide.usaco.guide/)
 
 - [CSES](https://cses.fi/) - Code Submission Evaluation System, 300 Probleme, Finnland
 
