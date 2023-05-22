@@ -62,10 +62,12 @@ Datenstrukturen:
 
     adj - Die Adjazenzliste
     vis - die besuchten Knoten
-    par - zu welcher Partition gehört der Knoten
+    team - zu welchem Team gehört der Knoten
 
 Von jedem nicht besuchten Knoten starten wir ein bfs und wechseln für die Nachbarn die Partition. Falls wir auf 
 einen Widerspruch stoßen, ist der Graph nicht bipartite. 
+
+[Code](cses/buildingTeams.md)
 
 #### Shortest Route 1
 Es soll die kürzeste Entfernung von 1 zu allen anderen Knoten berechnet werden. 
@@ -83,6 +85,8 @@ Solange der Heap nicht leer ist
 holen wir das erste nicht-besuchte Element u und markieren es als besucht.
 Wenn sich ein Nachbar v von u verbessert, fügen wir v mit der besseren
 Distanz in den Heap ein.
+
+[Code](cses/dijkstra.md)
 
 
 #### Shortest Route 2
