@@ -5,12 +5,13 @@
 Python
 ```Python
 inf = float('inf')
+inf = 1<<59   # = 2 hoch 59 = eine sehr große Zahl - ist schneller als float('inf')
 ```
 
 C++
 ```Cpp
 const int inf = 1e9;
-const long long inf = 4e18;
+const long long inf = 1e18;
 ```
 
 ### Adjazenzliste erstellen.
@@ -188,7 +189,7 @@ void dfs(int x, int y) {
 Kürzeste Wege zwischen allen Knoten.
 
 Für n Knoten initialisiere n x n Adjazenzmatrix D mit den Kosten der gegebenen Wege, 0 in 
-der Diagonalen und INF sonst.
+der Diagonalen und INF sonst. Bei Zeitproblemen initialisiere die Matrix eindimensional.
 
 C++
 ```Cpp
@@ -384,7 +385,130 @@ for (int i = 0; i < n - 1; i++) {
 
 ```
 
+### Bellman-Ford  
 
+[CSES: Cycle Finding](https://cses.fi/problemset/task/1197/)
+
+Falls der Graph einen negativen Kreis enthält, soll der ausgegeben werden (bei mehreren reicht einer).
+
+Wir gehen (n-1) mal durch alle Kanten und relaxieren, falls möglich (Bellman-Ford).
+Dann gehen wir ein weitere Mal durch alle Kanten. Wir merken uns den Knoten, über den ein weiteres Relaxieren
+möglich ist. Dieser Knoten muss nicht auf dem negativen Kreis liegen, aber wenn wir von dort genügend oft (n-1)  zurückgehen, sind wir sicher auf einem Knoten vc im negativen Kreis. Von vc gehen wir so oft zurück, bis wir vc wieder finden.
+
+Da es uns nicht darauf ankommt, Entfernungen zu bestimmen, initialisieren wir das dist-Array mit 0 statt
+mit unendlich (Wir wollen nur feststellen, ob nach (n-1) Iterationen Werte weiter ins Minus abrutschen).
+
+In der Python-Version lesen wir alle Kantendaten in eine Liste ein und bewegen uns dann in 3er Schritten
+von Kante zu Kante.
+
+Python
+```Python
+import sys
+n, m = map(int, sys.stdin.readline().split())
+data = list(map(int, sys.stdin.read().split()))
+ 
+dist = [0] * (n + 1)
+prev= [-1] * (n + 1)
+
+def findcycle(v):
+    for _ in range(n-1):
+        v = prev[v]
+    cycle = [v]
+    u = prev[v]
+    while u != v:
+        cycle.append(u)
+        u = prev[u]
+    cycle.append(v) 
+    cycle.reverse()
+    return cycle
+ 
+def go():
+    for _ in range(n - 1):
+        for j in range(0, len(data), 3):
+            u, v, c = data[j], data[j + 1], data[j + 2]
+            if dist[u] + c < dist[v]:
+                prev[v] = u
+                dist[v] = dist[u] + c
+ 
+    for j in range(0, len(data), 3):
+        u, v, c = data[j], data[j + 1], data[j + 2]
+        if dist[u] + c < dist[v]:
+            print('YES')
+            print(*findcycle(u))
+            exit()
+    print('NO')
+ 
+go()
+
+```
+
+C++
+```Cpp
+vector<pair<int, int>> adj[2501];
+int pre[2501];
+long long dist[2501];
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    for (int i = 0; i < n + 1; i++) {
+        pre[i] = -1;
+    }
+    for (int i = 0; i < m; i++) {
+        int u, v, c;
+        cin >> u >> v >> c;
+        adj[u].push_back({v, c});
+    }
+
+    for (int i = 0; i < n - 1; i++) {
+        for (int u = 1; u < n + 1; u++) {
+            for (auto [v, c] : adj[u]) {
+                if (dist[u] + c < dist[v]) {
+                    dist[v] = dist[u] + c;
+                    pre[v] = u;
+                }
+            }
+        }
+    }
+
+    int vc = -1;
+    for (int u = 1; u < n + 1; u++) {
+        for (auto [v, c] : adj[u]) {
+            if (dist[u] + c < dist[v]) {
+                vc = u;
+                break;
+            }
+        }
+    }
+
+    if (vc == -1) {
+        cout << "NO" << endl;
+        return 0;
+    } else {
+        cout << "YES" << endl;
+    }
+
+    for (int i = 1; i < n + 1; i++) {
+        vc = pre[vc];
+    }
+
+    vector<int> cycle;
+    cycle.push_back(vc);
+
+    for (int v = pre[vc];; v = pre[v]) {
+        cycle.push_back(v);
+        if (v == vc)
+            break;
+    }
+
+    reverse(cycle.begin(), cycle.end());
+    for (auto v : cycle) {
+        cout << v << " ";
+    }
+}
+```
+
+ 
 
 
 

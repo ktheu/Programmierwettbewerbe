@@ -1,0 +1,163 @@
+## [CSES ProblemSet](https://cses.fi/)
+
+
+### Graphen
+
+#### Counting Rooms  
+Hier wird nach der Anzahl der connected components in einem grid gefragt.
+
+Datenstrukturen: 
+
+    vis - die besuchten Knoten.
+ 
+
+Wir starten von jedem nicht besuchten Knoten ein dfs und zählen, wie oft wir starten müssen um alle Knoten zu besuchen. Python schafft nur mit der nicht-rekursiven Implementation von dfs das Zeitlimit.
+
+#### Labyrinth 
+In einem grid soll ein kürzester Weg von A nach B angegeben werden.
+
+Datenstrukturen:
+
+    vis - die besuchten Knoten.
+    pre - die Vorgänger der besuchten Knoten.
+
+Wir starten von A ein bfs. Falls wir B erreichen, rekonstruieren wir mit pre den Pfad von B zurück nach A.
+
+
+#### Building Roads
+
+Es soll herausgefunden werden, wieviele Straßen gebaut werden müssen, damit alle Städte erreichbar sind. Die zu bauenden Straßen
+sollen aufgezählt werden.
+
+Es geht darum, die connected components zu finden und dann beliebige Verbindungen zwischen den connected components aufzuzählen.
+
+Datenstrukturen:
+
+    adj - Die Adjazenzliste
+    vis - die besuchten Knoten
+    cc  - Die cc-Nummer eines jeden Knotens
+
+Wir starten von jedem nicht besuchten Knoten ein dfs und vermerken bei jedem Knoten, welche cc-Nummer er hat.
+Bei jedem neuen dfs-Start erhöhen wir die cc-Nummer um 1. Wir können uns beispielsweise jeweils den ersten Knoten merken,
+der die nächste cc-Nummer erhält und dann alle gemerkten Knoten verbinden.
+
+#### Message Route
+
+In einem Netzwerk soll herausgefunden werden, ob es einen Weg von 1 nach n gibt. Wenn ja, soll ein kürzester Weg
+ausgegeben werden.
+
+Datenstrukturen:
+
+    adj - Die Adjazenzliste
+    pre - die Vorgänger der besuchten Knoten.
+   
+Wir starten bfs von Knoten 1 und suchen Knoten n.
+
+#### Building Teams
+
+Es soll herausgefunden werden, ob ein Freundschaftsgraph bipartite ist (d.h. sich aufteilen lässt in 2 Knotenmengen, so dass
+innerhalb jeder Knotenmengen keine Verbindung vorhanden ist).
+
+Datenstrukturen:
+
+    adj - Die Adjazenzliste
+    vis - die besuchten Knoten
+    par - zu welcher Partition gehört der Knoten
+
+Von jedem nicht besuchten Knoten starten wir ein bfs und wechseln für die Nachbarn die Partition. Falls wir auf 
+einen Widerspruch stoßen, ist der Graph nicht bipartite. 
+
+#### Shortest Route 1
+Es soll die kürzeste Entfernung von 1 zu allen anderen Knoten berechnet werden. 
+
+Datenstrukturen:
+
+    adj - Die Adjazenzliste
+    vis - die besuchten Knoten
+    dist - die Distanzen von 1 zu dem Knoten
+    priority_queue 
+
+Dijkstra: wir setzen dist des Startknotens auf 0, alle anderen auf unendlich. 
+Den Heap initialisieren wir mit Startknoten und Distanz 0.
+Solange der Heap nicht leer ist 
+holen wir das erste nicht-besuchte Element u und markieren es als besucht.
+Wenn sich ein Nachbar v von u verbessert, fügen wir v mit der besseren
+Distanz in den Heap ein.
+
+
+#### Shortest Route 2
+Gegeben ist ein Graph mit Distanzen. Es sollen viele verschiedene Anfragen zu 
+den kürzesten Entfernungen zwischen zwei Städten beantwortet werden.
+
+Datenstrukturen:
+
+    dist - Distanzmatrix
+
+Floyd-Warshall: Initialisiere Distanzmatrix mit den Kosten der gegebenen Wege, 0 in 
+der Diagonalen und INF sonst. Schrittweise wird der kürzeste Weg berechnet, wenn
+man als Zwischenknoten die Knoten 1...k benutzen darf.
+
+```Python
+for k in range(n):
+    for i in range(n):
+        if k == i or dist[i][k] == inf: continue
+        for j in range(i):
+            if dist[i][k] + dist[k][j] < dist[i][j]:
+                dist[i][j] = dist[j][i] = dist[i][k] + dist[k][j]
+```
+
+
+#### High Score
+In einem gerichteten, gewichteten Graphen, der negative Gewichte enthalten darf, suchen wir
+den längsten Weg von 1 nach n. Wir müssen auch erkennen, ob der Weg durch einen Kreis beliebig lang werden kann.
+
+Datenstrukturen:
+
+    adj - Adjazenzliste oder Kantenliste
+    dist - Distanzliste
+
+Bellman-Ford: Wir multiplizieren die Gewichte mit -1, dann müssen wir den kürzesten Weg finden. Die Distanz zum Startknoten
+initialisieren wir mit 0, alle anderen mit unendlich. Wir gehen n-1 mal alle Kanten durch und schauen, ob sich was verbessern lässt (relaxieren).
+Wir gehen nochmal n-1 mal alle Kanten durch und schauen, ob sich was verbessern lässt,
+setzen aber das Ergebnis der Relaxation sofort auf -inf. In dist[n] steht dann entweder -inf oder die Distanz des kürzesten Wegs.
+
+#### Cycle Finding
+In einem gerichteten Graphen soll ein negativer Kreis gefunden werden und ggf. ausgegeben werden. 
+
+Datenstrukturen:
+
+    adj - Adjazenzliste oder Kantenliste
+    dist - Distanzliste  
+    pre - Liste mit den Vorgängern
+
+Bellman-Ford: Wir gehen n-1 mal alle Kanten durch und schauen, ob sich was verbessern lässt und merken uns
+jeweils den Vorgängerknoten, der für die Verbesserung verantwortlich ist. 
+Dann gehen wir noch einmal durch alle Kanten durch. Wenn sich etwas verbessern lässt, gibt es einen negativen Kreis.
+Der verbesserte Knoten muss aber nicht auf dem Kreis liegen. Deswegen gehen wir n-1 prev-Schritte zurück zu einem Knoten vc. 
+Der ist mit Sicherheit in dem negativen Kreis. Von dort gehen wir weiter solange zurück, bis wir wieder auf vc stoßen. 
+Alternativ könnten wir von vc auch solange zurückgehen, bis wir auf einen Knoten stoßen, den wir schonmal gesehen haben.
+
+#### Longest Flight Route
+
+Gesucht ist der längste Pfad in einem DAG zwischen den Knoten 1 und n. 
+
+Datenstrukturen:
+
+    adj - Adjazenzliste
+    vis - besuchte Knoten
+    dist - Distanzliste
+    nex - Nachfolger für den längsten Weg
+
+Wir berechnen die maximale Anzahl dist von Knoten zwischen einem beliebigen Knoten und dem Zielknoten. Wir initialisieren diese Werte mit 0, für den Zielknoten mit 1. Dann gehen wir mit dfs rekursiv durch den Graphen. Die Werte der Nachbarn nutzen wir, um für den aktuellen Knoten den längsten Pfad zu finden. Wenn dist[1] am Ende immer noch auf 0 steht, gibt es keine Verbindung,
+ansonsten ermitteln wir mit nex-Schritten den längsten Pfad zu n.
+
+```Python
+def dfs(u):
+    vis[u] = True
+    for v in adj[u]:
+        if not vis[v]:
+            dfs(v)
+        if dist[v]!= 0 and dist[v] + 1 > dist[u]:
+            dist[u] = dist[v] + 1
+            nex[u] = v
+```

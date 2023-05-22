@@ -8,9 +8,11 @@
 
 ---
 
-**[AlgoMuster](algoMuster/graphen.md)**
+**[CSES Problem Set](cses.md)**
 
-**[Algorithmen](algorithmen/algorithmen.md)**
+**[Schnipsel](schnipsel.md)**
+
+**[Sonstiges](algorithmen/algorithmen.md)**
 
 ---
 
