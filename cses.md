@@ -3,6 +3,8 @@
 
 ### Graphen
 
+---
+
 #### Counting Rooms  
 Hier wird nach der Anzahl der connected components in einem grid gefragt.
 
@@ -12,6 +14,8 @@ Datenstrukturen:
  
 
 Wir starten von jedem nicht besuchten Knoten ein dfs und zählen, wie oft wir starten müssen um alle Knoten zu besuchen. Python schafft nur mit der nicht-rekursiven Implementation von dfs das Zeitlimit.
+
+---
 
 #### Labyrinth 
 In einem grid soll ein kürzester Weg von A nach B angegeben werden.
@@ -23,6 +27,7 @@ Datenstrukturen:
 
 Wir starten von A ein bfs. Falls wir B erreichen, rekonstruieren wir mit pre den Pfad von B zurück nach A.
 
+---
 
 #### Building Roads
 
@@ -41,6 +46,8 @@ Wir starten von jedem nicht besuchten Knoten ein dfs und vermerken bei jedem Kno
 Bei jedem neuen dfs-Start erhöhen wir die cc-Nummer um 1. Wir können uns beispielsweise jeweils den ersten Knoten merken,
 der die nächste cc-Nummer erhält und dann alle gemerkten Knoten verbinden.
 
+----
+
 #### Message Route
 
 In einem Netzwerk soll herausgefunden werden, ob es einen Weg von 1 nach n gibt. Wenn ja, soll ein kürzester Weg
@@ -52,6 +59,8 @@ Datenstrukturen:
     pre - die Vorgänger der besuchten Knoten.
    
 Wir starten bfs von Knoten 1 und suchen Knoten n.
+
+----
 
 #### Building Teams
 
@@ -68,6 +77,8 @@ Von jedem nicht besuchten Knoten starten wir ein bfs und wechseln für die Nachb
 einen Widerspruch stoßen, ist der Graph nicht bipartite. 
 
 [Code](cses/buildingTeams.md)
+
+----
 
 #### Shortest Route 1
 Es soll die kürzeste Entfernung von 1 zu allen anderen Knoten berechnet werden. 
@@ -89,6 +100,9 @@ Distanz in den Heap ein.
 [Code](cses/dijkstra.md)
 
 
+----
+
+
 #### Shortest Route 2
 Gegeben ist ein Graph mit Distanzen. Es sollen viele verschiedene Anfragen zu 
 den kürzesten Entfernungen zwischen zwei Städten beantwortet werden.
@@ -101,14 +115,7 @@ Floyd-Warshall: Initialisiere Distanzmatrix mit den Kosten der gegebenen Wege, 0
 der Diagonalen und INF sonst. Schrittweise wird der kürzeste Weg berechnet, wenn
 man als Zwischenknoten die Knoten 1...k benutzen darf.
 
-```Python
-for k in range(n):
-    for i in range(n):
-        if k == i or dist[i][k] == inf: continue
-        for j in range(i):
-            if dist[i][k] + dist[k][j] < dist[i][j]:
-                dist[i][j] = dist[j][i] = dist[i][k] + dist[k][j]
-```
+----
 
 
 #### High Score
@@ -124,6 +131,8 @@ Bellman-Ford: Wir multiplizieren die Gewichte mit -1, dann müssen wir den kürz
 initialisieren wir mit 0, alle anderen mit unendlich. Wir gehen n-1 mal alle Kanten durch und schauen, ob sich was verbessern lässt (relaxieren).
 Wir gehen nochmal n-1 mal alle Kanten durch und schauen, ob sich was verbessern lässt,
 setzen aber das Ergebnis der Relaxation sofort auf -inf. In dist[n] steht dann entweder -inf oder die Distanz des kürzesten Wegs.
+
+----
 
 #### Cycle Finding
 In einem gerichteten Graphen soll ein negativer Kreis gefunden werden und ggf. ausgegeben werden. 
@@ -141,6 +150,8 @@ Der verbesserte Knoten muss aber nicht auf dem Kreis liegen. Deswegen gehen wir 
 Der ist mit Sicherheit in dem negativen Kreis. Von dort gehen wir weiter solange zurück, bis wir wieder auf vc stoßen. 
 Alternativ könnten wir von vc auch solange zurückgehen, bis wir auf einen Knoten stoßen, den wir schonmal gesehen haben.
 
+----
+
 #### Longest Flight Route
 
 Gesucht ist der längste Pfad in einem DAG zwischen den Knoten 1 und n. 
@@ -155,13 +166,4 @@ Datenstrukturen:
 Wir berechnen die maximale Anzahl dist von Knoten zwischen einem beliebigen Knoten und dem Zielknoten. Wir initialisieren diese Werte mit 0, für den Zielknoten mit 1. Dann gehen wir mit dfs rekursiv durch den Graphen. Die Werte der Nachbarn nutzen wir, um für den aktuellen Knoten den längsten Pfad zu finden. Wenn dist[1] am Ende immer noch auf 0 steht, gibt es keine Verbindung,
 ansonsten ermitteln wir mit nex-Schritten den längsten Pfad zu n.
 
-```Python
-def dfs(u):
-    vis[u] = True
-    for v in adj[u]:
-        if not vis[v]:
-            dfs(v)
-        if dist[v]!= 0 and dist[v] + 1 > dist[u]:
-            dist[u] = dist[v] + 1
-            nex[u] = v
-```
+----

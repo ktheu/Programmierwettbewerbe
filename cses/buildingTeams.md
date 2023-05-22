@@ -1,6 +1,6 @@
 ### Building Teams
 
-```Cpp
+```
 #include <bits/stdc++.h>
 using namespace std;
 
