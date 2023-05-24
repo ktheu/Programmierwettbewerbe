@@ -80,6 +80,45 @@ einen Widerspruch stoßen, ist der Graph nicht bipartite.
 
 ----
 
+#### Round Trip
+
+In einem Straßennetz soll eine Rundtour gefunden werden, die durch mindestens 2 andere Städte geht.
+
+Wir starten von jedem nicht-besuchten Knoten ein dfs und merken uns jeweils den Vorgänger.
+Wenn wir bei der Untersuchung der Nachbarn eine Knoten finden, den wir schon besucht haben und
+der nicht der Vorgänger ist, haben wir einen gesuchten Kreis gefunden.
+
+Rekursiv:  dfs(u) beantwortet die Frage: gibt es von u aus einen Weg
+zu einem schon besuchten Knoten, der nicht über pre[u] verläuft? Wir beantworten diese Frage, indem wir
+sie allen Nachbarknoten stellen, ausgenommen pre[u].
+
+Datenstrukturen:  
+
+    adj - Adjazenzliste  
+    vis - besuchte Knoten  
+    pre - Vorgänger 
+
+
+----
+
+#### Monsters
+
+In einem Labyrinth sollen wir zu einem Ausgang finden, ohne dass uns eines der Monster erreichen kann.
+
+Wir starten zunächst ein bfs mit allen Monster-Positionen in der Startqueue um die kürzesten Entfernungen
+der freien Positionen zu den Monstern zu ermitteln. Dann starten wir ein bfs von unserer Startposition und
+prüfen, ob es einen Weg zu einem Ausgang gibt, so dass wir jeweils vor einem Monster auf den Wegpositionen sind.
+
+Datenstrukturen:  
+    vis1 - besuchte Felder u. Wände 
+    dist1 - kürzeste Distanzen
+
+    vis2 - besuchte Felder u. Wände
+    dist2 - kürzeste Distanzen
+    pre - Richtung, aus der wir gekommen sind.
+
+----
+
 #### Shortest Route 1
 Es soll die kürzeste Entfernung von 1 zu allen anderen Knoten berechnet werden. 
 
