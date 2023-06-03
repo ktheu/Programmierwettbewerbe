@@ -206,3 +206,19 @@ Wir berechnen die maximale Anzahl dist von Knoten zwischen einem beliebigen Knot
 ansonsten ermitteln wir mit nex-Schritten den längsten Pfad zu n.
 
 ----
+
+#### Road Reparation
+
+Es wird die billigste Möglichkeit gesucht, alle Städte mit neuen Straßen zu verbinden. Gesucht ist also ein MST.
+
+Datenstrukturen:
+
+    adj - Adjazenzliste
+    vis - besuchte Knoten
+    heap - die Kosten, um zu einem Knoten zu kommen {cost, u}
+ 
+
+Jarnik-Prim: Gehe von einem Knoten aus und füge immer wieder einen neuen Knoten entlang der leichtesten Kante hinzu.
+Wenn wir einen Knoten gewählt haben, fügen wir alle Kanten zu noch nicht besuchten Knoten dem Heap hinzu.
+
+[Code](cses/roadReparation.md)
