@@ -207,6 +207,31 @@ ansonsten ermitteln wir mit nex-Schritten den längsten Pfad zu n.
 
 ----
 
+#### Planet Cycles
+
+In einem funktionalen Graph werden die Längen der Wege gesucht, bis sich ein Knoten wiederholt.
+So ein Graph besteht aus Komponenten, die jeweils aus einem Kreis und ggf mehreren Zubringern besteht.
+
+Datenstrukturen:
+
+    adj - Adjazenzliste
+    vis - besuchte Knoten
+    ans - die Antworten für jeden Knoten, initialisiert mit 0 für alle
+ 
+
+Für jeden nicht besuchten Knoten:
+    Wir gehen solange, bis wir einen besuchten Knoten gefunden haben und merken und den path dorthin. Den schon besuchten
+    Knoten fügen wir ans Ende des paths noch hinzu. Für den ersten Knoten des Pfads ist die Antwort dann len(path)-1.
+    Wir entfernen jeweils das erste Element des Pfads, die Antwort veringert sich dann um 1, es sei denn, der neue
+    Anfangsknoten stimmt mit dem Endknoten überein. Dann haben alle restlichen Knoten die Antwort: Kreislänge
+    
+    Wenn wir bei einem Zubringer starten, müssen wir die Antwort des schon besuchten Knotens noch hinzuzählen. Das können wir 
+    auch am Anfang machen, weil diese Längen mit 0 initialisiert sind.
+
+[Code](cses/planetCycles.md)
+
+----
+
 #### Road Reparation
 
 Es wird die billigste Möglichkeit gesucht, alle Städte mit neuen Straßen zu verbinden. Gesucht ist also ein MST.
