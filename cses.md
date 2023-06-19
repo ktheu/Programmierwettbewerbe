@@ -220,7 +220,7 @@ Datenstrukturen
 Wir verwenden binary lifting (binary jumping). Wir berechnen den 2^k-ten Sprung für jeden Planeten.
 Daraus ermitteln wir dann die Ergebnisse der Abfragen.
 
-[Code](cses/planetQueries1.md)
+[Code](cses/planetQueries1.md) [Notebook](https://github.com/ktheu/AlgorithmenAG/blob/master/cses/planetQueries1.ipynb)
 
 ----
 
