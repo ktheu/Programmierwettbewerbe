@@ -207,6 +207,23 @@ ansonsten ermitteln wir mit nex-Schritten den längsten Pfad zu n.
 
 ----
 
+#### Planet Queries 1
+ 
+
+Von jedem Planeten kann man zu genau einem weiteren Planeten springen (functional graph). Auf welchem Planeten
+landet man nach k Sprüngen. Es sind viele queries zu beantworten.
+
+Datenstrukturen
+
+    nxt - Eine zweidimensionales Array: für jeden Planeten ein Array mit dem 2^k-ten nächsten Planeten.
+
+Wir verwenden binary lifting (binary jumping). Wir berechnen den 2^k-ten Sprung für jeden Planeten.
+Daraus ermitteln wir dann die Ergebnisse der Abfragen.
+
+[Code](cses/planetQueries1.md)
+
+----
+
 #### Planet Cycles
 
 In einem funktionalen Graph werden die Längen der Wege gesucht, bis sich ein Knoten wiederholt.
@@ -220,13 +237,11 @@ Datenstrukturen:
  
 
 Für jeden nicht besuchten Knoten:
-    Wir gehen solange, bis wir einen besuchten Knoten gefunden haben und merken und den path dorthin. Den schon besuchten
-    Knoten fügen wir ans Ende des paths noch hinzu. Für den ersten Knoten des Pfads ist die Antwort dann len(path)-1.
-    Wir entfernen jeweils das erste Element des Pfads, die Antwort veringert sich dann um 1, es sei denn, der neue
-    Anfangsknoten stimmt mit dem Endknoten überein. Dann haben alle restlichen Knoten die Antwort: Kreislänge
-    
-    Wenn wir bei einem Zubringer starten, müssen wir die Antwort des schon besuchten Knotens noch hinzuzählen. Das können wir 
-    auch am Anfang machen, weil diese Längen mit 0 initialisiert sind.
+Wir gehen solange, bis wir einen besuchten Knoten gefunden haben und merken und den path dorthin. Den schon besuchten
+Knoten fügen wir ans Ende des paths noch hinzu. Für den ersten Knoten des Pfads ist die Antwort dann len(path)-1.
+Wir entfernen jeweils das erste Element des Pfads, die Antwort veringert sich dann um 1, es sei denn, der neue
+Anfangsknoten stimmt mit dem Endknoten überein. Dann haben alle restlichen Knoten die Antwort: Kreislänge.
+Wenn wir bei einem Zubringer starten, müssen wir die Antwort des schon besuchten Knotens noch hinzuzählen. Das können wir auch am Anfang machen, weil diese Längen mit 0 initialisiert sind.
 
 [Code](cses/planetCycles.md)
 
