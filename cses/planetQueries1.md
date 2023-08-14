@@ -26,7 +26,7 @@ int main() {
             if (k & (1 << j))
                 x = nxt[x][j];
         }
-        cout << x << endl;
+        cout << x << '\n';
     }
 }
 ```

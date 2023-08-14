@@ -1,41 +1,39 @@
-## Schnipsel
+## Schnipsel -  C++
 
 ### Header 
+```
 #include <bits/stdc++.h>
 using namespace std;
 
-### Infinity
+typedef long long ll;
+typedef vector<int> vi;
+typedef pair<int,int> pi;
 
-Python
-```Python
-inf = float('inf')
-inf = 1<<59   # = 2 hoch 59 = eine sehr große Zahl - ist schneller als float('inf')
+const ll inf = 1e18;
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+}
 ```
 
-C++
-```Cpp
-const int inf = 1e9;
-const long long inf = 1e18;
+### Array mit Unendlich Füllen
+
+```
+ll dist[100001]
+memset(dist, 0x3f, sizeof(dist));
 ```
 
 ### Adjazenzliste erstellen.
 
-n = Anzahl der Knoten, m = Anzahl der Kanten
+Für gewichteten Graphen
 
-Python
-```Python
-n, m = [int(x) for x  in input().split()]      
-adj = [[] for i in range(n+1)]
-for i in range(m):
-    a, b, c = [int(x) for x in input().split()]
-    adj[a].append([b,c])
 ```
-
-C++
-```Cpp
+vector<pi> adj[100001];
+....
 int n, m;
 cin >> n >> m;
-vector<pair<int, int>> adj[n + 1];
+
 for (int i = 0; i < m; i++) {
     int a, b, c;
     cin >> a >> b >> c;

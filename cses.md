@@ -191,6 +191,19 @@ Alternativ könnten wir von vc auch solange zurückgehen, bis wir auf einen Knot
 
 ----
 
+#### Flight Routes
+
+Wir gehen vor wie bei Dijkstra aber ohne dist-Array und wir berücksichtigen nicht, ob wir einen Knoten schon einmal besucht haben. Immer wenn wir aus dem heap eine Verbindung zu einem Knoten erhalten, setzen wir cnt für diesen Knoten um 1 nach oben. Wenn der Knoten das Ziel ist, geben wir die Kosten aus. Statt zu prüfen, ob wir einen Knoten schon besucht haben prüfen wir nur, ob wir <= k mal bei dem Knoten waren. Wenn dies der Fall ist, stopfen wir alle Nachbarverbindungen in den heap.
+
+Datenstrukturen:
+
+    adj - Adjazenzliste oder Kantenliste
+    cnt - Array zum zählen, wieviele Verbindungen zu einem Knoten gefunden wurden.
+
+[Code](cses/flightroutes.md)
+
+
+
 #### Longest Flight Route
 
 Gesucht ist der längste Pfad in einem DAG zwischen den Knoten 1 und n. 
@@ -220,7 +233,7 @@ Datenstrukturen
 Wir verwenden binary lifting (binary jumping). Wir berechnen den 2^k-ten Sprung für jeden Planeten.
 Daraus ermitteln wir dann die Ergebnisse der Abfragen.
 
-[Code](cses/planetQueries1.md) [Notebook](https://github.com/ktheu/AlgorithmenAG/blob/master/cses/planetQueries1.ipynb)
+[Code](cses/planetQueries1.md) 
 
 ----
 
@@ -237,7 +250,7 @@ Datenstrukturen:
  
 
 Für jeden nicht besuchten Knoten:
-Wir gehen solange, bis wir einen besuchten Knoten gefunden haben und merken und den path dorthin. Den schon besuchten
+Wir gehen solange, bis wir einen besuchten Knoten gefunden haben und merken uns den path dorthin. Den schon besuchten
 Knoten fügen wir ans Ende des paths noch hinzu. Für den ersten Knoten des Pfads ist die Antwort dann len(path)-1.
 Wir entfernen jeweils das erste Element des Pfads, die Antwort veringert sich dann um 1, es sei denn, der neue
 Anfangsknoten stimmt mit dem Endknoten überein. Dann haben alle restlichen Knoten die Antwort: Kreislänge.
