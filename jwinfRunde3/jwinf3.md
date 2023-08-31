@@ -92,6 +92,8 @@ Beispieldaten:
 [b5](./wintervorrat/beispieldaten/wintervorrat5.txt) -
 [b6](./wintervorrat/beispieldaten/wintervorrat6.txt) 
 
+[Notebook](./wintervorrat/wintervorrat.ipynb)
+
 ----
 #### Auf und Ab
 
