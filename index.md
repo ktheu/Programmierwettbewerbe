@@ -1,4 +1,4 @@
-## Algorithmen-AG
+## Programmierwettbewerbe
 
 **Algorithmen** sind Schritt-für-Schritt-Anleitungen zur Lösung von Aufgaben oder Problemen.
 

@@ -182,8 +182,7 @@ Datenstrukturen:
     dist - Distanzliste  
     pre - Liste mit den Vorgängern
 
-Bellman-Ford: Wir gehen n-1 mal alle Kanten durch und schauen, ob sich was verbessern lässt und merken uns
-jeweils den Vorgängerknoten, der für die Verbesserung verantwortlich ist. 
+Bellman-Ford: Wir gehen n-1 mal alle Kanten durch und schauen, ob sich was verbessern lässt und merken uns jeweils den Vorgängerknoten, der für die Verbesserung verantwortlich ist. 
 Dann gehen wir noch einmal durch alle Kanten durch. Wenn sich etwas verbessern lässt, gibt es einen negativen Kreis.
 Der verbesserte Knoten muss aber nicht auf dem Kreis liegen. Deswegen gehen wir n-1 prev-Schritte zurück zu einem Knoten vc. 
 Der ist mit Sicherheit in dem negativen Kreis. Von dort gehen wir weiter solange zurück, bis wir wieder auf vc stoßen. 
@@ -223,8 +222,7 @@ ansonsten ermitteln wir mit nex-Schritten den längsten Pfad zu n.
 #### Planet Queries 1
  
 
-Von jedem Planeten kann man zu genau einem weiteren Planeten springen (functional graph). Auf welchem Planeten
-landet man nach k Sprüngen. Es sind viele queries zu beantworten.
+Von jedem Planeten kann man zu genau einem weiteren Planeten springen (functional graph). Auf welchem Planeten landet man nach k Sprüngen. Es sind viele queries zu beantworten.
 
 Datenstrukturen
 
