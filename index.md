@@ -21,7 +21,7 @@
 
 **[Hinweise zu aktuellen Aufgaben](hinweise/hinweise.md)** - **[Hinweise zu Einsendungen](einsendungen.md)**
 
-**[Aufgaben Jugendwettbewerb Informatik Runde 3](./jwinfRunde3/jwinf3.md)**
+**[Frühere Aufgaben Jugendwettbewerb Informatik Runde 3](./jwinfRunde3/jwinf3.md)**
 
 
 
