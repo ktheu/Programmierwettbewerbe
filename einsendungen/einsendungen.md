@@ -19,7 +19,7 @@ Datum: 10. November 2017
 Hier sollen die wichtigsten Schritte beschrieben werden, die zur Lösung führen. 
 Hier werden keine technische Details erwähnt, es sollten also keine Namen von 
 verwendeten Funktionen etc. auftauchen. Dieser Absatz muss nicht lange sein,
-aber er sollte die wichtigsten Ideen darstellen, die für die Lösung führen.
+aber er sollte die wichtigsten Ideen darstellen, die zur Lösung führen.
 
 ##### Umsetzung
 
