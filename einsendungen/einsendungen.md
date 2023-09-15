@@ -3,7 +3,20 @@
 Hinweise zu Format und Inhalt der Einsendungen finden sich [hier](https://bwinf.de/bundeswettbewerb/tipps/#c5970)
 Dort finden sich auch Beispiellösungen aus früheren Wettbewerben.
 
-### Markdown
+### Beispiel
+
+Das Beispiel zeigt, wie eine Dokumentation mit einem Jupyter-Notebook aussehen kann.
+Das fertige Notebook wird dazu im PDF-Format ausgedruckt. 
+Ein Seitenvorschub beim pdf-Druck wird erzeugt durch eine Markup-Zelle mit:
+
+```
+<div style="page-break-after: always;"></div>
+```
+
+[Notebook zur Dokumentation](buecherregal_docu.ipynb)
+
+[Dokumentation als PDF](buecherregal_einsendung.pdf)
+ 
 
 Falls im Browser ein Markdown-Viewer und ein pdf-Drucker installiert ist, kann die Dokumentation auch mit
 Markdown erstellt werden. Markdown-Dateien haben die Endung .md .
