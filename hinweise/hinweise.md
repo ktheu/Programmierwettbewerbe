@@ -1,5 +1,5 @@
 ## Hinweise zu aktuellen Aufgaben
 
-<!-- - [A1](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/hinweise/A1.ipynb)
+[J1](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/hinweise/J1.ipynb) - download[./J1.ipynb]
 
-- [A2](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/hinweise/A2.ipynb) -->
+[J2](https://nbviewer.org/github/ktheu/AlgorithmenAG/blob/master/hinweise/J2.ipynb) - download[./J2.ipynb]
