@@ -1,6 +1,12 @@
 ## Programmierwettbewerbe
 
-**Algorithmen** sind Schritt-für-Schritt-Anleitungen zur Lösung von Aufgaben oder Problemen.
+----
+
+Die nächsten AG-Termine: <br>
+Donnerstag 28.9.2023, 15:35-17:05 R204 <br>
+Freitag 29.9.2023, 14:40-15:25 R204
+
+----
 
 **[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/)**
 
