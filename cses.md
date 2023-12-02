@@ -28,6 +28,8 @@ Datenstrukturen:
 
 Wir starten von A ein bfs. Falls wir B erreichen, rekonstruieren wir mit pre den Pfad von B zurück nach A.
 
+[Code](cses/labyrinth.md)
+
 ---
 
 #### Building Roads
