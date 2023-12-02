@@ -11,9 +11,10 @@ Hier wird nach der Anzahl der connected components in einem grid gefragt.
 Datenstrukturen: 
 
     vis - die besuchten Knoten.
- 
 
 Wir starten von jedem nicht besuchten Knoten ein dfs und zählen, wie oft wir starten müssen um alle Knoten zu besuchen. Python schafft nur mit der nicht-rekursiven Implementation von dfs das Zeitlimit.
+
+[Code](cses/countingRooms.md)
 
 ---
 

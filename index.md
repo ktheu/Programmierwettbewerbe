@@ -20,11 +20,11 @@
 **[CSES Problem Set](cses.md)**
 
 
-<!-- ---
+---
 
 **[Schnipsel](schnipsel.md)**
 
-**[Sonstiges](algorithmen/algorithmen.md)** -->
+**[Sonstiges](algorithmen/algorithmen.md)**
 
 
 

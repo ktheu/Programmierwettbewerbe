@@ -14,7 +14,7 @@ a, b = map(int,input().split())  statt    a, b = [int(x) for x in input().split(
 ```
 
 ```
-import stdin, stdout from sys
+from sys import stdin, stdout  
 stdin.buffer.readline()    statt   input()
 stdout.write()             statt   print()
 ```
