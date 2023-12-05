@@ -184,6 +184,8 @@ initialisieren wir mit 0, alle anderen mit unendlich. Wir gehen n-1 mal alle Kan
 Wir gehen nochmal n-1 mal alle Kanten durch und schauen, ob sich was verbessern lässt,
 setzen aber das Ergebnis der Relaxation sofort auf -inf. In dist[n] steht dann entweder -inf oder die Distanz des kürzesten Wegs.
 
+[Python](https://cses.fi/paste/2da1f300c1538d8f77c895/)
+
 ----
 
 #### Cycle Finding
