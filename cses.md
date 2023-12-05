@@ -14,7 +14,7 @@ Datenstrukturen:
 
 Wir starten von jedem nicht besuchten Knoten ein dfs und zählen, wie oft wir starten müssen um alle Knoten zu besuchen. Python schafft nur mit der nicht-rekursiven Implementation von dfs das Zeitlimit.
 
-[Code](cses/countingRooms.md)
+[Python](https://cses.fi/paste/53f48518737d31c977c466/) - [C++](https://cses.fi/paste/26b88fc865375de15c5cb4/)
 
 ---
 
@@ -28,7 +28,7 @@ Datenstrukturen:
 
 Wir starten von A ein bfs. Falls wir B erreichen, rekonstruieren wir mit pre den Pfad von B zurück nach A.
 
-[Code](cses/labyrinth.md)
+[Python](https://cses.fi/paste/9776d800379da8e877c4aa/) - [C++](https://cses.fi/paste/225cabcbb4da092d5c6ea4/)
 
 ---
 
@@ -49,6 +49,8 @@ Wir starten von jedem nicht besuchten Knoten ein dfs und vermerken bei jedem Kno
 Bei jedem neuen dfs-Start erhöhen wir die cc-Nummer um 1. Wir können uns beispielsweise jeweils den ersten Knoten merken,
 der die nächste cc-Nummer erhält und dann alle gemerkten Knoten verbinden.
 
+[Python](https://cses.fi/paste/5434a8cd1b0404fe77c4d6/)
+
 ----
 
 #### Message Route
@@ -63,7 +65,10 @@ Datenstrukturen:
    
 Wir starten bfs von Knoten 1 und suchen Knoten n.
 
-----
+[Python](https://cses.fi/paste/6ee13c80d17262a65cea85/)
+
+-----
+
 
 #### Building Teams
 
@@ -79,7 +84,7 @@ Datenstrukturen:
 Von jedem nicht besuchten Knoten starten wir ein bfs und wechseln für die Nachbarn die Partition. Falls wir auf 
 einen Widerspruch stoßen, ist der Graph nicht bipartite. 
 
-[Code](cses/buildingTeams.md)
+[Python](https://cses.fi/paste/98b757aba9f1665377c40e/)
 
 ----
 
@@ -101,6 +106,7 @@ Datenstrukturen:
     vis - besuchte Knoten  
     pre - Vorgänger 
 
+[Python](https://cses.fi/paste/07c37217d677179577c808/) - [C++](https://cses.fi/paste/167c237cd4f082bf5d5778/)
 
 ----
 
@@ -119,6 +125,8 @@ Datenstrukturen:
     vis2 - besuchte Felder u. Wände
     dist2 - kürzeste Distanzen
     pre - Richtung, aus der wir gekommen sind.
+
+[Python](https://cses.fi/paste/cf48d3782f5ee74677c82d/) - [C++](https://cses.fi/paste/9fdfa6ec7972d02577c832/)
 
 ----
 
@@ -139,7 +147,7 @@ holen wir das erste nicht-besuchte Element u und markieren es als besucht.
 Wenn sich ein Nachbar v von u verbessert, fügen wir v mit der besseren
 Distanz in den Heap ein.
 
-[Code](cses/dijkstra.md)
+[Python](https://cses.fi/paste/f4b9cfc8b6eb1e4977c84a/) [C++](https://cses.fi/paste/98016cc39634ee765c8f62/)
 
 
 ----
@@ -156,6 +164,8 @@ Datenstrukturen:
 Floyd-Warshall: Initialisiere Distanzmatrix mit den Kosten der gegebenen Wege, 0 in 
 der Diagonalen und INF sonst. Schrittweise wird der kürzeste Weg berechnet, wenn
 man als Zwischenknoten die Knoten 1...k benutzen darf.
+
+[Python](https://cses.fi/paste/f4c5654785ad6a5577c861/) [C++](https://cses.fi/paste/80b87f519fad61d75a8c3c/)
 
 ----
 
