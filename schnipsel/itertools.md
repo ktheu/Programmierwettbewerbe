@@ -47,7 +47,7 @@ for x in it.product([1,2,3],repeat=2):
     print(x)
 ```
 
-#### 0-1 Folgen
+#### Beispiele
 
 ``` 
 # Alle 4-elementige Binärfolgen
@@ -62,4 +62,22 @@ import itertools as it
 n, k = 5, 2
 for x in it.combinations(range(n),k):
     print([int(i in x) for i in range(n)])
+```
+
+```
+# Alle Teillisten einer Liste aufzählen
+# Jedes Element kann entweder genommen werden oder nicht, also 2^n Möglichkeiten
+a = [10, 9, 2, 5]
+iter = it.product([0,1],repeat=len(a))
+for selector in iter:
+    print([d for d, s in zip(a, selector) if s])
+```
+
+```
+# Wir wollen alle Möglichkeiten aufzählen der Form:
+# 2 mal eine Permutation der Liste [1,2,3] + einmal True oder False
+p = list(it.permutations([1,2,3]))
+iter = it.product(it.product(p,repeat=2) ,[True,False])
+for x in iter:
+    print(x)
 ```

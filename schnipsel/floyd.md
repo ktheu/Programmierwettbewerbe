@@ -53,6 +53,8 @@ print("Kosten =",d[0][3])        # Kosten dieses Weges
 Der Algorithmus von Dijkstra berechnet die kürzeste Entfernung eines Knotens zu allen 
 anderen Knoten in einem Graphen mit nicht-negativen Kantenkosten (single-source-shortest-path)
 in $O((|V|+|E|)⋅log|V|)$.
+
+[Video](https://www.youtube.com/watch?v=PKjT-LObjEM&list=PLWeMgMhRDsIHVtFQLF07HdrmbLI7dARgs&index=7)
  
 
 ``` 
@@ -108,6 +110,8 @@ Der Algorithmus von Bellman-Ford berechnet die kürzeste Entfernung eines Knoten
 anderen Knoten in einem Graphen auch bei negativen Kantenkosten falls es
 keine negativen Zyklen gibt (single-source-shortest-path) 
 in $O(|V| \cdot |E|)$.
+
+[Video](https://www.youtube.com/watch?v=LmNXvIoRNIc&list=PLWeMgMhRDsIHVtFQLF07HdrmbLI7dARgs&index=8&t=20s)
 
 ``` 
 G = {

@@ -52,9 +52,8 @@ cout << n << " " << q << endl;
 
 ```
 
-In älteren USACO-Aufgaben werden Dateien für Ein/Ausgabe verwendet. 
-Dann ohne Pfad:
 ``` 
+// Für ältere USACO-Aufgaben
 freopen("swap.in", "r", stdin);
 freopen("swap.out", "w", stdout);
 ```     

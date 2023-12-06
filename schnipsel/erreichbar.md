@@ -45,6 +45,8 @@ for i in range(1,cc):
 
 In einem gerichteten Graphen heißen zwei Knoten u und v (stark) zusammenhängend, wenn u von v und v von u erreichbar ist.
 
+[Video](https://www.youtube.com/watch?v=qm82ypRnOjI&list=PLWeMgMhRDsIHVtFQLF07HdrmbLI7dARgs&index=5)
+
 ``` 
 G = {
 'a': set('b'),
