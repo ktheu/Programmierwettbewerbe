@@ -1,26 +1,15 @@
-### Tipps zur Performance mit Python für CSES-Probleme
+## Performance 
 
-PyPy ist schneller als CPython 
-
----
-
-```
-inf = 1<<59   statt  inf = float('inf')   
-```
-
+Python: Wenn bei Aufgaben das Zeitlimit nicht reicht, können folgende Änderungen
+versucht werden:
 
 ```
-a, b = map(int,input().split())  statt    a, b = [int(x) for x in input().split()]
+stdin.readline()   statt input()
+stdout.write()     statt print()
 ```
 
 ```
-from sys import stdin, stdout  
-stdin.readline()    statt   input()    # bringt meist was
-stdout.write()      statt   print()    # bringt meist nicht viel
-```
-
-```
-if not condition: continue   statt
+if not condition: continue       statt
 if condition:
      weiter()
 ```
@@ -58,7 +47,10 @@ a = 3
 b = 5
 ```
 
-Vermeide Funktionsaufrufe - lieber den Code wiederholen.
+Vermeide Funktionsaufrufe mit Parameterübergabe - lieber den Code wiederholen.
+
+Das Hauptprogramm in eine Funktion verpacken.
+
 
 
  

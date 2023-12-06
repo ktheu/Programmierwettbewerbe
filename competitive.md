@@ -1,10 +1,12 @@
 ### Competitive Programming
 
-- [Codeforces](https://codeforces.com/) - viele Contests
+- [LeetCode](https://leetcode.com/problemset/all/) - die easy-Aufgaben sind für Anfänger geeignet
+
+- [CSES](https://cses.fi/) - Code Submission Evaluation System, 300 Probleme, Finnland
 
 - [USACO](http://www.usaco.org/) - USA Coding Olympiad, [USACO-IDE](https://ide.usaco.guide/)
 
-- [CSES](https://cses.fi/) - Code Submission Evaluation System, 300 Probleme, Finnland
+- [Codeforces](https://codeforces.com/) - viele Contests
 
 - [AtCoder](https://atcoder.jp/home) - viele Contests
 
@@ -19,9 +21,8 @@
 
 - [SPOJ](https://www.spoj.com/) - Sphere Online Judge, ca. 7000 Probleme
 
-- [Codingame](https://www.codingame.com/home)
+- [Codingame](https://www.codingame.com/home) 
 
-- [LeetCode](https://leetcode.com/problemset/all/)
 
 ---
 
@@ -43,10 +44,7 @@ Tipps
 
 - [Algorithms for Competitive Programming](https://cp-algorithms.com/)
 
----
 
-- [Schnipsel](schnipsel/index.md)
 
-<!-- - [Performance](performance.md) -->
 
 

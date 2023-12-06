@@ -33,4 +33,6 @@
 
 - [Graphen - Minimale Spannbäume: Kruskal, Jarnik-Prim](./kruskal.md) 
 
+- [Performance](./performance.md)
+
 
