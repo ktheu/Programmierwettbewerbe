@@ -9,7 +9,7 @@ Ein Spannbaum S eines gewichteten, ungerichteten Graphen heisst minimaler Spannb
 Der Kruskal-Algorithmus mit union-find hat eine Laufzeit von $O((|V| + |E|) \cdot \log(|V|))$.
 
 
-```Python
+``` 
 G = {
   'a': {'b':7, 'd':5},
   'b': {'a':7, 'd':9, 'e':7, 'c':8},
@@ -56,7 +56,7 @@ print('Gesamtkosten: ', summe)
 
 Der Algorithmus von Jarnik-Prim hat eine Laufzeit von $O(|V| \cdot |E|)$.
 
-```Python
+``` 
 from heapq import heappop, heappush
 
 G = {

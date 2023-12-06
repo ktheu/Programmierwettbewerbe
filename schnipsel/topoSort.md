@@ -1,6 +1,6 @@
 ### Topologische Sortierung
 
-```Python
+``` 
 G = {
 'a': set('c'),
 'b': set('c'),

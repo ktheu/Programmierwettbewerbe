@@ -1,21 +1,23 @@
 ## Geometrie 2D
 
-### Euklidsche Distanz zwischen zwei Punkten
+#### Euklidsche Distanz zwischen zwei Punkten
 
-```Python
+``` 
 import math
 p1, p2 = (0,0), (1,1)
 math.dist(p1,p2)
 ```
 
-### Koordinatenform
+#### Koordinatenform
 
 Koordinatenform einer Geraden, die durch zwei Punkte gegeben ist. Der Vector (a,b) ist eine
 Normale.
 
-```Python
+``` 
 def koordinatenform(p1, p2):
-    ''' Geradengleichung a*x + b*y = c '''
+    ''' 
+    p1, p2: zwei Punkte als Tuple, durch die die Gerade geht
+    returns: a, b, c der Geradengleichung a*x + b*y = c '''
     x1, y1 = p1
     x2, y2 = p2
     a = -(y2-y1)
@@ -24,12 +26,12 @@ def koordinatenform(p1, p2):
     return a, b, c
 ```
 
-### Abstand Punkt-Gerade
+#### Abstand Punkt-Gerade
 
-```Python
+``` 
 def abstand_punkt_gerade(p, p1, p2):
     '''
-    p Punkt, p1-p2 definieren die Gerade g
+    p Punkt, p1 und p2 definieren die Gerade g
     returns: Abstand von p zu g.         
     '''
     if p1 == p2: raise Exception(f'keine Gerade durch {p1} und {p2} gegeben')
@@ -38,12 +40,11 @@ def abstand_punkt_gerade(p, p1, p2):
     x2, y2 = p2
     nx, ny =  -(y2-y1),(x2-x1)  # Normale
     return abs(nx*(x-x1) + ny*(y-y1))/math.sqrt(nx*nx+ny*ny)
-
 ```
 
-### Schnittpunkt zweier Geraden
+#### Schnittpunkt zweier Geraden
 
-```Python
+``` 
 def schnittpunkt(p1, p2, p3, p4):
     ''' returns Schnittpunkt der beiden Geraden, 
     die durch p1, p2 bzw. p3, p4 gegeben sind '''
@@ -64,14 +65,12 @@ def schnittpunkt(p1, p2, p3, p4):
 
 
 
-### Winkel im Dreieck
+#### Winkel im Dreieck
 
-Winkel in Grad in einem Dreieck.
-
-```Python
+``` 
 def getWinkel(p1,p2,p3):
     '''
-    returns: Winkel am Punkt p1 im Dreieck p1-p2-p3
+    returns: Winkel in Grad am Punkt p1 im Dreieck p1-p2-p3
     '''
     dx = p3[0]-p1[0]    # Ziel - Start
     dy = p3[1]-p1[1]

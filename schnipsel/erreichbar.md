@@ -1,16 +1,11 @@
-## Erreichbarkeit und Zusammenhangskomponenten
+## Erreichbarkeit, Zusammenhangskomponenten, Topologische Sortierung
 
 
-### Erreichbarkeit
+#### Erreichbarkeit
 
 Erreichbarkeit wird mittels Tiefensuche festgestellt in $O(|V|)+O(|E|)$.
 
-```Python
-G = {'a':set('bc'),
-     'b':set('d'), 
-     'c':set('bd'),
-     'd':set('b')}
-
+``` 
 visited =  {v : False for v in G}       
 def explore(v):  
     visited[v] = True
@@ -18,25 +13,14 @@ def explore(v):
         if not visited[w]:
             explore(w) 
             
-s = 'c' 
-explore(s)
+explore(start)
 result = [v for v in G if visited[v]]            
-print(*result)
 ```
 
 ### Zusammenhangskomponenten in einem ungerichteten Graphen
 
 
-```Python
-G = {
-    'a': set('e'),
-    'b': set('e'),
-    'c': set('d'),
-    'd': set('c'),
-    'e': set('abf'),
-    'f': set('e')
-}
-
+``` 
 def explore(v):
     visited[v] = True
     ccnum[v] = cc
@@ -61,7 +45,7 @@ for i in range(1,cc):
 
 In einem gerichteten Graphen heißen zwei Knoten u und v (stark) zusammenhängend, wenn u von v und v von u erreichbar ist.
 
-```Python
+``` 
 G = {
 'a': set('b'),
 'b': set('ef'),

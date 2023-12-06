@@ -1,10 +1,10 @@
 ## Graphen - Modellierung
 
-### Adjazenzmatrix
+#### Adjazenzmatrix
 
 Ungewichtete Graphen: 0 = es exisitiert keine Kante
 
-```Python
+``` 
 G = [[0, 1, 1, 0],  
      [0, 0, 0, 1],  
      [0, 1, 0, 1],  
@@ -16,7 +16,7 @@ G[0][1] == 1                                    # True, wenn es Kante von 0 nach
 
 Gewichtete Graphen: inf = es exisitiert keine Kante
 
-```Python
+``` 
 inf = float('inf') 
 G = [[0,   8,   2, inf],  
      [inf, 0, inf,   4],  
@@ -28,11 +28,12 @@ G[0][1]                                                 # die Kosten der Kante v
 
 ```
 
-### Adjazenz"listen"
+#### Adjazenz'listen' - Implementation mit sets und dicts
+
 
 Ungewichtete Graphen
 
-```Python
+``` 
 G = {'a':set('bc'),
      'b':set('d'), 
      'c':set('bd'),
@@ -44,7 +45,7 @@ G['a']               # alle Nachbarn von 'a'
 
 Gewichtete Graphen
 
-```Python
+``` 
 G = {
 'a': {'b':2, 'c':9},
 'b': {'c':5, 'd':13},
@@ -57,4 +58,42 @@ G = {
 'b' in G['a']        # True, wenn es Kante von a nach b gibt   
 G['a']['b']          # Die Kosten der Kante von a nach b
 [v for v in G['a']]  # alle Nachbarn von 'a'
+``` 
+
+#### Adjazenzlisten - Implementation mit Listen
+
+Wenn die Frage, ob zwei Knoten benachbart sind, nicht so häufig vorkommt, ist 
+die Implementation mit Listen in der Regel schneller.
+
+
+Ungerichteter, ungewichteter Graph
+
+```
+n, m = map(int, stdin.readline().split())   # n Knoten, m Kanten
+adj = [[] for _ in range(n+1)]              # Knoten starten bei 1
+
+for _ in range(m):                         
+    u, v = map(int, stdin.readline().split())   # Kante zwischen u und v
+    adj[u].append(v) 
+    adj[v].append(u)
+
+for v in adj[u]:   # alle Nachbarn von u
+    pass
+```
+
+
+
+Gerichteter, gewichteter Graph
+
+```
+n, m = map(int, stdin.readline().split())   # n Knoten, m Kanten   
+adj = [[] for i in range(n+1)]              # Knoten starten bei 1        
+
+for i in range(m):                   # Kante von u nach v mit Kosten c               
+    u, v, c = map(int, stdin.readline().split())    
+    adj[u].append((v,c))
+
+for v,c in adj[u]:         # alle Nachbarn von u mit ihren Kosten
+     pass
+
 ``` 

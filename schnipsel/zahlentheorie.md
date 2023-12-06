@@ -2,16 +2,14 @@
 
 #### Summenformeln
 
-Summe der Zahlen von 1 bis n:
 
-```Python
+``` 
+# Summe der Zahlen von 1 bis n
 summe =  n*(n+1)//2
 ```
 
-Geometrische Summenformel:
-1 + r + r^2 + ... r^k
-
-```Python
+``` 
+# Geometrische Summenformel: 1 + r + r^2 + ... r^k
 r = 0.75
 k = 3
 summe = (1 - r ** k) / (1 - r)
@@ -20,8 +18,7 @@ summe = (1 - r ** k) / (1 - r)
 
 #### Euklidscher Algorithmus
 
-
-```Python
+``` 
 def ggt(a,b):
     '''
     a, b: positive ganze Zahlen
@@ -34,7 +31,7 @@ def ggt(a,b):
 
 #### Sieb des Eratosthenes 
 
-```Python
+``` 
 def eratosthenes(n):
     '''
     n: positive ganze Zahl
@@ -52,11 +49,11 @@ def eratosthenes(n):
 
 #### Anzahl der Teiler
 
-```Python
+``` 
 def anzahlFaktoren(n):
     '''
     n: positive ganze Zahl
-    returns: Liste mit den Anzahl der Teiler aller Zahlen <= n 
+    returns: Liste mit der Anzahl der Teiler aller Zahlen <= n 
     '''
     tmp = [1] * (n+1)
     for i in range(2,n+1):

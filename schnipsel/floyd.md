@@ -1,13 +1,13 @@
-## Kürzeste Wege: Floyd-Warshall und Dijkstra
+### Kürzeste Wege: Floyd-Warshall und Dijkstra
 
-### Floyd-Warshall
+#### Floyd-Warshall
 
 Der Algorithmus von Floyd-Warshall berechnet die kürzestesten Wege zwischen allen
 Knoten in einem Graphen (all-pairs-shortest-path) in $O(n^3)$.
 
 
 
-```Python
+```
 def floyd(c):
     ''' 
     c: Kostenmatrix = Graph als Adjazenzmatrix
@@ -48,14 +48,14 @@ print("Kosten =",d[0][3])        # Kosten dieses Weges
 ```
 
  
-### Dijkstra
+#### Dijkstra
 
 Der Algorithmus von Dijkstra berechnet die kürzeste Entfernung eines Knotens zu allen 
 anderen Knoten in einem Graphen mit nicht-negativen Kantenkosten (single-source-shortest-path)
 in $O((|V|+|E|)⋅log|V|)$.
  
 
-```Python
+``` 
 G = {
 'a': {'b':2, 'c':9},
 'b': {'c':5, 'd':13},
@@ -102,14 +102,14 @@ print('Distanz:',dist[ziel])
 ```
 
 
-### Bellman-Ford
+#### Bellman-Ford
 
 Der Algorithmus von Bellman-Ford berechnet die kürzeste Entfernung eines Knotens zu allen 
 anderen Knoten in einem Graphen auch bei negativen Kantenkosten falls es
 keine negativen Zyklen gibt (single-source-shortest-path) 
 in $O(|V| \cdot |E|)$.
 
-``` Python
+``` 
 G = {
 'a': {'b':6,'e':7},
 'b': {'d':-4,'e':8,'c':5},

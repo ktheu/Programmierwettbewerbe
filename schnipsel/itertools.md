@@ -61,5 +61,5 @@ for x in it.product([0,1],repeat = 4):
 import itertools as it
 n, k = 5, 2
 for x in it.combinations(range(n),k):
-    print([int(k in x) for k in range(n)])
+    print([int(i in x) for i in range(n)])
 ```

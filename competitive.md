@@ -45,10 +45,8 @@ Tipps
 
 ---
 
-Hinweise
+- [Schnipsel](schnipsel/index.md)
 
-- [Schnipsel](schnipsel.md)
+<!-- - [Performance](performance.md) -->
 
-- [Performance](performance.md)
 
-- [Sonstiges](algorithmen/algorithmen.md)

@@ -10,7 +10,7 @@ Eine Teillösung bezeichnen wir mit $x$. $x$ ist eine Liste mit Entscheidungen $
 
 Im Gegensatz zur rekursiven Tiefensuche wird beim backtracking derselbe Pfad immer wieder verändert. Erst wenn eine Lösung gefunden wird, wird eine Kopie gesichert.
 
-```Python
+```
 def back(x):
     if isSolution(x):
         solutions.append(x.copy())
