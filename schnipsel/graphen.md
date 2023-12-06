@@ -28,8 +28,42 @@ G[0][1]                                                 # die Kosten der Kante v
 
 ```
 
-#### Adjazenz'listen' - Implementation mit sets und dicts
+#### Adjazenzmatrix erstellen.
+```
+inf = float('inf')
+zeile = [inf for _ in range(n)]
+adj = [zeile[:] for _ in range(n)]
+for i in range(n): adj[i][i] = 0
+for i in range(m):
+    a, b, c = map(int, stdin.readline().split())
+    a-=1
+    b-=1
+    adj[a][b] = adj[b][a]= c
+```
 
+```
+long long adj[n][n];
+for (int i = 0; i < n; i++) {
+    for (int j = 0; j < n; j++) {
+        if (i == j)
+            adj[i][j] = 0;
+        else
+            adj[i][j] = inf;
+    }
+}
+
+for (int i = 0; i < m; i++) {
+    int a, b, c;
+    cin >> a >> b >> c;
+    a--;
+    b--;
+    adj[a][b] = c;
+    adj[b][a] = c;
+}
+```
+
+
+#### Adjazenzsets und Adjazenzdicts
 
 Ungewichtete Graphen
 
@@ -60,7 +94,7 @@ G['a']['b']          # Die Kosten der Kante von a nach b
 [v for v in G['a']]  # alle Nachbarn von 'a'
 ``` 
 
-#### Adjazenzlisten - Implementation mit Listen
+#### Adjazenzlisten  
 
 Wenn die Frage, ob zwei Knoten benachbart sind, nicht so häufig vorkommt, ist 
 die Implementation mit Listen in der Regel schneller.
@@ -97,3 +131,14 @@ for v,c in adj[u]:         # alle Nachbarn von u mit ihren Kosten
      pass
 
 ``` 
+
+```
+int n, m;
+cin >> n >> m;
+vector<pair<int, int>> adj[n + 1];
+for (int i = 0; i < m; i++) {
+    int u, v, c;
+    cin >> u >> v >> c;
+    adj[u].push_back({v, c});
+}
+```

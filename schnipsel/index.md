@@ -1,7 +1,7 @@
 ## Schnipsel
 
 
-- [Allerlei](./allerlei.md)
+- [Header, Input, Infinity](./input.md)
 
 - [Itertools](./itertools.md)
 
