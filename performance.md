@@ -15,8 +15,8 @@ a, b = map(int,input().split())  statt    a, b = [int(x) for x in input().split(
 
 ```
 from sys import stdin, stdout  
-stdin.buffer.readline()    statt   input()
-stdout.write()             statt   print()
+stdin.readline()    statt   input()    # bringt meist was
+stdout.write()      statt   print()    # bringt meist nicht viel
 ```
 
 ```
@@ -49,11 +49,6 @@ output = " ".join(["Programming" , "is", "fun"])  statt
 output = "Programming " + "is " + "fun"
 ```
 
-Importiere zielgenau
-```
-from math import sqrt
-statt import math 
-```
 
 Nutze Mehrfachzuweisungen
 ```

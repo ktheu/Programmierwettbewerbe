@@ -1,6 +1,6 @@
 ## Algorithmen
 
-**[Ein-/Ausgabe](./ein_ausgabe.md)**
+ 
 
 **[Itertools](./itertools.md)**
 

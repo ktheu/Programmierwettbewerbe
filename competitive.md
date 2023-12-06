@@ -21,6 +21,8 @@
 
 - [Codingame](https://www.codingame.com/home)
 
+- [LeetCode](https://leetcode.com/problemset/all/)
+
 ---
 
 Aufgabensammlungen zum Training
@@ -38,3 +40,15 @@ Tipps
 - [How to practive - USACO Guide](https://usaco.guide/general/practicing?lang=py#darren-yao-1)
 
 - [Contest Strategy - USACO Guide](https://usaco.guide/general/contest-strategy?lang=py)
+
+- [Algorithms for Competitive Programming](https://cp-algorithms.com/)
+
+---
+
+Hinweise
+
+- [Schnipsel](schnipsel.md)
+
+- [Performance](performance.md)
+
+- [Sonstiges](algorithmen/algorithmen.md)

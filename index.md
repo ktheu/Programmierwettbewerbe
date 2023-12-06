@@ -2,7 +2,10 @@
 
 ----
 
-**[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/)**
+**[Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/)** -
+**[Hinweise zu Einsendungen](einsendungen/einsendungen.md)**
+
+---
 
 **[Jugendwettbewerb Informatik Runde 3](./jwinfRunde3/jwinf3.md)**
 
@@ -10,21 +13,14 @@
 
 **[Bundeswettbewerb Informatik Runde 2](./bwinf2/bwinf2.md)**
 
-**[Hinweise zu Einsendungen](einsendungen/einsendungen.md)**
-
+**[CSES Problem Set](cses.md)**
 
 ---
 
 **[Competitive Programming](./competitive.md)**
 
-**[CSES Problem Set](cses.md)**
-
-
 ---
 
-**[Schnipsel](schnipsel.md)**
-
-**[Sonstiges](algorithmen/algorithmen.md)**
 
 
 
