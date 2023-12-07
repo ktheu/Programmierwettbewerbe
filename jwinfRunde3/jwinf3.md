@@ -18,7 +18,8 @@ Beispieldaten: [b1](landnahme/eingabe1.txt) - [b2](landnahme/eingabe2.txt)
 
 34\. Bundeswettbewerb Informatik - J2
 
-[Aufgabenstellung](kassiopeia/kassiopeia.pdf) - [Lösungshinweise](kassiopeia/kassiopeia_loesung.pdf) 
+[Aufgabenstellung](kassiopeia/kassiopeia.pdf) - [Lösungshinweise](kassiopeia/kassiopeia_loesung.pdf) -
+[Hinweise und Ergebniss](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/kassiopeia/kassiopeia.ipynb)
 
 Beispieldaten: 
 [b0](./kassiopeia/beispieldaten/kassiopeia0.txt) -
