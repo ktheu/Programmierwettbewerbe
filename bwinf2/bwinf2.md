@@ -6,7 +6,8 @@
 40\. Bundeswettbewerb Informatik - A1
 
 [Aufgabenstellung](./muellabfuhr/muellabfuhr.pdf) -
-[Lösungshinweise](./muellabfuhr/muellabfuhrL.pdf)
+[Lösungshinweise](./muellabfuhr/muellabfuhrL.pdf) -
+[Hinweise und Ergebniss](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/bwinf1/muellabfuhr/muellabfuhr.ipynb)
 
 Beispieldaten: 
 [b0](muellabfuhr/beispieldaten/muellabfuhr0.txt) -
@@ -17,9 +18,8 @@ Beispieldaten:
 [b5](muellabfuhr/beispieldaten/muellabfuhr5.txt) -
 [b6](muellabfuhr/beispieldaten/muellabfuhr6.txt) -
 [b7](muellabfuhr/beispieldaten/muellabfuhr7.txt) -
-[b8](muellabfuhr/beispieldaten/muellabfuhr8.txt) -
+[b8](muellabfuhr/beispieldaten/muellabfuhr8.txt) 
 
 
-<!-- [Video](https://youtu.be/MUOExC8rFwA) -->
 
 ----
