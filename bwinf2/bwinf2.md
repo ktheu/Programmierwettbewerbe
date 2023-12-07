@@ -7,7 +7,7 @@
 
 [Aufgabenstellung](./muellabfuhr/muellabfuhr.pdf) -
 [Lösungshinweise](./muellabfuhr/muellabfuhrL.pdf) -
-[Hinweise und Ergebniss](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/bwinf1/muellabfuhr/muellabfuhr.ipynb)
+[Hinweise und Ergebniss](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/bwinf2/muellabfuhr/muellabfuhr.ipynb)
 
 Beispieldaten: 
 [b0](muellabfuhr/beispieldaten/muellabfuhr0.txt) -
