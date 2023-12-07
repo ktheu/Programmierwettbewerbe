@@ -1,7 +1,7 @@
 ## Schnipsel
 
 
-- [Header, Input, Infinity](./input.md)
+- [Header, Input, Infinity](./input.ipynb)
 
 - [Itertools](./itertools.md)
 
