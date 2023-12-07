@@ -25,7 +25,7 @@
 
 - [Graphen - Modellierung](./graphen.md)
 
-- [Graphen - Erreichbarkeit, Zusammenhangskomponenten](./erreichbar.md) 
+- [Graphen - Erreichbarkeit, Zusammenhangskomponenten](./erreichbar.ipynb) 
 
 - [Graphen - Topologische Sortierung](./toposort.md) 
 
