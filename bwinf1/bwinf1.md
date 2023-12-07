@@ -7,7 +7,9 @@
 40\. Bundeswettbewerb Informatik - A1
 
 [Aufgabenstellung](./schiebeparkplatz/schiebeparkplatz.png) -
-[Lösungshinweise](./schiebeparkplatz/schiebeparkplatz.pdf)
+[Lösungshinweise](./schiebeparkplatz/schiebeparkplatz.pdf) -
+[Hinweise und Ergebniss](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/bwinf1/schiebeparkplatz/schiebeparkplatz.ipynb)
+
 
 Beispieldaten: 
 [b0](schiebeparkplatz/beispieldaten/parkplatz0.txt) -
@@ -17,6 +19,7 @@ Beispieldaten:
 [b4](schiebeparkplatz/beispieldaten/parkplatz4.txt) - 
 [b5](schiebeparkplatz/beispieldaten/parkplatz5.txt) 
 
-<!-- [Video](https://youtu.be/MUOExC8rFwA) -->
+
+
 
 ----
