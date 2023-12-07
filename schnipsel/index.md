@@ -13,7 +13,7 @@
 
 - [Geometrie](./geometrie.md)
 
-- [Memoization](./memoization.md)
+- [Memoization](./memoization.ipynb)
 
 - [Lineare Suche, Binäre Suche](./binaereSuche.md)
 
