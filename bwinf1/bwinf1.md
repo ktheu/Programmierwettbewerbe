@@ -8,7 +8,7 @@
 
 [Aufgabenstellung](./schiebeparkplatz/schiebeparkplatz.png) -
 [Lösungshinweise](./schiebeparkplatz/schiebeparkplatz.pdf) -
-[Hinweise und Ergebniss](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/bwinf1/schiebeparkplatz/schiebeparkplatz.ipynb)
+[Hinweise und Ergebnisse](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/bwinf1/schiebeparkplatz/schiebeparkplatz.ipynb)
 
 
 Beispieldaten: 

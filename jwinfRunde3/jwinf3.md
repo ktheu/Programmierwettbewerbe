@@ -8,7 +8,7 @@
 
 [Aufgabenstellung](landnahme/landnahme.pdf) -
 [Lösungshinweise](./landnahme/landnahme_loesungshinweise.pdf) -
-[Hinweise und Ergebniss](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/landnahme/landnahme.ipynb)
+[Hinweise und Ergebnisse](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/landnahme/landnahme.ipynb)
 
 Beispieldaten: [b1](landnahme/eingabe1.txt) - [b2](landnahme/eingabe2.txt)
 
@@ -19,7 +19,7 @@ Beispieldaten: [b1](landnahme/eingabe1.txt) - [b2](landnahme/eingabe2.txt)
 34\. Bundeswettbewerb Informatik - J2
 
 [Aufgabenstellung](kassiopeia/kassiopeia.pdf) - [Lösungshinweise](kassiopeia/kassiopeia_loesung.pdf) -
-[Hinweise und Ergebniss](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/kassiopeia/kassiopeia.ipynb)
+[Hinweise und Ergebnisse](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/kassiopeia/kassiopeia.ipynb)
 
 Beispieldaten: 
 [b0](./kassiopeia/beispieldaten/kassiopeia0.txt) -
