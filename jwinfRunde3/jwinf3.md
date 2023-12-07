@@ -8,7 +8,7 @@
 
 [Aufgabenstellung](landnahme/landnahme.pdf) -
 [Lösungshinweise](./landnahme/landnahme_loesungshinweise.pdf) -
-[Hinweise und Ergebniss](https://nbviewer.jupyter.org/github/ktheu/Programmierwettbewerbe/blob/gh-pages/jwinfRunde3/landnahme/landnahme.ipynb)
+[Hinweise und Ergebniss](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/landnahme/landnahme.ipynb)
 
 Beispieldaten: [b1](landnahme/eingabe1.txt) - [b2](landnahme/eingabe2.txt)
 
