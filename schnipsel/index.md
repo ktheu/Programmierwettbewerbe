@@ -3,7 +3,7 @@
 
 - [Input, Infinity, Header](./input.ipynb)
 
-- [Itertools](./itertools.md)
+- [Itertools](./itertools.ipynb)
 
 - [Listen](./listen.md)
 
