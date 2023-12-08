@@ -17,19 +17,19 @@
 
 - [Lineare Suche, Binäre Suche](./binaereSuche.ipynb)
 
-- [Breiten- und Tiefensuche](./bfs_dfs.md)
+- [Breiten- und Tiefensuche](./bfs_dfs.ipynb)
 
-- [Backtracking](./backtracking.md)
+- [Backtracking](./backtracking.ipynb)
 
-- [Best-first search, A*](./greedy_astar.md)
+- [Best-first search, A*](./greedy_astar.ipynb)
 
-- [Graphen - Modellierung](./graphen.md)
+- [Graphen - Modellierung](./graphen.ipynb)
 
 - [Graphen - Erreichbarkeit, Zusammenhangskomponenten](./erreichbar.ipynb) 
 
-- [Graphen - Topologische Sortierung](./toposort.md) 
+- [Graphen - Topologische Sortierung](./toposort.ipynb) 
 
-- [Graphen - Kürzeste Wege: Floyd-Warshall, Dijkstra, Bellman-Ford](./floyd.md) 
+- [Graphen - Kürzeste Wege: Floyd-Warshall, Dijkstra, Bellman-Ford](./floyd.ipynb) 
 
 - [Graphen - Minimale Spannbäume: Kruskal, Jarnik-Prim](./kruskal.md) 
 
