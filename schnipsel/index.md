@@ -5,17 +5,17 @@
 
 - [Itertools](./itertools.ipynb)
 
-- [Listen](./listen.md)
+- [Listen](./listen.ipynb)
 
-- [Sort](./sort.md)
+- [Sort](./sort.ipynb)
 
-- [ggT, Primzahlen, Faktoren](./zahlentheorie.md)
+- [ggT, Primzahlen, Faktoren](./zahlentheorie.ipynb)
 
-- [Geometrie](./geometrie.md)
+- [Geometrie](./geometrie.ipynb)
 
 - [Memoization](./memoization.ipynb)
 
-- [Lineare Suche, Binäre Suche](./binaereSuche.md)
+- [Lineare Suche, Binäre Suche](./binaereSuche.ipynb)
 
 - [Breiten- und Tiefensuche](./bfs_dfs.md)
 
