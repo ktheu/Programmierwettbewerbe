@@ -31,8 +31,8 @@
 
 - [Graphen - Kürzeste Wege: Floyd-Warshall, Dijkstra, Bellman-Ford](./floyd.ipynb) 
 
-- [Graphen - Minimale Spannbäume: Kruskal, Jarnik-Prim](./kruskal.md) 
+- [Graphen - Minimale Spannbäume: Kruskal, Jarnik-Prim](./kruskal.ipynb) 
 
-- [Performance](./performance.md)
+- [Performance](./performance.ipynb)
 
 
