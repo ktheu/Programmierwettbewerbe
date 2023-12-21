@@ -5,6 +5,8 @@
 
 - [Itertools](./itertools.ipynb)
 
+- [Matplotlib](./matplotlib.ipynb)
+
 - [Listen](./listen.ipynb)
 
 - [Sort](./sort.ipynb)
