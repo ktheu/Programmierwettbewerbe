@@ -37,4 +37,8 @@
 
 - [Performance](./performance.ipynb)
 
+----
+
+- [USACO-Funktionen](./usaco_functions.ipynb)
+
 
