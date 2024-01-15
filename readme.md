@@ -14,6 +14,8 @@
 - [Bundeswettbewerb Informatik Runde 2](./bwinf2/bwinf2.md)
 
 - [CSES Problem Set](cses.md)
+ 
+- [USACO](./usaco/usaco.md)
 
 ---
 
