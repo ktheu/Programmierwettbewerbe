@@ -8,3 +8,7 @@
 
 - [Permutationen](./permutationen.ipynb)
 
+- [Strings: Abschnitte und Abstände](./strings.ipynb)
+
+- [Listen: Teillisten, Verschiebungen](./listen.ipynb)
+
