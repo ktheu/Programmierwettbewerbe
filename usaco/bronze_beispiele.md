@@ -2,7 +2,9 @@
 
 ### 2023 December 
 
-#### Candy
+#### Candy Cane
+
+<img src='candyCane.png'>
 
 Wir verfolgen in der Variablen taken, wieviel schon von einem Candy gegessen wurde und in der Variablen eat, wieviel die jeweilige Kuh essen kann. Wenn taken größer gleich der Candylänge ist, beenden wir den Schleifendurchgang vorzeitig.
 
