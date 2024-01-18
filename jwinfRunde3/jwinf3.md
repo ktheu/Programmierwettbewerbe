@@ -8,7 +8,6 @@
 
 [Aufgabenstellung](landnahme/landnahme.pdf) -
 [Lösungshinweise](./landnahme/landnahme_loesungshinweise.pdf) -
-<!-- [Hinweise und Ergebnisse](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/landnahme/landnahme.ipynb) -->
 [Hinweise und Ergebnisse](./landnahme/landnahme.ipynb)
 
 
