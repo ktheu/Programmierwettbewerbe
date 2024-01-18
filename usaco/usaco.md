@@ -8,7 +8,6 @@
 - [Strings: Abschnitte und Abstände](./strings.ipynb)
 - [Binäre Suche: größte/kleinste Zahl](binaereSuche.ipynb)
 - [Intervalle und Rechtecke](./rechtecke.ipynb)
-- [Grids](grids.ipynb)
 
 ---
 

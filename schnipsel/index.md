@@ -9,6 +9,8 @@
 
 - [Listen](./listen.ipynb)
 
+- [Grids](./grids.ipynb)
+
 - [Sort](./sort.ipynb)
 
 - [ggT, Primzahlen, Faktoren](./zahlentheorie.ipynb)
