@@ -9,7 +9,7 @@
 
 - [Listen](./listen.ipynb)
 
-- [Grids](./grids.ipynb)
+- [Grids](./grids.ipynb) - [Grids/Matrix mit numpy](./gridsWithNumpy.ipynb)
 
 - [Sort](./sort.ipynb)
 
