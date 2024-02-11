@@ -37,6 +37,8 @@
 
 - [Graphen - Minimale Spannbäume: Kruskal, Jarnik-Prim](./kruskal.ipynb) 
 
+- [Prefix Sum](./prefixSum.ipynb)
+
 - [Performance](./performance.ipynb)
 
 ----
