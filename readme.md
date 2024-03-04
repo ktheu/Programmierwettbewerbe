@@ -19,8 +19,6 @@
 
 ---
 
-- [Schnipsel](./schnipsel/index.md)
-- [Schnipsel2](./usaco/usaco.md)
 
 
 
