@@ -1,16 +1,9 @@
 ### Bundeswettbewerb Informatik - Runde 1
 ---
 
+Aufgaben zur Vorbereitung auf die 1. Runde Bundeswettbewerb Informatik
 
-#### Schiebeparkplatz
-
-40\. Bundeswettbewerb Informatik - A1
-
-[Aufgabenstellung](./schiebeparkplatz/schiebeparkplatz.png) -
-[Lösungshinweise](./schiebeparkplatz/schiebeparkplatz.pdf) -
-[Hinweise und Ergebnisse](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/bwinf1/schiebeparkplatz/schiebeparkplatz.ipynb)
-
-
+- [Schiebeparkplatz](./schiebeparkplatz/schiebeparkplatz.png) -
 Beispieldaten: 
 [b0](schiebeparkplatz/beispieldaten/parkplatz0.txt) -
 [b1](schiebeparkplatz/beispieldaten/parkplatz1.txt) - 
