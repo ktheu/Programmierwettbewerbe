@@ -1,14 +1,9 @@
 ### Bundeswettbewerb Informatik - Runde 2
 ---
 
-#### Müllabfuhr
+Aufgaben zur Vorbereitung auf die 2. Runde Bundeswettbewerb Informatik
 
-40\. Bundeswettbewerb Informatik - A1
-
-[Aufgabenstellung](./muellabfuhr/muellabfuhr.pdf) -
-[Lösungshinweise](./muellabfuhr/muellabfuhrL.pdf) -
-[Hinweise und Ergebnisse](https://nbviewer.org/github/ktheu/Programmierwettbewerbe/blob/master/bwinf2/muellabfuhr/muellabfuhr.ipynb)
-
+- [Müllabfuhr](./muellabfuhr/muellabfuhr.pdf) -
 Beispieldaten: 
 [b0](muellabfuhr/beispieldaten/muellabfuhr0.txt) -
 [b1](muellabfuhr/beispieldaten/muellabfuhr1.txt) -
@@ -19,7 +14,5 @@ Beispieldaten:
 [b6](muellabfuhr/beispieldaten/muellabfuhr6.txt) -
 [b7](muellabfuhr/beispieldaten/muellabfuhr7.txt) -
 [b8](muellabfuhr/beispieldaten/muellabfuhr8.txt) 
-
-
 
 ----
