@@ -1,4 +1,4 @@
-### USACO
+### Schnipsel2
 
 - [Input/Output und Doctest](./einAusgabe.ipynb)
 - [Zahlenlisten: Summenformel, Differenzen, Akkumulieren](./zahlenListen.ipynb)
