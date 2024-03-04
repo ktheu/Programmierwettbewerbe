@@ -7,7 +7,7 @@
 
 ---
 
-- [Jugendwettbewerb Informatik Runde 3](./jwinfRunde3/jwinf3.md)
+- [Jugendwettbewerb Informatik Runde 3](./jwinfRunde3/jwinfRunde3.md)
 
 - [Bundeswettbewerb Informatik Runde 1](./bwinf1/bwinf1.md)
 
