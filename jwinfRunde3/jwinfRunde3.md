@@ -17,7 +17,8 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
 [b3](./buecherregal/beispieldaten/buecherregal3.txt) -
 [b4](./buecherregal/beispieldaten/buecherregal4.txt) -
 [b5](./buecherregal/beispieldaten/buecherregal5.txt) -
-[b6](./buecherregal/beispieldaten/buecherregal6.txt) 
+[b6](./buecherregal/beispieldaten/buecherregal6.txt) -
+[datenformat](./buecherregal/beispieldaten/datenformat.md)
 
 - [Baywatch](./baywatch/baywatch.pdf) - Beispieldaten:
   [b1](./baywatch/beispieldaten/baywatch1.txt) -
