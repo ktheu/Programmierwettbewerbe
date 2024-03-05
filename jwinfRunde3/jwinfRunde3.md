@@ -18,7 +18,9 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
 [b4](./buecherregal/beispieldaten/buecherregal4.txt) -
 [b5](./buecherregal/beispieldaten/buecherregal5.txt) -
 [b6](./buecherregal/beispieldaten/buecherregal6.txt) -
-[datenformat](./buecherregal/beispieldaten/datenformat.md)
+[datenformat](./buecherregal/beispieldaten/datenformat.md) -
+[Ergebnisse](./buecherregal/buecherregal_ergebnisse.md)
+
 
 - [Baywatch](./baywatch/baywatch.pdf) - Beispieldaten:
   [b1](./baywatch/beispieldaten/baywatch1.txt) -
@@ -26,7 +28,8 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
   [b3](./baywatch/beispieldaten/baywatch3.txt) -
   [b4](./baywatch/beispieldaten/baywatch4.txt) -
   [b5](./baywatch/beispieldaten/baywatch5.txt) -
-  [b6](./baywatch/beispieldaten/baywatch6.txt) 
+  [b6](./baywatch/beispieldaten/baywatch6.txt) - 
+  [Ergebnisse](./baywatch/baywatch_ergebnisse.md)
 
 - [Wintervorrat](./wintervorrat/wintervorrat.pdf) - Beispieldaten:
   [b1](./wintervorrat/beispieldaten/wintervorrat1.txt) -
