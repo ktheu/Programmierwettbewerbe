@@ -40,8 +40,9 @@ Feld (2, 12) sicher ab 1
 Feld (2, 13) sicher ab 1
 Feld (2, 14) sicher ab 1
 Feld (2, 15) sicher ab 1
+```
 
-
+```
 Beispiel: 2
 . = nicht sicher, x = sicher, + = absolut sicher
 .....
@@ -57,8 +58,9 @@ Feld (1, 4) sicher ab 1
 Feld (3, 3) sicher ab 1
 Feld (4, 3) sicher ab 1
 Feld (5, 3) sicher ab 1
+```
 
-
+```
 Beispiel: 3
 . = nicht sicher, x = sicher, + = absolut sicher
 .xxxxxxxx.......x.xx
@@ -90,8 +92,9 @@ Feld (19, 2) sicher ab 22
 Feld (19, 3) sicher ab 22
 Feld (20, 2) sicher ab 21
 Feld (20, 3) sicher ab 21
+```
 
-
+```
 Beispiel: 4
 . = nicht sicher, x = sicher, + = absolut sicher
 .xxxxxxxxxxxxxx
@@ -195,8 +198,9 @@ Feld (15, 2) sicher ab 1
 Feld (15, 3) sicher ab 1
 Feld (15, 14) sicher ab 1
 Feld (15, 15) sicher ab 1
+```
 
-
+```
 Beispiel: 5
 . = nicht sicher, x = sicher, + = absolut sicher
 .....
@@ -358,9 +362,9 @@ Feld (5, 56) sicher ab 20
 Feld (5, 57) sicher ab 19
 Feld (5, 58) sicher ab 18
 Feld (5, 59) sicher ab 17
+```
 
-
-
+```
 Beispiel: 6
 . = nicht sicher, x = sicher, + = absolut sicher
 .xxx.xxx.xxx....xxxxxxxxxxxxx
