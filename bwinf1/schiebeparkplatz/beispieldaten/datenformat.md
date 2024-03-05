@@ -8,4 +8,4 @@ Jede Datei beschreibt einen Schiebeparkplatz und enthält
     * die Position p_i des quer stehenden Autos.
 
 Die Position startet links von 0. Jedes verschiebbare Auto nimmt wie in
-der Zeichnung gezeigt zwei Positionen ein (also jeweils p_i und p_i + 1).
+der Zeichnung gezeigt zwei Positionen ein (also jeweils $p_i$ und $p_{i + 1}$).
