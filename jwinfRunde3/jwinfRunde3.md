@@ -38,5 +38,4 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
   [b4](./wintervorrat/beispieldaten/wintervorrat4.txt) -
   [b5](./wintervorrat/beispieldaten/wintervorrat5.txt) -
   [datenformat](./wintervorrat/beispieldaten/datenformat.md) -
-  [Ergebnisse](./wintervorrat/wintervorrat_ergebnisse.md) -)
-
+  [Ergebnisse](./wintervorrat/wintervorrat_ergebnisse.md) 
