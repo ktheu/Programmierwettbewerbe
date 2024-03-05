@@ -9,7 +9,7 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
 
 - [Landnahme](./landnahme/landnahme.pdf) - [Ergebnisse](./landnahme/landnahme_ergebnisse.ipynb)
 
-- [Auf und Ab](./auf_und_ab/auf_und_ab.pdf)  - [Leiterspiel](./auf_und_ab/leiterspiel.pdf)
+- [Auf und Ab](./auf_und_ab/auf_und_ab.pdf)  - [Leiterspiel](./auf_und_ab/leiterspiel.pdf) - [Ergebnisse](./auf_und_ab/ergebnisse.ipynb)
 
 - [Bücherregal](./buecherregal/buecherregal.pdf) - Beispieldaten: 
 [b1](./buecherregal/beispieldaten/buecherregal1.txt) -
