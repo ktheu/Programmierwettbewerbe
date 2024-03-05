@@ -29,6 +29,7 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
   [b4](./baywatch/beispieldaten/baywatch4.txt) -
   [b5](./baywatch/beispieldaten/baywatch5.txt) -
   [b6](./baywatch/beispieldaten/baywatch6.txt) - 
+  [datenformat](./baywatch/beispieldaten/datenformat.md) -
   [Ergebnisse](./baywatch/baywatch_ergebnisse.md)
 
 - [Wintervorrat](./wintervorrat/wintervorrat.pdf) - Beispieldaten:
