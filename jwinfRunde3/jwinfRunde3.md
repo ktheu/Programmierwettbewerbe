@@ -11,17 +11,6 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
 
 - [Auf und Ab](./auf_und_ab/auf_und_ab.pdf)  - [Leiterspiel](./auf_und_ab/leiterspiel.pdf) - [Ergebnisse](./auf_und_ab/ergebnisse.md)
 
-- [Bücherregal](./buecherregal/buecherregal.pdf) - Beispieldaten: 
-[b1](./buecherregal/beispieldaten/buecherregal1.txt) -
-[b2](./buecherregal/beispieldaten/buecherregal2.txt) -
-[b3](./buecherregal/beispieldaten/buecherregal3.txt) -
-[b4](./buecherregal/beispieldaten/buecherregal4.txt) -
-[b5](./buecherregal/beispieldaten/buecherregal5.txt) -
-[b6](./buecherregal/beispieldaten/buecherregal6.txt) -
-[datenformat](./buecherregal/beispieldaten/datenformat.md) -
-[Ergebnisse](./buecherregal/buecherregal_ergebnisse.md)
-
-
 - [Baywatch](./baywatch/baywatch.pdf) - Beispieldaten:
   [b1](./baywatch/beispieldaten/baywatch1.txt) -
   [b2](./baywatch/beispieldaten/baywatch2.txt) -
@@ -32,11 +21,4 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
   [datenformat](./baywatch/beispieldaten/datenformat.md) -
   [Ergebnisse](./baywatch/baywatch_ergebnisse.md)
 
-- [Wintervorrat](./wintervorrat/wintervorrat.pdf) - Beispieldaten:
-  [b1](./wintervorrat/beispieldaten/wintervorrat1.txt) -
-  [b2](./wintervorrat/beispieldaten/wintervorrat2.txt) -
-  [b3](./wintervorrat/beispieldaten/wintervorrat3.txt) -
-  [b4](./wintervorrat/beispieldaten/wintervorrat4.txt) -
-  [b5](./wintervorrat/beispieldaten/wintervorrat5.txt) -
-  [datenformat](./wintervorrat/beispieldaten/datenformat.md) -
-  [Ergebnisse](./wintervorrat/wintervorrat_ergebnisse.md) 
+
