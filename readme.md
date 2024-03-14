@@ -17,6 +17,8 @@
 
 - [Competitive Programming](./competitive.md)
 
+- [Schnipsel](./schnipsel/schnipsel.md)
+
 ---
 
 
