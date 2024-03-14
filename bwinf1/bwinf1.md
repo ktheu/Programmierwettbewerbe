@@ -21,14 +21,6 @@ Beispieldaten:
 [eingaben](./autoscrabble/autoscrabble.txt) -
 [Ergebnisse](./autoscrabble/autoscrabble_ergebnisse.ipynb)
 
-- [Marktwaage](./marktwaage/a5.png) -
-Beispieldaten: 
-[b0](marktwaage/beispieldaten/gewichtsstuecke0.txt) -
-[b1](marktwaage/beispieldaten/gewichtsstuecke1.txt) -
-[b2](marktwaage/beispieldaten/gewichtsstuecke2.txt) -
-[b3](marktwaage/beispieldaten/gewichtsstuecke3.txt) -
-[b4](marktwaage/beispieldaten/gewichtsstuecke4.txt) -
-[b5](marktwaage/beispieldaten/gewichtsstuecke5.txt) -
-[datenformat](marktwaage/beispieldaten/datenformat.md) 
+
  
 ----
