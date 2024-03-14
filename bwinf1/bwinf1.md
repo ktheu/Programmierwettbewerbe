@@ -14,6 +14,13 @@ Beispieldaten:
 [datenformat](schiebeparkplatz/beispieldaten/datenformat.md) -
 [Ergebnisse](./schiebeparkplatz/schiebeparkplatz_ergebnisse.ipynb)
 
+
+- [AutoScrabble](./autoscrabble/autoscrabble.png) -
+[datenformat](./autoscrabble/datenformat.md) -
+[kuerzelliste](./autoscrabble/kuerzelliste.txt) -
+[eingaben](./autoscrabble/autoscrabble.txt) -
+[Ergebnisse](./autoscrabble/autoscrabble_ergebnisse.ipynb)
+
 - [Marktwaage](./marktwaage/a5.png) -
 Beispieldaten: 
 [b0](marktwaage/beispieldaten/gewichtsstuecke0.txt) -
