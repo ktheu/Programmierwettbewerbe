@@ -14,6 +14,11 @@ Beispieldaten:
 [b6](muellabfuhr/beispieldaten/muellabfuhr6.txt) -
 [b7](muellabfuhr/beispieldaten/muellabfuhr7.txt) -
 [b8](muellabfuhr/beispieldaten/muellabfuhr8.txt) -
-[Ergebnisse](./muellabfuhr/muellabfuhr_ergebnisse.md)
+[Ergebnisse](./muellabfuhr/muellabfuhr_ergebnisse.md) - 
+[Lösungshinweise](./muellabfuhr/muellabfuhrL.pdf)
+
+
+- [Rechenrätsel](./rechenraetsel/rechenraetsel.pdf) -
+[Lösungshinweise](./rechenraetsel/rechenraetselL.pdf)
 
 ----
