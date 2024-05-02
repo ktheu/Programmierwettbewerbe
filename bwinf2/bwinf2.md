@@ -5,7 +5,6 @@ Aufgaben zur Vorbereitung auf die 2. Runde Bundeswettbewerb Informatik
 
 - [Müllabfuhr](./muellabfuhr/muellabfuhr.pdf) -
 Beispieldaten: 
-
 [b0](muellabfuhr/beispieldaten/muellabfuhr0.txt) -
 [b1](muellabfuhr/beispieldaten/muellabfuhr1.txt) -
 [b2](muellabfuhr/beispieldaten/muellabfuhr2.txt) -
@@ -15,7 +14,7 @@ Beispieldaten:
 [b6](muellabfuhr/beispieldaten/muellabfuhr6.txt) -
 [b7](muellabfuhr/beispieldaten/muellabfuhr7.txt) -
 [b8](muellabfuhr/beispieldaten/muellabfuhr8.txt) -
-[datenformat](./muellabfuhr/datenformat.md)
+[datenformat](./muellabfuhr/datenformat.md) -
 [Ergebnisse](./muellabfuhr/muellabfuhr_ergebnisse.md) - 
 [Lösungshinweise](./muellabfuhr/muellabfuhrL.pdf)
 
