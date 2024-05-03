@@ -21,4 +21,6 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
   [datenformat](./baywatch/beispieldaten/datenformat.md) -
   [Ergebnisse](./baywatch/baywatch_ergebnisse.md)
 
+- [Lama](./lama/lama.pdf)
+
 
