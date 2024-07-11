@@ -23,4 +23,9 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
 
 - [Lama](./lama/lama.pdf)
 
+- [Wintervorrat](./wintervorrat/wintervorrat.pdf) - [Beispieldaten](./wintervorrat/beispieldaten/) -
+  [Datenformat](./wintervorrat/datenformat.md) -
+  [Ergebnisse](./wintervorrat/wintervorrat_ergebnisse.ipynb)
+ 
+
 
