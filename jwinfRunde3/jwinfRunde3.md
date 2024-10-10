@@ -26,6 +26,9 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
 - [Wintervorrat](./wintervorrat/wintervorrat.pdf) - [Beispieldaten](./wintervorrat/beispieldaten/) -
   [Datenformat](./wintervorrat/datenformat.md) -
   [Ergebnisse](./wintervorrat/wintervorrat_ergebnisse.ipynb)
+
+- [Bücherregal](./buecherregal/buecherregal.pdf) - [Beispieldaten](./buecherregal/beispieldaten/) -
+  [Datenformat](./buecherregal/datenformat.md) - [Ergebnisse](./buecherregal/buecherregal_ergebnisse.md)
  
 
 
