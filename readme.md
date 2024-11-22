@@ -7,6 +7,8 @@
 
 ---
 
+- [algo.bwinf](https://algo.bwinf.de/)
+
 - [Jugendwettbewerb Informatik Runde 3](./jwinfRunde3/jwinfRunde3.md)
 
 - [Bundeswettbewerb Informatik Runde 1](./bwinf1/bwinf1.md)
