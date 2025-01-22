@@ -9,11 +9,7 @@
 - [Kattis](https://open.kattis.com/) - mehr als 2600 Probleme
 - [DMOJ](https://dmoj.ca/) - Modern Online Judge
 - [UVa Online Judge](https://onlinejudge.org/index.php) - University of Valladolid, Sammlung mit mehr als 4300 Problemen
-
-- [ICPC](https://icpc.global/) - International Collegiate Programming Contest,
-  ein jährlich stattfindender, weltweiter und mehrstufiger Programmierwettbewerb für Universitätsstudenten
-- [SPOJ](https://www.spoj.com/) - Sphere Online Judge, ca. 7000 Probleme
-
+- [Beecrowd](https://judge.beecrowd.com/en) - Gilt als Beginner-freundlich
 
 ---
 
