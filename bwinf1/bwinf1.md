@@ -1,4 +1,15 @@
 ### Bundeswettbewerb Informatik - Runde 1
+
+---
+
+Algorithmen  
+
+- [Search-Bfs](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search_Bfs/search_bfs.ipynb) - 
+  [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/Search_Bfs_Beispiele/bfs_beispiele.ipynb)
+
+- [Search-A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/search_astar/search_astar.ipynb) -
+   [Beamsearch](https://github.com/ktheu/InfoKurs/blob/gh-pages/search_beamsearch/search_beamsearch.ipynb)
+
 ---
 
 Aufgaben zur Vorbereitung auf die 1. Runde Bundeswettbewerb Informatik
