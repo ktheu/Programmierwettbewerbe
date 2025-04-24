@@ -41,20 +41,23 @@ Zeilenkommentare werden gerne gesehen.
 ### Beispiel
 
 Das Beispiel zeigt, wie eine Dokumentation mit einem Jupyter-Notebook aussehen kann.
-Das fertige Notebook wird dazu im PDF-Format ausgedruckt. 
-Ein Seitenvorschub beim pdf-Druck wird erzeugt durch eine Markup-Zelle mit:
+Das Notebook wird über die Auswahl File-Print gedruckt. Als Ziel wird kein Drucker ausgewählt, sondern: als PDF speichern. Wenn Output-Zeilen oder Code-Zeilen lang sind, empfiehlt sich der Ausdruck im Querformat.
+In der Vorschau kontrollieren wir, ob die Seitenvorschübe sinnvoll eingefügt sind.
+Gegebenenfalls können wir in einer Markup-Zelle einen Seitenvorschub erzeugen mit:
 
 ```
 <div style="page-break-after: always;"></div>
 ```
 
-Hinweis: Bilder, die mit dem img-tag in das Notebook eingebettet sind, werden z.Z. nicht ins PDF exportiert.
-Man muss dazu Markdown verwenden. Da gibt es aber keinen Parameter, um die Größe zu ändern, d.h. 
-man muss die Bilder vorher auf die richtige Größe bringen.
+Hinweis: Bilder, die mit dem image-tag in das Notebook eingebettet sind, werden bei dieser Vorgehensweise
+nicht ins PDF übernommen. Wenn wir Skizzen, die wir als Bild gespeichert haben, mit ins PDF aufnehmen wollen,
+müssen wir diese Bilder mit einer Python-Anweisung im Notebook zeigen.
 
 ```
-![alt-text](bild.png)       
+from IPython.display import Image, display               
+display(Image(filename='skizze.png', width=600))
 ```
+
 
 [Notebook zur Dokumentation](buecherregal_docu.ipynb)
 
