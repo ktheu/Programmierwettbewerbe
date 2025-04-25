@@ -21,6 +21,10 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
 
 - [Bücherregal](./buecherregal/buecherregal.pdf) - [Beispieldaten](./buecherregal/beispieldaten/) -
   [Ergebnisse](./buecherregal/buecherregal_ergebnisse.md)
+
+
+- [Wundertüte](./wundertuete/wundertuete.png) - [Beispieldaten](./wundertuete/beispieldaten/) - 
+  [Ergebnisse](./wundertuete/wundertuete_ergebnisse.md) - [Doku-Notebook](./wundertuete/wundertuete_docu.ipynb) - [Doku-Pdf](./wundertuete/wundertuete_docu.pdf)
  
 
 
