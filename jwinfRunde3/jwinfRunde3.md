@@ -27,6 +27,7 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
 
 - [QuadratischPraktischGrün (2024)](./quadratisch/quadratisch.png) - 
   [Beispieldaten](./quadratisch/beispieldaten/) - [Ergebnisse](./quadratisch/quadratisch_ergebnisse.md)
+  [Doku-Notebook](./quadratisch/quadratisch_docu.ipynb) - [Doku-Pdf](./quadratisch/quadratisch_docu.pdf)
  
 
 
