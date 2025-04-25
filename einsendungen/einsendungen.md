@@ -58,6 +58,8 @@ from IPython.display import Image, display
 display(Image(filename='skizze.png', width=600))
 ```
 
+Den Output der Programme fügen wir in eine Markdown-Zelle ein. Wir müssen ihn um einen Tab nach rechts verschieben, damit es kein Fließtext wird. Das RAW-Format von JupyterLab können wir fürs printen nicht verwenden.
+
 
 [Notebook zur Dokumentation](buecherregal_docu.ipynb)
 
