@@ -24,6 +24,8 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
 
 - [Wundertüte (2023)](./wundertuete/wundertuete.png) - [Beispieldaten](./wundertuete/beispieldaten/) - 
   [Ergebnisse](./wundertuete/wundertuete_ergebnisse.md) - [Doku-Notebook](./wundertuete/wundertuete_docu.ipynb) - [Doku-Pdf](./wundertuete/wundertuete_docu.pdf)
+
+- [QuadratischPraktischGrün (2024)](./quadratisch/quadratisch.png) - [Beispieldaten](./quadratisch/beispieldaten/)
  
 
 
