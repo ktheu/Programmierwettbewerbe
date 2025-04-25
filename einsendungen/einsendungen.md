@@ -38,9 +38,12 @@ Unbedingt darauf achten, dass der Quellcode gut dokumentiert ist. Sinnvolle Vari
 verwenden. Gegebenenfalls den Funktionen einen docstring mit Beispielen verpassen.
 Zeilenkommentare werden gerne gesehen.
 
-### Beispiel
+### Dokumentation mit JupyterLab
 
-Das Beispiel zeigt, wie eine Dokumentation mit einem Jupyter-Notebook aussehen kann.
+Wir können die Dokumentation auch mit JupyterLab erstellen. Die Notebooks sind gut dafür
+geeignet, Texte, Bilder, Code und Programmausgaben in einem Dokument zusammenzufassen.
+
+Nur beim Umwandeln ins PDF-Format müssen wir einige Dinge beachten:
 Das Notebook wird über die Auswahl File-Print gedruckt. Als Ziel wird kein Drucker ausgewählt, sondern: als PDF speichern. Wenn Output-Zeilen oder Code-Zeilen lang sind, empfiehlt sich der Ausdruck im Querformat.
 In der Vorschau kontrollieren wir, ob die Seitenvorschübe sinnvoll eingefügt sind.
 Gegebenenfalls können wir in einer Markup-Zelle einen Seitenvorschub erzeugen mit:
@@ -60,12 +63,6 @@ display(Image(filename='skizze.png', width=600))
 
 Den Output der Programme fügen wir in eine Markdown-Zelle ein. Damit die Ausgaben kein Fließtext werden, müssen wir sie in dreifache Backticks einschließen: \`\`\` 
 
-
-
-
-[Notebook zur Dokumentation](buecherregal_docu.ipynb)
-
-[Dokumentation als PDF](buecherregal_einsendung.pdf)
 
 
 ### Dateiformat
