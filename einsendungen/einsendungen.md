@@ -77,13 +77,22 @@ Junioraufgabe2.pdf
 Aufgabe2.pdf
 Junioraufgabe1 (Ordner)
     junioraufgabe1.py
-    beispieldaten1.txt ...                
+    beispieldaten (Ordner)
+        beispieldaten1.txt     
+        beispieldaten2.txt  
+        ...  
+
 Junioraufgabe2 (Ordner)
     junioraufgabe2.py
-    beispieldaten1.txt ...  
+    beispieldaten (Ordner)
+        beispieldaten1.txt     
+        beispieldaten2.txt  
+        ...  
 Aufgabe2 (Ordner)
     aufgabe2.py
-    beispieldaten1.txt ...  
+    beispieldaten (Ordner)
+        beispieldaten1.txt     
+        beispieldaten2.txt  
 
 ```
 

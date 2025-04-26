@@ -28,6 +28,10 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
 - [QuadratischPraktischGrün (2024)](./quadratisch/quadratisch.png) - 
   [Beispieldaten](./quadratisch/beispieldaten/) - [Ergebnisse](./quadratisch/quadratisch_ergebnisse.md) -
   [Doku-Notebook](./quadratisch/quadratisch_docu.ipynb) - [Doku-Pdf](./quadratisch/quadratisch_docu.pdf)
+
+- [TextHopsen (2024)](./texthopsen/texthopsen.png) - 
+  [Beispieldaten](./texthopsen/beispieldaten/) - [Ergebnisse](./texthopsen/hopsen_ergebnisse.md) -
+  [Doku-Notebook](./texthopsen/hopsen_docu.ipynb) - [Doku-Pdf](./texthopsen/hopsen_docu.pdf)
  
 
 
