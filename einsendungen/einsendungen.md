@@ -17,9 +17,8 @@ Datum: 10. November 2017
 ##### Lösungsidee
 
 Hier sollen die wichtigsten Schritte beschrieben werden, die zur Lösung führen. 
-Hier werden keine technische Details erwähnt, es sollten also keine Namen von 
-verwendeten Funktionen etc. auftauchen. Dieser Absatz muss nicht lange sein,
-aber er sollte die wichtigsten Ideen darstellen, die zur Lösung führen.
+Hier werden keine technische Details erläutert. Es dürfen aber, wenn es für die Beschreibung nützlich ist, 
+abkürzende Variablennamen verwendet werden. 
 
 ##### Umsetzung
 
@@ -29,7 +28,13 @@ Dann sollten der Programmablauf und die wichtigsten Funktionen erläutert werden
 ##### Beispiele
 
 Hier sollten die Ergebnisse für alle bwinf-Beispiele aufgelistet werden.
-Es wird immer gerne gesehen, wenn weitere eigene Beispiele angefügt werden. 
+Es wird immer gerne gesehen, wenn weitere eigene Beispiele angefügt werden. Die
+Ausgabe wird in dreifache Backticks eingeschlossen
+
+```
+Beispieldatei: beispiel0.txt
+Anzahl: 23
+```
 
 
 ##### Quellcode
