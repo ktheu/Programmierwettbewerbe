@@ -35,7 +35,9 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
 
 - [TextHopsen (2024)](./texthopsen/texthopsen.png) - 
   [Beispieldaten](./texthopsen/beispieldaten/) - [Ergebnisse](./texthopsen/hopsen_ergebnisse.md) -
-  [Doku-Notebook](./texthopsen/hopsen_docu.ipynb) - [Doku-Pdf](./texthopsen/hopsen_docu.pdf)
+  [Doku-Notebook](./texthopsen/hopsen_docu.ipynb) - [Doku-Pdf](./texthopsen/hopsen_docu.pdf) -
+  [Video](https://youtu.be/1kkye1mO_lY)
+
  
 
 
