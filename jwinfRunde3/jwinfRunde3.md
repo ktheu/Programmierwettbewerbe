@@ -23,7 +23,7 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
   [Ergebnisse](./buecherregal/buecherregal_ergebnisse.md) - [Doku-Notebook](./buecherregal/buecherregal_docu.ipynb) - [Doku-Pdf](./buecherregal/buecherregal_docu.pdf)
 
 - [Wundertüte (2023)](./wundertuete/wundertuete.png) - [Beispieldaten](./wundertuete/beispieldaten/) - 
-  [Ergebnisse](./wundertuete/wundertuete_ergebnisse.md) - [Doku-Notebook](./wundertuete/wundertuete_docu.ipynb) - [Doku-Pdf](./wundertuete/wundertuete_docu.pdf) - [Video](https://youtu.be/B0YWUEcwum4)
+  [Ergebnisse](./wundertuete/wundertuete_ergebnisse.md) - [Doku-Notebook](./wundertuete/wundertuete_docu.ipynb) - [Doku-Pdf](./wundertuete/wundertuete_docu.pdf) - [Video](https://youtu.be/-rY5uOBADys)
 
 - [St.Egano (2023)](./stEgano/stegano.png) - [Beispieldaten](./stEgano/beispieldaten/) - 
   [Ergebnisse](./stEgano/ergebnisse.md) - [Doku-Notebook](./stEgano/stegano_docu.ipynb) - [Doku-Pdf](./stEgano/stegano_docu.pdf) - [Video](https://youtu.be/B0YWUEcwum4)
