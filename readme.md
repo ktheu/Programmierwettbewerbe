@@ -2,12 +2,9 @@
 
 ----
 
-- [Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/) -
-[Hinweise zu Einsendungen](einsendungen/einsendungen.md)
+- [Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/) 
 
 ---
-
-- [algo.bwinf](https://algo.bwinf.de/)
 
 - [Jugendwettbewerb Informatik Runde 3](./jwinfRunde3/jwinfRunde3.md)
 
@@ -15,13 +12,19 @@
 
 - [Bundeswettbewerb Informatik Runde 2](./bwinf2/bwinf2.md)
 
+- [Hinweise zu Einsendungen](einsendungen/einsendungen.md)
+
 ---
 
 - [Competitive Programming](./competitive.md)
 
-- [Schnipsel](./schnipsel/schnipsel.md)
-
 ---
+
+Weitere Angebote des bwinf:
+
+- [CS Circles](https://cscircles.cemc.uwaterloo.ca/de/) - Python Kurs 
+
+- [algo.bwinf](https://algo.bwinf.de/) - Algorithmen Kurs
 
 
 
