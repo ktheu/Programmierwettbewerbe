@@ -32,6 +32,7 @@ Beispieldaten:
 [eingaben](./autoscrabble/autoscrabble.txt) -
 [Ergebnisse](./autoscrabble/autoscrabble_ergebnisse.ipynb)
 
-
  
 ----
+
+- [Wandertag](./wandertag/wandertag.ipynb) 
