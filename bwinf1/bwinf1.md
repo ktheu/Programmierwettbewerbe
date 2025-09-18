@@ -10,8 +10,8 @@ Algorithmen
 - [Search-A*](https://github.com/ktheu/InfoKurs/blob/gh-pages/search_astar/search_astar.ipynb) -
    [Beamsearch](https://github.com/ktheu/InfoKurs/blob/gh-pages/search_beamsearch/search_beamsearch.ipynb)
 
-- [Backtracking](https://github.com/ktheu/InfoKurs/blob/gh-pages/backtracking/backtracking.ipynb) - 
-  [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/backtracking/backtracking_beispiele.ipynb)
+- [Backtracking](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking.ipynb) - 
+  [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking_beispiele.ipynb)
 
 ---
 
