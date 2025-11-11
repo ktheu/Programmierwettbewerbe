@@ -6,7 +6,7 @@ Form und Inhalt der Einsendungen [hier](https://bwinf.de/bundeswettbewerb/einsen
 
 ### Dokumentation
 
-Ich wiederhole hier die Hinweise aus den Vorlagen. Die Dokumentation soll in etwa folgendem Aufbau haben:
+Ich wiederhole hier die Hinweise aus den Vorlagen. Die Dokumentation soll in etwa folgenden Aufbau haben:
 
 ##### Kopf 
 
@@ -44,7 +44,7 @@ Der Quellcode sollte nach der Umwandlung in PDF noch lesbar sein, d.h. es sollte
 ------
 
 
-**Falls die Zeit knapp ist oder jemand gar keine Lust auf Dokumentation hat** könnt ihr - auf die Gefahr hin, dass es Punktabzug gibt - die Dokumentation auf ein Minimum reduzieren. Auf keinen Fall fehlen dürfen **Kopf, Lösungsidee, Beispiele**. Für Umsetzung und Quellcode kann man auf die Kommentare im mitgelieferten Programmcode verweisen.
+**Falls die Zeit knapp ist oder jemand gar keine Lust auf Dokumentation hat** kann man - auf die Gefahr hin, dass es Punktabzug gibt - die Dokumentation auf ein Minimum reduzieren. Auf keinen Fall fehlen dürfen **Kopf, Lösungsidee, Beispiele**. Für Umsetzung und Quellcode kann man auf die Kommentare im mitgelieferten Programmcode verweisen.
 
 ------
  
