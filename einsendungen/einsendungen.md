@@ -22,7 +22,7 @@ Wie in den Vorlagen beschrieben, sollte die Dokumentation folgende Abschnitte en
 
 
 
-**Falls die Zeit knapp ist oder jemand gar keine Lust auf Dokumentation hat** kann man - auf die Gefahr hin, dass es Punktabzug gibt - die Dokumentation auf ein Minimum reduzieren. Auf keinen Fall fehlen dürfen **Kopf und Beispiele**. Für Lösungsidee, Umsetzung und Quellcode kann man auf die Kommentare im mitgelieferten Programmcode verweisen.
+**Falls die Zeit knapp ist oder jemand gar keine Lust auf Dokumentation hat** kann man - auf die Gefahr hin, dass es Punktabzug gibt - die Dokumentation auf ein Minimum reduzieren. Auf keinen Fall fehlen dürfen **Kopf, Lösungsidee, Beispiele**. Für Umsetzung und Quellcode kann man auf die Kommentare im mitgelieferten Programmcode verweisen.
 
 ------
 
