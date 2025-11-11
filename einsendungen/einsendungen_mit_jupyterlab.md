@@ -23,3 +23,9 @@ display(Image(filename='skizze.png', width=600))
 
 Den Output der Programme fügen wir in eine Markdown-Zelle ein. Damit die Ausgaben kein Fließtext werden, müssen wir sie in dreifache Backticks einschließen: \`\`\` 
 
+
+-----
+
+**Beispiele** für die Dokumentation mit JupyterLab findet ihr unter *Programmierwettbewerbe* im Abschnitt
+*Jugendwettbewerb Informatik Runde 3* oder direkt [hier](https://ktheu.github.io/Programmierwettbewerbe/jwinfRunde3/jwinfRunde3.html). Die Spiegelstriche **Doku-Notebook** führen jeweils zu einem  Jupyter-Notebook der Dokumentation.
+
