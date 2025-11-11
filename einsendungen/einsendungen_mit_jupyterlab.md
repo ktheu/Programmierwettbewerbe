@@ -4,6 +4,10 @@ Eine Vorlage dazu findet ihr [hier](https://github.com/ktheu/Programmierwettbewe
 
 Ein Beispiel-Video mit einer etwas älteren Vorlage findet ihr [hier](https://www.youtube.com/watch?v=bp3aTa3aTYw).
 
+Wer Probleme bei der Installation von JupyterLab hat, kann auch die Online-Umgebung
+[CodingLabs](https://codinglabs-projekt.de/) verwenden.
+
+
 Beim Umwandeln ins PDF-Format müssen wir einige Dinge beachten:
 Das Notebook wird über die Auswahl File-Print gedruckt. Als Ziel wird kein Drucker ausgewählt, sondern: als PDF speichern. Wenn Output-Zeilen oder Code-Zeilen lang sind, empfiehlt sich der Ausdruck im Querformat.
 In der Vorschau kontrollieren wir, ob die Seitenvorschübe sinnvoll eingefügt sind.
