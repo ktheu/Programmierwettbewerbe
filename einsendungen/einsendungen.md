@@ -10,7 +10,7 @@ Ich wiederhole hier die Hinweise aus den Vorlagen. Die Dokumentation soll in etw
 
 ##### Kopf 
 
-Junioraufgabe 1: Bücherregal <br>
+Junioraufgabe 1: Überschrift der Aufgabe <br>
 Team-ID: 12345 <br>
 Team-Name: MyTeam <br>
 Bearbeiter/-innen dieser Aufgabe: Lena Müller, Malte Riedberg <br>
