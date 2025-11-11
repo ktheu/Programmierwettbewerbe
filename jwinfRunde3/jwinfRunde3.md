@@ -20,7 +20,7 @@ Aufgaben zur Vorbereitung auf die 3. Runde des Jugendwettbewerbs Informatik.
   [Ergebnisse](./wintervorrat/wintervorrat_ergebnisse.ipynb)
 
 - [Bücherregal (2017)](./buecherregal/buecherregal.pdf) - [Beispieldaten](./buecherregal/beispieldaten/) -
-  [Ergebnisse](./buecherregal/buecherregal_ergebnisse.md) - [Doku-Notebook](./buecherregal/buecherregal_docu.ipynb) - [Doku-Pdf](./buecherregal/buecherregal_docu.pdf)
+  [Ergebnisse](./buecherregal/buecherregal_ergebnisse.md) - [Doku-Notebook](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/buecherregal/buecherregal_docu.ipynb) - [Doku-Pdf](./buecherregal/buecherregal_docu.pdf)
 
 - [Wundertüte (2023)](./wundertuete/wundertuete.png) - [Beispieldaten](./wundertuete/beispieldaten/) - 
   [Ergebnisse](./wundertuete/wundertuete_ergebnisse.md) - [Doku-Notebook](./wundertuete/wundertuete_docu.ipynb) - [Doku-Pdf](./wundertuete/wundertuete_docu.pdf) - [Video](https://youtu.be/-rY5uOBADys)
