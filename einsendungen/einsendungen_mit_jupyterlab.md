@@ -1,6 +1,6 @@
 ### Dokumentation mit JupyterLab
 
-Eine Vorlage dazu findet ihr [hier]().
+Eine Vorlage dazu findet ihr [hier](https://github.com/ktheu/Programmierwettbewerbe/blob/master/einsendungen/einsendung_muster.ipynb).
 
 Ein Beispiel-Video mit einer etwas älteren Vorlage findet ihr [hier](https://www.youtube.com/watch?v=bp3aTa3aTYw).
 
