@@ -1,6 +1,6 @@
 ## Dokumentation und Einsendungen
 
-Auf den bwinf-Seiten gibt Hinweise zu
+Auf den bwinf-Seiten gibt es Hinweise zu
 Form und Inhalt der Einsendungen [hier](https://bwinf.de/bundeswettbewerb/einsenden/)
 
 Wer die Dokumentation in Word machen will, nutzt die OpenDocument-Vorlage (odt) auf der bwinf-Seite
