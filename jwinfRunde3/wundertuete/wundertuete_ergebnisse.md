@@ -11,7 +11,6 @@ Inhalte der Wundertüten:
 2 : [1, 2, 0] - 3 Spiele
 3 : [1, 1, 1] - 3 Spiele
 
-
 Beispiel 1:
 Anzahl Wundertüten: 6
 Anzahl Spielesorten: 3
