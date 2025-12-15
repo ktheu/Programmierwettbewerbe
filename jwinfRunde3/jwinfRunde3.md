@@ -24,7 +24,7 @@ Aufgaben aus früheren 3. Runden des Jugendwettbewerbs Informatik.
 
  - [Wundertüte (2023)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/wundertuete/wundertuete.ipynb) - [Ergebnisse](./wundertuete/wundertuete_ergebnisse.md) 
 
- - [St.Egano (2023)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/stEgano/stEgano.ipynb) - [Ergebnisse](./stEgano/ergebnisse.md) 
+ - [St.Egano (2023)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/stEgano/stegano.ipynb) - [Ergebnisse](./stEgano/ergebnisse.md) 
 
 <!-- - [St.Egano (2023)](./stEgano/stegano.png) - [Beispieldaten](./stEgano/beispieldaten/) - 
   [Ergebnisse](./stEgano/ergebnisse.md) - [Doku-Notebook](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/stEgano/stegano_docu.ipynb) - [Doku-Pdf](./stEgano/stegano_docu.pdf) - [Video](https://youtu.be/B0YWUEcwum4) -->
