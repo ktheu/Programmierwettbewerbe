@@ -4,7 +4,7 @@
 
  ```
 
-Beispieldatei: wundertuete0.txt
+Beispiel 0:
 Anzahl Wundertüten: 3
 Anzahl Spielesorten: 3
 Anzahl Spiele pro Sorte: [4, 4, 2]
@@ -14,7 +14,7 @@ Inhalte der Wundertüten:
 3 : [1, 1, 1] - 3 Spiele
 
 
-Beispieldatei: wundertuete1.txt
+Beispiel 1:
 Anzahl Wundertüten: 6
 Anzahl Spielesorten: 3
 Anzahl Spiele pro Sorte: [18, 6, 12]
@@ -26,7 +26,7 @@ Inhalte der Wundertüten:
 5 : [3, 1, 2] - 6 Spiele
 6 : [3, 1, 2] - 6 Spiele
 
-Beispieldatei: wundertuete2.txt
+Beispiel 2:
 Anzahl Wundertüten: 9
 Anzahl Spielesorten: 4
 Anzahl Spiele pro Sorte: [10, 9, 3, 5]
@@ -41,7 +41,7 @@ Inhalte der Wundertüten:
 8 : [1, 1, 0, 1] - 3 Spiele
 9 : [1, 1, 0, 1] - 3 Spiele
 
-Beispieldatei: wundertuete3.txt
+Beispiel 3:
 Anzahl Wundertüten: 11
 Anzahl Spielesorten: 5
 Anzahl Spiele pro Sorte: [2, 11, 6, 2, 1]
@@ -58,7 +58,7 @@ Inhalte der Wundertüten:
 10 : [0, 1, 0, 1, 0] - 2 Spiele
 11 : [0, 1, 0, 0, 1] - 2 Spiele
 
-Beispieldatei: wundertuete4.txt
+Beispiel 4:
 Anzahl Wundertüten: 17
 Anzahl Spielesorten: 6
 Anzahl Spiele pro Sorte: [21, 114, 38, 97, 513, 89]
@@ -81,7 +81,7 @@ Inhalte der Wundertüten:
 16 : [1, 7, 2, 5, 31, 5] - 51 Spiele
 17 : [1, 6, 3, 5, 31, 5] - 51 Spiele
 
-Beispieldatei: wundertuete5.txt
+Beispiel 5:
 Anzahl Wundertüten: 97
 Anzahl Spielesorten: 23
 Anzahl Spiele pro Sorte: [50, 41, 163, 124, 113, 83, 129, 65, 70, 56, 127, 83, 24, 69, 182, 174, 76, 106, 92, 155, 29, 133, 121]
