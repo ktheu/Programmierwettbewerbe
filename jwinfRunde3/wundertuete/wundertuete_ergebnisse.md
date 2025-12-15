@@ -1,9 +1,7 @@
 
 
 ### Wundertüte - Ergebnisse
-
- ```
-
+```
 Beispiel 0:
 Anzahl Wundertüten: 3
 Anzahl Spielesorten: 3
