@@ -26,7 +26,7 @@ Aufgaben aus früheren 3. Runden des Jugendwettbewerbs Informatik.
 
  - [St.Egano (2023)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/stEgano/stegano.ipynb) - [Ergebnisse](./stEgano/ergebnisse.md) 
  
--  [QuadratischPraktischGrün (2024)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/quadratisch/quadratisch.ipynb) - [Ergebnisse](./quadratisch/ergebnisse.md) 
+-  [QuadratischPraktischGrün (2024)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/quadratisch/quadratisch.ipynb) - [Ergebnisse](./quadratisch/quadratisch-ergebnisse.md) 
 
 
 <!-- - [QuadratischPraktischGrün (2024)](./quadratisch/quadratisch.png) - 
