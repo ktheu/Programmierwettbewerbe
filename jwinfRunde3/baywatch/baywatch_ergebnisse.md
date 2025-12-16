@@ -1,5 +1,3 @@
-### Baywatch - Ergebnisse
-
 ```
 Beispiel 1:
 Verschiebung 12
