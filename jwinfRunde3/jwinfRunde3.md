@@ -28,16 +28,12 @@ Aufgaben aus früheren 3. Runden des Jugendwettbewerbs Informatik.
  
 -  [QuadratischPraktischGrün (2024)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/quadratisch/quadratisch.ipynb) - [Ergebnisse](./quadratisch/quadratisch_ergebnisse.md) 
 
+-  [TextHopsen (2024)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/texthopsen/hopsen.ipynb) - [Ergebnisse](./texthopsen/hopsen_ergebnisse.md)
 
-<!-- - [QuadratischPraktischGrün (2024)](./quadratisch/quadratisch.png) - 
-  [Beispieldaten](./quadratisch/beispieldaten/) - [Ergebnisse](./quadratisch/quadratisch_ergebnisse.md) -
-  [Doku-Notebook](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/quadratisch/quadratisch_docu.ipynb) - [Doku-Pdf](./quadratisch/quadratisch_docu.pdf) -
-  [Video](https://youtu.be/CMnJjsihx3g) - [Video-Doku](https://youtu.be/bp3aTa3aTYw) -->
-
-- [TextHopsen (2024)](./texthopsen/texthopsen.png) - 
+<!-- - [TextHopsen (2024)](./texthopsen/texthopsen.png) - 
   [Beispieldaten](./texthopsen/beispieldaten/) - [Ergebnisse](./texthopsen/hopsen_ergebnisse.md) -
   [Doku-Notebook](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/texthopsen/hopsen_docu.ipynb) - [Doku-Pdf](./texthopsen/hopsen_docu.pdf) -
-  [Video](https://youtu.be/1kkye1mO_lY)
+  [Video](https://youtu.be/1kkye1mO_lY) -->
 
  
 

@@ -1,4 +1,0 @@
-Jede Datei enthält einen Text, mit dem Bela und Amira Texthopsen spielen.
-
-Zeichen, die nicht in der Tabelle stehen, werden übersprungen. Das gilt auch, wenn sie am Anfang des Textes stehen.
-
