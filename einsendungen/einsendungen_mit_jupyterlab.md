@@ -32,8 +32,7 @@ Den Output der Programme fügen wir in eine Markdown-Zelle ein. Damit die Ausgab
 
 ### Beispiel: 
 
-- [Docu-Notebook](https://github.com/ktheu/Programmierwettbewerbe/blob/master/quadratisch/quadratisch_docu.ipynb)
-- [Docu-Pdf](./quadratisch/quadratisch_docu.pdf)
-
+- [Docu-Notebook](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3quadratisch/quadratisch_docu.ipynb)
+- [Docu-Pdf](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3quadratisch/quadratisch_docu.pdf)
 
 
