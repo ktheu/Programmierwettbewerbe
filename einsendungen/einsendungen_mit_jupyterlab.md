@@ -30,6 +30,10 @@ Den Output der Programme fügen wir in eine Markdown-Zelle ein. Damit die Ausgab
 
 -----
 
-**Beispiele** für die Dokumentation mit JupyterLab findet ihr unter *Programmierwettbewerbe* im Abschnitt
-*Jugendwettbewerb Informatik Runde 3* oder direkt [hier](https://ktheu.github.io/Programmierwettbewerbe/jwinfRunde3/jwinfRunde3.html). Die Spiegelstriche **Doku-Notebook** führen jeweils zu einem  Jupyter-Notebook der Dokumentation.
+### Beispiel: 
+
+- [Docu-Notebook](https://github.com/ktheu/Programmierwettbewerbe/blob/master/quadratisch/quadratisch_docu.ipynb)
+- [Docu-Pdf](./quadratisch/quadratisch_docu.pdf)
+
+
 
