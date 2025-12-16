@@ -19,8 +19,10 @@ Aufgaben aus früheren 3. Runden des Jugendwettbewerbs Informatik.
 - [Wintervorrat (2017)](./wintervorrat/wintervorrat.pdf) - [Beispieldaten](./wintervorrat/beispieldaten/) -
   [Ergebnisse](./wintervorrat/wintervorrat_ergebnisse.ipynb)
 
-- [Bücherregal (2017)](./buecherregal/buecherregal.pdf) - [Beispieldaten](./buecherregal/beispieldaten/) -
-  [Ergebnisse](./buecherregal/buecherregal_ergebnisse.md) - [Doku-Notebook](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/buecherregal/buecherregal_docu.ipynb) - [Doku-Pdf](./buecherregal/buecherregal_docu.pdf)
+<!-- - [Bücherregal (2017)](./buecherregal/buecherregal.pdf) - [Beispieldaten](./buecherregal/beispieldaten/) -
+  [Ergebnisse](./buecherregal/buecherregal_ergebnisse.md) - [Doku-Notebook](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/buecherregal/buecherregal_docu.ipynb) - [Doku-Pdf](./buecherregal/buecherregal_docu.pdf) -->
+
+- [Bücherregal (2017)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/buecherregal/buecherregal.ipynb) - [Ergebnisse](./buecherregal/buecherregal_ergebnisse.md) 
 
  - [Wundertüte (2023)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/wundertuete/wundertuete.ipynb) - [Ergebnisse](./wundertuete/wundertuete_ergebnisse.md) 
 
@@ -30,10 +32,7 @@ Aufgaben aus früheren 3. Runden des Jugendwettbewerbs Informatik.
 
 -  [TextHopsen (2024)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/texthopsen/hopsen.ipynb) - [Ergebnisse](./texthopsen/hopsen_ergebnisse.md)
 
-<!-- - [TextHopsen (2024)](./texthopsen/texthopsen.png) - 
-  [Beispieldaten](./texthopsen/beispieldaten/) - [Ergebnisse](./texthopsen/hopsen_ergebnisse.md) -
-  [Doku-Notebook](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/texthopsen/hopsen_docu.ipynb) - [Doku-Pdf](./texthopsen/hopsen_docu.pdf) -
-  [Video](https://youtu.be/1kkye1mO_lY) -->
+
 
  
 
