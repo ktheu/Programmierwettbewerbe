@@ -7,11 +7,11 @@
 
 Aufgaben aus früheren 3. Runden des Jugendwettbewerbs Informatik.
 
-- [Auf und Ab (2018)](./auf_und_ab/auf_und_ab.pdf)  - [Leiterspiel](./auf_und_ab/leiterspiel.pdf) - [Ergebnisse](./auf_und_ab/ergebnisse.md)
+- [Bücherregal (2017)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/buecherregal/buecherregal.ipynb) - [Ergebnisse](./buecherregal/buecherregal_ergebnisse.md) 
 
 - [Wintervorrat (2017)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/wintervorrat/wintervorrat.ipynb) - [Ergebnisse](./wintervorrat/wintervorrat_ergebnisse.md) 
 
-- [Bücherregal (2017)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/buecherregal/buecherregal.ipynb) - [Ergebnisse](./buecherregal/buecherregal_ergebnisse.md) 
+- [Auf und Ab (2018)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/auf_und_ab/auf_und_ab.ipynb) - [Ergebnisse](./auf_und_ab/ergebnisse.md) 
 
 - [Baywatch (2018)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/baywatch/baywatch.ipynb) - [Ergebnisse](./baywatch/baywatch_ergebnisse.md) 
 
