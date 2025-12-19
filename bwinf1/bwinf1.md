@@ -1,5 +1,10 @@
 ### Bundeswettbewerb Informatik - Runde 1
 
+
+Aufgaben aus früheren 1. Runden des Bundeswettbewerbs Informatik.
+
+- [Autoscrabble (2017)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/autoscrabble/autoscrabble.ipynb) - [Ergebnisse](./autoscrabble/autoscrabble_ergebnisse.md) 
+
 ---
 
 Algorithmen  
@@ -13,11 +18,11 @@ Algorithmen
 - [Backtracking](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking.ipynb) - 
   [Beispiele](https://github.com/ktheu/InfoKurs/blob/gh-pages/Backtracking/backtracking_beispiele.ipynb)
 
----
 
-Aufgaben zur Vorbereitung auf die 1. Runde Bundeswettbewerb Informatik
 
-- [Schiebeparkplatz](./schiebeparkplatz/schiebeparkplatz.png) -
+
+
+<!-- - [Schiebeparkplatz](./schiebeparkplatz/schiebeparkplatz.png) -
 Beispieldaten: 
 [b0](./schiebeparkplatz/beispieldaten/parkplatz0.txt) -
 [b1](./schiebeparkplatz/beispieldaten/parkplatz1.txt) - 
@@ -38,4 +43,4 @@ Beispieldaten:
  
 ----
 
-- [Wandertag](./wandertag/wandertag.ipynb) 
+- [Wandertag](./wandertag/wandertag.ipynb)  -->
