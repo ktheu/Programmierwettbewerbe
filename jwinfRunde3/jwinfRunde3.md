@@ -15,9 +15,9 @@ Aufgaben aus früheren 3. Runden des Jugendwettbewerbs Informatik.
 
 - [Baywatch (2018)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/baywatch/baywatch.ipynb) - [Ergebnisse](./baywatch/baywatch_ergebnisse.md) 
 
- - [Wundertüte (2023)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/wundertuete/wundertuete.ipynb) - [Ergebnisse](./wundertuete/wundertuete_ergebnisse.md) 
+- [Wundertüte (2023)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/wundertuete/wundertuete.ipynb) - [Ergebnisse](./wundertuete/wundertuete_ergebnisse.md) 
 
- - [St.Egano (2023)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/stEgano/stegano.ipynb) - [Ergebnisse](./stEgano/ergebnisse.md) 
+- [St.Egano (2023)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/stEgano/stegano.ipynb) - [Ergebnisse](./stEgano/ergebnisse.md) 
  
 -  [QuadratischPraktischGrün (2024)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/quadratisch/quadratisch.ipynb) - [Ergebnisse](./quadratisch/quadratisch_ergebnisse.md) 
 
