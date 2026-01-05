@@ -1,0 +1,1 @@
+In den Lösungshinweisen für die Silbentrennung nach Lars Regeln wird in Beispiel 2 das Wort Präsident so getrennt: Prä-si-de-nt. Aber Lars Regel 4 (also die am höchsten priorisierte Regel) sagt, dass 'ein Wort nach einem Vokal getrennt werden kann, wenn nicht zwei Konsonanten folgen'. Wieso wird hier also nach dem 'e' getrennt, obwohl zwei Konsonanten folgen?
