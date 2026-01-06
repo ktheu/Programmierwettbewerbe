@@ -24,6 +24,8 @@ Aufgaben aus früheren 3. Runden des Jugendwettbewerbs Informatik.
 -  [TextHopsen (2024)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/texthopsen/hopsen.ipynb) - [Ergebnisse](./texthopsen/hopsen_ergebnisse.md)
  
 -  [Bällebad (2025)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/baellebad/baellebad.ipynb) - [Ergebnisse](./baellebad/baellebad_ergebnisse.md)
+ 
+-  [Silbentrennung (2025)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/jwinfRunde3/silbentrennung/silbentrennung.ipynb) - [Ergebnisse](./silbentrennung/ergebnisse.md)
 
 
 
