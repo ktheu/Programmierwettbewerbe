@@ -5,6 +5,8 @@ Aufgaben aus früheren 1. Runden des Bundeswettbewerbs Informatik.
 
 - [Autoscrabble (2017)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/autoscrabble/autoscrabble.ipynb) - [Ergebnisse](./autoscrabble/autoscrabble_ergebnisse.md) 
 
+- [Drehfreuding (2025 A1)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/drehfreuding/drehfreuding.ipynb) - [Ergebnisse](./drehfreuding/ergebnisse.md) 
+
 ---
 
 Algorithmen  
