@@ -18,6 +18,8 @@
 
 - [Competitive Programming](./competitive.md)
 
+- [Codingame-Aufgaben](./Codingame/codingame.md)
+
 ---
 
 Weitere Angebote des bwinf:
