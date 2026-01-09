@@ -28,74 +28,270 @@ Die Folge der Blätterbreiten ist ein Palindrom.
 ---
 
 ```
-Beispieldaten 02:
+Beispiel 02:
 Der Baum ist nicht drehfreudig.
+Die Folge der Blätterbreiten ist kein Palindrom.
+0.25
+0.25
+0.16666666666666666
+0.16666666666666666
+0.16666666666666666
 ```
 
-```
-Beispieldaten 03:
-Der Baum ist nicht drehfreudig.
-```
+<img src='beispiel2.png'>
+
+----
 
 ```
-Beispieldaten 04:
+Beispiel 03:
+Der Baum ist nicht drehfreudig.
+Die Blätter haben nicht alle die gleiche Tiefe:
+[3, 3, 4, 4, 3]
+```
+
+<img src='beispiel3.png'>
+
+----
+
+
+```
+Beispiel 04:
 Der Baum ist drehfreudig.
+Alle Blätter haben die Tiefe 3.
+Die Folge der Blätterbreiten ist ein Palindrom.
+0.16666666666666666
+0.16666666666666666
+0.16666666666666666
+0.16666666666666666
+0.16666666666666666
+0.16666666666666666
 ```
 
+<img src='beispiel4.png'>
+
+----
+
 ```
-Beispieldaten 05:
+Beispiel 05:
 Der Baum ist nicht drehfreudig.
+Die Folge der Blätterbreiten ist kein Palindrom.
+0.1111111111111111
+0.1111111111111111
+0.1111111111111111
+0.16666666666666666
+0.16666666666666666
+0.08333333333333333
+0.08333333333333333
+0.08333333333333333
+0.08333333333333333
 ```
 
+<img src='beispiel5.png'>
+
+----
+
 ```
-Beispieldaten 06:
+Beispiel 06:
 Der Baum ist nicht drehfreudig.
+Die Blätter haben nicht alle die gleiche Tiefe:
+[3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4]
 ```
 
+<img src='beispiel6.png'>
+
+----
+
 ```
-Beispieldaten 07:
+Beispiel 07:
 Der Baum ist nicht drehfreudig.
+Die Blätter haben nicht alle die gleiche Tiefe:
+[3, 4, 6, 6, 5, 6, 6, 5, 4]
 ```
 
+<img src='beispiel7.png'>
+
+----
+
 ```
-Beispieldaten 08:
+Beispiel 08:
 Der Baum ist nicht drehfreudig.
+Die Blätter haben nicht alle die gleiche Tiefe:
+[3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3]
 ```
 
+<img src='beispiel8.png'>
+
+----
+
 ```
-Beispieldaten 09:
+Beispiel 09:
 Der Baum ist nicht drehfreudig.
+Die Folge der Blätterbreiten ist kein Palindrom.
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
+0.037037037037037035
+0.037037037037037035
+0.037037037037037035
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
+0.05555555555555555
 ```
 
+<img src='beispiel9.png'>
+
+----
+
 ```
-Beispieldaten 10:
+Beispiel 10:
 Der Baum ist drehfreudig.
+Alle Blätter haben die Tiefe 4.
+Die Folge der Blätterbreiten ist ein Palindrom.
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.016666666666666666
+0.016666666666666666
+0.016666666666666666
+0.016666666666666666
+0.03333333333333333
+0.03333333333333333
+0.022222222222222223
+0.022222222222222223
+0.022222222222222223
+0.03333333333333333
+0.03333333333333333
+0.016666666666666666
+0.016666666666666666
+0.016666666666666666
+0.016666666666666666
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
 ```
 
-```
-Beispieldaten 11:
-Der Baum ist nicht drehfreudig.
-```
+<img src='beispiel10.png'>
+
+----
 
 ```
-Beispieldaten 12:
+Beispiel 11:
 Der Baum ist nicht drehfreudig.
+Die Blätter haben nicht alle die gleiche Tiefe:
+[6, 6, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
 ```
 
-```
-Beispieldaten 13:
-Der Baum ist nicht drehfreudig.
-```
+<img src='beispiel11.png'>
+
+----
 
 ```
-Beispieldaten 14:
+Beispiel 12:
 Der Baum ist nicht drehfreudig.
+Die Folge der Blätterbreiten ist kein Palindrom.
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.018518518518518517
+0.018518518518518517
+0.018518518518518517
+0.027777777777777776
+0.027777777777777776
+0.03333333333333333
+0.03333333333333333
+0.022222222222222223
+0.022222222222222223
+0.022222222222222223
+0.016666666666666666
+0.016666666666666666
+0.016666666666666666
+0.016666666666666666
+0.022222222222222223
+0.022222222222222223
+0.022222222222222223
+0.03333333333333333
+0.03333333333333333
+0.041666666666666664
+0.041666666666666664
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
+0.027777777777777776
 ```
 
+<img src='beispiel12.png'>
+
+----
+
 ```
-Beispieldaten 15:
+Beispiel 13:
 Der Baum ist nicht drehfreudig.
+Die Blätter haben nicht alle die gleiche Tiefe:
+[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
 ```
+
+
+<img src='beispiel13.png'>
+
+----
+
+```
+Beispiel 14:
+Der Baum ist nicht drehfreudig.
+Die Blätter haben nicht alle die gleiche Tiefe:
+[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3]
+```
+
+<img src='beispiel14.png'>
+
+----
+
+```
+Beispiel 15:
+Der Baum ist nicht drehfreudig.
+Die Blätter haben nicht alle die gleiche Tiefe:
+[3, 3, 3, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3]
+```
+
+<img src='beispiel15.png'>
 
 
 
