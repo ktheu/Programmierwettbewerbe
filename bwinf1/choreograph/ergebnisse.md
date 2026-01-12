@@ -2,9 +2,8 @@
 
 
 
-### Ergebnisse ChoreoGraph
+### Ergebnisse 
 
-Mittels Backtracking ermitteln wir alle möglichen Pfade, die eine Choreographie bilden können. Anschließend werten wir diese Pfade nach verschiedenen Kriterien aus.
 
 ```
 Beispiel choreo01:
