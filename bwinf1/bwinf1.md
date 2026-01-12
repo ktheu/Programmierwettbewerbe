@@ -9,6 +9,8 @@ Aufgaben aus früheren 1. Runden des Bundeswettbewerbs Informatik.
 
 - [Choreograph (2025 A2)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/choreograph/choreograph.ipynb) - [Ergebnisse](./choreograph/ergebnisse.md) 
 
+- [Nasser Hund (2025 A3)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/nasserHund/nasserHund.ipynb) - [Ergebnisse](./nasserHund/ergebnisse.md) 
+
 ---
 
 Algorithmen  
