@@ -7,6 +7,8 @@ Aufgaben aus früheren 1. Runden des Bundeswettbewerbs Informatik.
 
 - [Drehfreuding (2025 A1)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/drehfreudig/drehfreudig.ipynb) - [Ergebnisse](./drehfreudig/ergebnisse.md) 
 
+- [Choreograph (2025 A2)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/choreograph/choreograph.ipynb) - [Ergebnisse](./choreograph/ergebnisse.md) 
+
 ---
 
 Algorithmen  
