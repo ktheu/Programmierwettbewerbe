@@ -1,0 +1,1 @@
+"C:\Program Files\MiniZinc\minizinc.exe" --all-solutions tomograph.mzn tomograph.dzn > loesungen.txt

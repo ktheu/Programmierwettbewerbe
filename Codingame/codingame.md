@@ -28,6 +28,7 @@ Löse der Reihe nach die folgenden Codingame Puzzles (ohne KI-Hilfe).
   16. [Card Counting when easily distracted](https://www.codingame.com/training/easy/card-counting-when-easily-distracted)
   17. [Queen Control](https://www.codingame.com/training/easy/queen-control)
   18. [Shoot Enemy Aircraft](https://www.codingame.com/training/easy/shoot-enemy-aircraft)
+  19. [The River II](https://www.codingame.com/training/easy/the-river-ii-)
 
 
 
