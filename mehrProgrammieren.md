@@ -4,7 +4,7 @@ Wer mehr programmieren möchte als wir das in den Infokursen während des Unterr
 
 Ich schlage folgende Schritte vor: 
 
-1. Die Übungsaufgaben aus dem Abschnitt Python-Lernen: https://ktheu.github.io/PythonLernen/
+1. Die Übungsaufgaben aus dem Abschnitt  [Python-Lernen](https://ktheu.github.io/PythonLernen/)
 Das sind die Grundlagen. Wer merkt, dass das zu einfach ist, kann entweder die Zusatzaufgaben auf derselben Seite machen oder direkt zu Schritt 2 gehen.
 
 2. Die Codingame-Puzzles aus dem Abschnitt Codingame Aufgaben: https://ktheu.github.io/Programmierwettbewerbe/Codingame/codingame.html <br>
