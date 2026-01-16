@@ -7,7 +7,6 @@
   
  
 
-
 Löse der Reihe nach die folgenden Codingame Puzzles (ohne KI-Hilfe).
 
   1.  [The Descent](https://www.codingame.com/training/easy/the-descent)  
