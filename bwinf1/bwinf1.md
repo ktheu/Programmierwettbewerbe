@@ -11,6 +11,8 @@ Aufgaben aus früheren 1. Runden des Bundeswettbewerbs Informatik.
 
 - [Nasser Hund (2025 A3)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/nasserHund/nasserHund.ipynb) - [Ergebnisse](./nasserHund/ergebnisse.md) 
 
+- [Bibertomograph (2025 A4)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/bibertomograph/bibertomograph.ipynb) - [Ergebnisse](./bibertomograph/ergebnisse.md) 
+
 ---
 
 Algorithmen  
