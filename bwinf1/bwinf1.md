@@ -13,6 +13,8 @@ Aufgaben aus früheren 1. Runden des Bundeswettbewerbs Informatik.
 
 - [Bibertomograph (2025 A4)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/bibertomograph/bibertomograph.ipynb) - [Ergebnisse](./bibertomograph/ergebnisse.md) 
 
+- [Großstadtbauern (2025 A5)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/grossstadtbauern/bauern.ipynb) - [Ergebnisse](./grossstadtbauern/ergebnisse.md) 
+
 ---
 
 Algorithmen  
