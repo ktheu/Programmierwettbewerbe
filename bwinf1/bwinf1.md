@@ -5,6 +5,8 @@ Aufgaben aus früheren 1. Runden des Bundeswettbewerbs Informatik.
 
 - [Autoscrabble (2017)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/autoscrabble/autoscrabble.ipynb) - [Ergebnisse](./autoscrabble/autoscrabble_ergebnisse.md) 
 
+- [Schiebeparkplatz (2021 A1)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/schiebeparkplatz/schiebeparkplatz.ipynb) - [Ergebnisse](./schiebeparkplatz/schiebeparkplatz_ergebnisse.md) 
+
 - [Schwierigkeiten (2024 A2)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/schwierigkeiten/schwierigkeiten.ipynb) - [Ergebnisse](./schwierigkeiten/ergebnisse.md)
 
 - [Wandertag (2024 A3)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/wandertag/wandertag.ipynb) - [Ergebnisse](./wandertag/ergebnisse.md) - [Wandertag DP](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/wandertag/wandertag_dp.ipynb) - [Wandertag CP](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/wandertag/wandertag_minizinc.ipynb)
