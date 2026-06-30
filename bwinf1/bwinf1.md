@@ -3,9 +3,9 @@
 
 Aufgaben aus früheren 1. Runden des Bundeswettbewerbs Informatik.
 
-- [Autoscrabble (2017)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/autoscrabble/autoscrabble.ipynb) - [Ergebnisse](./autoscrabble/autoscrabble_ergebnisse.md) 
+- [Autoscrabble (2017/36 A4)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/autoscrabble/autoscrabble.ipynb) - [Ergebnisse](./autoscrabble/autoscrabble_ergebnisse.md) 
 
-- [Schiebeparkplatz (2021 A1)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/schiebeparkplatz/schiebeparkplatz.ipynb) - [Ergebnisse](./schiebeparkplatz/schiebeparkplatz_ergebnisse.md) 
+- [Schiebeparkplatz (2021/40 A1)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/schiebeparkplatz/schiebeparkplatz.ipynb) - [Ergebnisse](./schiebeparkplatz/schiebeparkplatz_ergebnisse.md) 
 
 - [Schwierigkeiten (2024 A2)](https://github.com/ktheu/Programmierwettbewerbe/blob/master/bwinf1/schwierigkeiten/schwierigkeiten.ipynb) - [Ergebnisse](./schwierigkeiten/ergebnisse.md)
 
