@@ -11,9 +11,9 @@
 
 - [Bundeswettbewerb Informatik Runde 1](./bwinf1/bwinf1.md)
 
-- [Bundeswettbewerb Informatik Runde 2](./bwinf2/bwinf2.md)
+<!-- - [Bundeswettbewerb Informatik Runde 2](./bwinf2/bwinf2.md)
 
-- [Hinweise zu Einsendungen](einsendungen/einsendungen.md)
+- [Hinweise zu Einsendungen](einsendungen/einsendungen.md) -->
 
 ---
 
@@ -23,7 +23,7 @@
 
 ---
 
-- [Mehr Programmieren](mehrProgrammieren.md)
+<!-- - [Mehr Programmieren](mehrProgrammieren.md) -->
 
 ---
 
