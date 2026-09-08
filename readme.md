@@ -3,7 +3,10 @@
 
 ----
 
+- [Jugendwettbewerb Informatik](https://ktheu.github.io/jwinf/)
+
 - [Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/) 
+
 
 ---
 
