@@ -1,11 +1,5 @@
 ## Codingame Aufgaben
 
-#### Top 3:  
-  1. Leander K. - 15
-  2. Julian H. - 12
-  3. Martin V. - 8
-  
- 
 
 Löse der Reihe nach die folgenden Codingame Puzzles (ohne KI-Hilfe).
 
