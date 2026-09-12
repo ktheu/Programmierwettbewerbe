@@ -7,6 +7,9 @@
 
 - [Bundeswettbewerb Informatik](https://bwinf.de/bundeswettbewerb/) 
 
+- [Hinweise zu KI-Nutzung](./ki_nutzung.md)
+
+
 
 ---
 
