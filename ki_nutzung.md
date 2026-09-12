@@ -87,6 +87,6 @@ Bwinf hat [Vorlagen für die Abgabe](https://bwinf.de/bundeswettbewerb/teilnehme
 - Beispiele  
 - Quellcode
 
-Die oben erwähnte Ideenskizze gehört in den Abschnitt Lösungsidee. Im Abschnitt Werkzeuge solltest du ein prompt-Protokoll einfügen: Darin listest du auf, in welcher Phase du welche Prompts an die KI gestellt hast und (in Kurzform) was du mit der Antwort angefangen hast. 
+Die oben erwähnte Ideenskizze gehört in den Abschnitt Lösungsidee. Im Abschnitt Werkzeuge solltest du ein **Prompt-Protokoll** einfügen: Darin listest du auf, in welcher Phase du welche Prompts an die KI gestellt hast und (in Kurzform) was du mit der Antwort angefangen hast. 
 
 
