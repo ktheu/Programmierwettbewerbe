@@ -9,6 +9,8 @@ In den ersten beiden Runden darfst du KI-Tools wie ChatGPT oder CoPilot nutzen; 
 
 ### Zusätzliche Hinweise
 
+Die Bwinf-Vorgabe ist recht offen formuliert. Ich schlage daher vor, dass du dich an die folgenden Regeln hältst. Sie sind so formuliert, dass du die KI als Werkzeug nutzen kannst, ohne dass du den Sinn der Wettbewerbe verfehlst.
+
 > Eine Lösung zu **verstehen** ist viel leichter, als sie zu **finden**.
 
 Lässt du dir eine Lösung erklären, hast du sie in zehn Minuten verstanden – und fühlst dich, als hättest du es selbst gekonnt. Geübt hast du aber nur das Verstehen.
