@@ -11,17 +11,17 @@ In den ersten beiden Runden darfst du KI-Tools wie ChatGPT oder CoPilot nutzen; 
 
 Die Bwinf-Vorgabe ist recht offen formuliert. Ich schlage daher vor, dass du dich an die folgenden Regeln hältst. Sie sind so formuliert, dass du die KI als Werkzeug nutzen kannst, ohne dass du den Sinn der Wettbewerbe verfehlst.
 
-> Eine Lösung zu **verstehen** ist viel leichter, als sie zu **finden**.
-
-Lässt du dir eine Lösung erklären, hast du sie in zehn Minuten verstanden – und fühlst dich, als hättest du es selbst gekonnt. Geübt hast du aber nur das Verstehen.
 
 #### Die wichtigste Regel: Erst die Idee, dann die KI
+
 
 **Bevor du die KI das erste Mal zur Lösung befragst, schreibst du deine Lösungsidee in drei bis fünf Sätzen auf** – in normalem Deutsch, ohne Code. Diese **Ideenskizze** gibst du mit ab.
 
 Danach darfst du die KI als Werkzeug benutzen. Wie weit, hängt von deiner Klassenstufe ab.
 
+> Eine Lösung zu **verstehen** ist viel leichter, als sie zu **finden**.
 
+Lässt du dir eine Lösung erklären, hast du sie in zehn Minuten verstanden – und fühlst dich, als hättest du es selbst gekonnt. Geübt hast du aber nur das Verstehen.
 
 #### Die vier Phasen einer Aufgabe
 
